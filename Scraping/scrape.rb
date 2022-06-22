@@ -24,7 +24,7 @@ end
 
 fileName = 'result.json'
 json = {}
-json.store("UpdateTime", Time.now().strftime("%Y-%m-%d %H:%M:%S"))
+json.store("UpdateTime(UTC)", Time.now().strftime("%Y-%m-%d %H:%M:%S"))
 json.store("ReferenceStationData", table)
 
 # json形式へ変更
