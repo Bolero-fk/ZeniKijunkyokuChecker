@@ -1,26 +1,31 @@
-# URLにアクセスするためのライブラリの読み込み
 require 'open-uri'
-# Nokogiriライブラリの読み込み
 require 'nokogiri'
+require 'json'
+require 'date'
 
-# スクレイピング先のURL
+# 善意の基準局のURL
 url = 'https://rtk.silentsystem.jp/'
 
 doc = Nokogiri.HTML(URI.open(url)) 
 
-data = {}
+# スクレイピング結果からデータを取り出す
+rowCount = doc.xpath("//td").size / 12 - 1
 table = []
-for c in 0..11 do
-    data.store(doc.xpath("//td")[c].text, [])
-end
-
-for r in 1..2 do
+for r in 1..rowCount do
+    row = {}
     for c in 0..11 do
         index = r * 12 + c
-        row = {}
-        key = doc.xpath("//td")[index % 11].text
+        key = doc.xpath("//td")[index % 12].text
         value = doc.xpath("//td")[index].text
         row.store(key, value)
-        table.push(row)
     end
+    table.push(row)
 end
+
+nowTime = Time.now()
+fileName = nowTime.strftime("%Y%m%d") + '.json'
+# json形式へ変更
+File.open(fileName, 'w') do |file|
+    file.puts(JSON.pretty_generate(table))
+  end
+  
