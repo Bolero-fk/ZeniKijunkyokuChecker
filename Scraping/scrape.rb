@@ -21,7 +21,8 @@ for r in 1..rowCount do
     table.push(row)
 end
 
-fileName = 'result.json'
+nowTime = Time.now()
+fileName = nowTime.strftime("%Y%m%d") + '.json'
 # json形式へ変更
 File.open(fileName, 'w') do |file|
     file.puts(JSON.pretty_generate(table))
