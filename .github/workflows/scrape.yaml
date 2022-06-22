@@ -1,8 +1,8 @@
 name: Scrape action
 on: 
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 12 * * 5' # 金曜日の21時に起動
+  schedule:
+    - cron: '0 15 * * *' # 毎日日本時間の0時に更新
 jobs:
   scrape:
     name: ruby
