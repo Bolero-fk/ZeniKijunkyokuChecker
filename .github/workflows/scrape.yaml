@@ -1,4 +1,4 @@
-name: Scrape
+name: Scrape action
 on: 
   workflow_dispatch:
 #  schedule:
