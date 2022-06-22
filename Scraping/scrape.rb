@@ -1,7 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
 require 'json'
-require 'date'
 
 # 善意の基準局のURL
 url = 'https://rtk.silentsystem.jp/'
@@ -22,8 +21,7 @@ for r in 1..rowCount do
     table.push(row)
 end
 
-nowTime = Time.now()
-fileName = nowTime.strftime("%Y%m%d") + '.json'
+fileName = 'result.json'
 # json形式へ変更
 File.open(fileName, 'w') do |file|
     file.puts(JSON.pretty_generate(table))
