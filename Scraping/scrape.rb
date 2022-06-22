@@ -12,6 +12,7 @@ rowCount = doc.xpath("//td").size / 12 - 1
 table = []
 for r in 1..rowCount do
     row = {}
+    row.store('id', r)
     for c in 0..11 do
         index = r * 12 + c
         key = doc.xpath("//td")[index % 12].text
@@ -21,10 +22,13 @@ for r in 1..rowCount do
     table.push(row)
 end
 
-nowTime = Time.now()
-fileName = nowTime.strftime("%Y%m%d") + '.json'
+fileName = 'result.json'
+json = {}
+json.store("UpdateTime", Time.now().strftime("%Y-%m-%d %H:%M:%S"))
+json.store("ReferenceStationData", table)
+
 # json形式へ変更
 File.open(fileName, 'w') do |file|
-    file.puts(JSON.pretty_generate(table))
+    file.puts(JSON.pretty_generate(json))
   end
   
