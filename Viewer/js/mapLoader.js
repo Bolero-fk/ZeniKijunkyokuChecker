@@ -13,16 +13,11 @@ function mapLoad() {
     }
 }
 
-function toggleFunction(_radius) {
-    ChangeCircles(_radius * 1000);
-}
-
 function ChangeCircles(_radius)
 {
     for (let i = 0; i < circles.length; i++) {
         circles[i].setRadius(_radius);
     }
-
 }
 
 function GetJson()
@@ -44,100 +39,35 @@ function GetJson()
 
 function InitializeMap()
 {
-    AddSlider();
-
     var map = L.map('map');
     map.setView([35.40, 136], 5);
     L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
         attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
     }).addTo(map);
 
-    var control = L.control.range({
-        orient: 'vertical',
-        value: 100
-    });
-
-    control.on('change input', function(e) {
-        console.log(e.value);
-        layer.setOpacity(e.value / 100);
-    })
-
-    map.addControl(control);
-
     // 距離スケール
     L.control.scale({position: 'bottomright', imperial: false }).addTo(map);
-    
+    AddSlider(map);
 
     return map;
 }
 
-function AddSlider()
+function AddSlider(_map)
 {
-    console.log("aaa");
-    L.Control.Range = L.Control.extend({
-        options: {
-            position: 'topleft',
-            min: 0,
-            max: 100,
-            value: 0,
-            step: 1,
-            orient: 'horizontal',
-            iconClass: 'leaflet-range-icon',
-            icon: true
-        },
-        
-        onAdd: function(map) {
-            var container = L.DomUtil.create('div', 'leaflet-range-control leaflet-bar ' + this.options.orient);
-            if (this.options.icon) {
-              L.DomUtil.create('span', this.options.iconClass, container);
-            };
-            var slider = L.DomUtil.create('input', '', container);
-            slider.type = 'range';
-            slider.setAttribute('orient', this.options.orient);
-            slider.min = this.options.min;
-            slider.max = this.options.max;
-            slider.step = this.options.step;
-            slider.value = this.options.value;
-    
-            L.DomEvent.on(slider, 'mousedown mouseup click touchstart', L.DomEvent.stopPropagation);
-    
-            /* IE11 seems to process events in the wrong order, so the only way to prevent map movement while dragging the
-             * slider is to disable map dragging when the cursor enters the slider (by the time the mousedown event fires
-             * it's too late becuase the event seems to go to the map first, which results in any subsequent motion
-             * resulting in map movement even after map.dragging.disable() is called.
-             */
-            L.DomEvent.on(slider, 'mouseenter', function(e) {
-                map.dragging.disable()
-            });
-            L.DomEvent.on(slider, 'mouseleave', function(e) {
-                map.dragging.enable();
-            });
-    
-            L.DomEvent.on(slider, 'change', function(e) {
-                this.fire('change', {value: e.target.value});
-            }.bind(this));
-    
-            L.DomEvent.on(slider, 'input', function(e) {
-                this.fire('input', {value: e.target.value});
-            }.bind(this));
-    
-            this._slider = slider;
-            this._container = container;
-    
-            return this._container;
-        },
-    
-        setValue: function(value) {
-            this.options.value = value;
-            this._slider.value = value;
-        },
+    var control = L.control.range({
+        position: 'bottomleft',
+        orient: 'horizontal',
+        min: 0, 
+        max: 100, 
+        value: 30,
+        icon:false
     });
-    
-    L.Control.Range.include(L.Evented.prototype)
-    
-    L.control.range = function (options) {
-      return new L.Control.Range(options);
-    };
+
+    control.on('change input', function(e) {
+        ChangeCircles(e.value * 1000);
+    })
+
+    _map.addControl(control);
 }
 
 function AddRefarenceStationMarker(_referenceStationData, map)
@@ -153,7 +83,7 @@ function AddRefarenceStationMarker(_referenceStationData, map)
 function AddRefarenceStationCircle(_referenceStationData, map)
 {
     var markerPosition = [_referenceStationData.北緯, _referenceStationData.東経];
-    var radius = 150000; // [m]
+    var radius = 30000; // 30[km]
     var circle = L.circle(markerPosition, {
         color: 'red',
         fillColor: '#f03',
