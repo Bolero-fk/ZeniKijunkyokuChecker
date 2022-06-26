@@ -16,10 +16,13 @@ jobs:
         run: |
           gem install bundler:2.1.4
           bundle install
-        working-directory: ${{ github.workspace }}/Scraping
+        working-directory: ${{ github.workspace }}/Scraper
       - name: run ruby
         run: ruby scrape.rb
-        working-directory: ${{ github.workspace }}/Scraping
+        working-directory: ${{ github.workspace }}/Scraper
+      - name: copy file
+        run: cp result.json ../Viewer/resource
+        working-directory: ${{ github.workspace }}/Scraper
       - name: git setting
         run: |
           git config user.name github-actions
