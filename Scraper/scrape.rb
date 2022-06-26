@@ -28,7 +28,7 @@ if __FILE__ == $0
 
     fileName = 'result.json'
     json = {}
-    json.store("UpdateTime(UTC)", Time.at(Time.now(), in: "+09:00").strftime("%Y-%m-%d %H:%M:%S"))
+    json.store("UpdateTime(JST)", Time.at(Time.now(), in: "+09:00").strftime("%Y-%m-%d %H:%M:%S"))
     json.store("ReferenceStationData", [])
 
     stationDatas = []
