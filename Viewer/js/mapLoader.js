@@ -57,7 +57,7 @@ function AddSlider(_map)
     var control = L.control.range({
         position: 'bottomleft',
         orient: 'horizontal',
-        min: 0, 
+        min: 10, 
         max: 100, 
         value: 30,
         icon:false
