@@ -23,6 +23,7 @@ L.spriteIcon = function(color) {
     iconSize: [24, 41],
     shadowsize: [41, 41],
     iconAnchor: [12, 41],
+    popupAnchor: [0, -35],
     iconUrl: sources.blank,
     shadowUrl: L.Icon.Default.imagePath + "/marker-shadow.png"
   });
