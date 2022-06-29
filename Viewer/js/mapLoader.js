@@ -25,11 +25,11 @@ function GetJson()
     var json = [];
     $.ajaxSetup({async: false});//同期通信(json取得処理終了までそのあとの処理を実行しない)
     $.getJSON("https://raw.githubusercontent.com/Bolero-fk/githubPagesTest/main/docs/resource/test.json", (data) => {
-        for (let i = 0; i < data.testData.length; i++){
+        for (let i = 0; i < data.ReferenceStationData.length; i++){
             var referenceStationData = {};
-            referenceStationData["建物名"] = data.testData[i].建物名;
-            referenceStationData["北緯"] = data.testData[i].北緯;
-            referenceStationData["東経"] = data.testData[i].東経;
+            referenceStationData["cityName"] = data.ReferenceStationData[i].cityName;
+            referenceStationData["latitude"] = data.ReferenceStationData[i].latitude;
+            referenceStationData["longitude"] = data.ReferenceStationData[i].longitude;
             json.push(referenceStationData);
         }
        });
@@ -72,8 +72,8 @@ function AddSlider(_map)
 
 function AddRefarenceStationMarker(_referenceStationData, map)
 {
-    var text = _referenceStationData.建物名;
-    var markerPosition = [_referenceStationData.北緯, _referenceStationData.東経];
+    var text = _referenceStationData.cityName;
+    var markerPosition = [_referenceStationData.latitude, _referenceStationData.longitude];
     var marker = L.marker(markerPosition).addTo(map);
     marker.bindPopup(text);
 
@@ -82,7 +82,7 @@ function AddRefarenceStationMarker(_referenceStationData, map)
 
 function AddRefarenceStationCircle(_referenceStationData, map)
 {
-    var markerPosition = [_referenceStationData.北緯, _referenceStationData.東経];
+    var markerPosition = [_referenceStationData.latitude, _referenceStationData.longitude];
     var radius = 30000; // 30[km]
     var circle = L.circle(markerPosition, {
         color: 'red',
