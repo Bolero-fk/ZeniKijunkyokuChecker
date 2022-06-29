@@ -9,7 +9,8 @@ function mapLoad() {
         var marker = AddRefarenceStationMarker(testDatas[i], map);
         var circle = AddRefarenceStationCircle(testDatas[i], map);
         makers.push(marker);
-        circles.push(circle);
+        if(circle != null)
+            circles.push(circle);
     }
 }
 
@@ -26,10 +27,7 @@ function GetJson()
     $.ajaxSetup({async: false});//同期通信(json取得処理終了までそのあとの処理を実行しない)
     $.getJSON("https://raw.githubusercontent.com/Bolero-fk/githubPagesTest/main/docs/resource/test.json", (data) => {
         for (let i = 0; i < data.ReferenceStationData.length; i++){
-            var referenceStationData = {};
-            referenceStationData["cityName"] = data.ReferenceStationData[i].cityName;
-            referenceStationData["latitude"] = data.ReferenceStationData[i].latitude;
-            referenceStationData["longitude"] = data.ReferenceStationData[i].longitude;
+            var referenceStationData = data.ReferenceStationData[i];
             json.push(referenceStationData);
         }
        });
@@ -74,7 +72,9 @@ function AddRefarenceStationMarker(_referenceStationData, map)
 {
     var text = _referenceStationData.cityName;
     var markerPosition = [_referenceStationData.latitude, _referenceStationData.longitude];
-    var marker = L.marker(markerPosition).addTo(map);
+    var marker = L.marker(markerPosition, {riseOnHover: true}).addTo(map);
+    if(_referenceStationData.status != "公開")
+        marker.setIcon(L.spriteIcon('red'))
     marker.bindPopup(text);
 
     return marker;
@@ -82,11 +82,14 @@ function AddRefarenceStationMarker(_referenceStationData, map)
 
 function AddRefarenceStationCircle(_referenceStationData, map)
 {
+    if(_referenceStationData.status != "公開")
+        return null;
+
     var markerPosition = [_referenceStationData.latitude, _referenceStationData.longitude];
     var radius = 30000; // 30[km]
     var circle = L.circle(markerPosition, {
-        color: 'red',
-        fillColor: '#f03',
+        color: 'blue',
+        fillColor: '#30f',
         fillOpacity: 0.5,
         radius: radius
     }).addTo(map);
