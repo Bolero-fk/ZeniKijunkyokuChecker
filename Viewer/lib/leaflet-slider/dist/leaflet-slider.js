@@ -20,7 +20,7 @@ L.Control.Slider = L.Control.extend({
             return value;
         },
         getValueText: function(value) {
-            return "半径<b><font size='5'>" + value + "</font></b>kmを表示";
+            return "<font size='4'>半径</font><b><font size='5'>" + value + "</font></b><font size='4'>kmを表示</font>";
         },
         showValue: true,
         syncSlider: false
