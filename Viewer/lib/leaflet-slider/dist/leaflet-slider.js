@@ -19,6 +19,9 @@ L.Control.Slider = L.Control.extend({
         getValue: function(value) {
             return value;
         },
+        getValueText: function(value) {
+            return "半径<b><font size='5'>" + value + "</font></b>kmを表示";
+        },
         showValue: true,
         syncSlider: false
     },
@@ -48,7 +51,7 @@ L.Control.Slider = L.Control.extend({
     _updateValue: function () {
         this.value = this.slider.value;
         if (this.options.showValue){
-    	   this._sliderValue.innerHTML = this.options.getValue(this.value);
+    	   this._sliderValue.innerHTML = this.options.getValueText(this.value);
         }
         this.update(this.value);
     },
@@ -61,7 +64,7 @@ L.Control.Slider = L.Control.extend({
 
         if (this.options.showValue){
             this._sliderValue = L.DomUtil.create('p', className+'-value', this._container);
-            this._sliderValue.innerHTML = this.options.getValue(this.options.value);
+            this._sliderValue.innerHTML = this.options.getValueText(this.options.value);
         }
 
         if(this.options.increment) {

@@ -23,16 +23,15 @@ a.leaflet-control-slider-toggle {
     text-align: center;
     text-decoration: none;
     color: #000;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'Hiragino Mincho ProN';
     font-size: 1.1em;
     display:none;
 }
 .leaflet-control-slider.leaflet-control-slider-horizontal p.leaflet-control-slider-value {
     line-height: 36px;
     height: 36px;
-    margin: 0px 0px 0px 0px;
-    border-right: 1px solid #CCC;
-    width: 35px;
+    margin: 0px 0px 0px 10px;
     float :left;
     clear:none;
 }

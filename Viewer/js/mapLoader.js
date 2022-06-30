@@ -52,20 +52,22 @@ function InitializeMap()
 
 function AddSlider(_map)
 {
-    var control = L.control.range({
-        position: 'bottomleft',
-        orient: 'horizontal',
-        min: 10, 
-        max: 100, 
+    // slider
+    slider = L.control.slider(function(value) {
+        ChangeCircles(value * 1000);
+    }, {
+        position:'bottomleft',
+        max: 100,
+        min: 10,
         value: 30,
-        icon:false
-    });
-
-    control.on('change input', function(e) {
-        ChangeCircles(e.value * 1000);
-    })
-
-    _map.addControl(control);
+        step:1,
+        size: '250px',
+        orientation:'horizontal',
+        id: 'slider',
+        showValue: true, 
+        syncSlider:true,
+        collapsed:false
+    }).addTo(_map);
 }
 
 function AddRefarenceStationMarker(_referenceStationData, map)
