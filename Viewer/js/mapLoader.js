@@ -102,8 +102,8 @@ function ConvertStationDataToKanban(_referenceStationData, marker)
     if(_referenceStationData.status == "公開")
     statusColor = "green";
 
-    var header = "<header class=header><div class=station-name>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" + _referenceStationData.stationName + "</div>" + 
-    "<div class=station-status><font color = " + statusColor + ">" + _referenceStationData.status + "中</font></div></div>";
+    var header = "<header><div>" + _referenceStationData.stationName + "</div>" + 
+    "<div><font color = " + statusColor + ">" + _referenceStationData.status + "中</font></div></header>";
     var contents = "<hr><font size=4>" + _referenceStationData.cityName + 
     "<br> 北緯: " + _referenceStationData.latitude + ", 東経: " + _referenceStationData.longitude + ", 楕円体高: " + _referenceStationData.geoidHeight + 
     "<br> サーバアドレス: ntrip.phys.info.hiroshima-cu.ac.jp" + _referenceStationData.serverAddress + 

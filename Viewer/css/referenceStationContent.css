@@ -7,19 +7,11 @@
     padding-right: 5px;
 }
 
-.station-name {
-    display: inline-block;
-    width: 380px;
-    
+header div {
+    display: block;
+    width: calc(100%);
     font-size: x-large;
     overflow-wrap: break-word;
 	word-break: keep-all;
-}
-
-.station-status {
-    display: inline-block;
-    font-size: x-large;
-    overflow-wrap: break-word;
-	word-break: keep-all;
-    vertical-align: bottom;
+    text-align: center;
 }
