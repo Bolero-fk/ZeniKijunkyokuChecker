@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-01 00:23:59",
+  "UpdateTime(JST)": "2022-07-02 00:24:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1358,13 +1358,13 @@
       "latitude": "33.004415611",
       "longitude": "130.448987556",
       "geoidHeight": "45.0853",
-      "serverAddress": "210.234.70.113",
+      "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "20220428改測◆Mount Point：sakura◆受信機 u-blox ZED-F9P◆アンテナ HX-CSX601A◆ Drogger Processorにて福岡高田・玉名・長崎国見の三次元網平均計算にて位置決定、PCV補正値有◆元期◆SNIP NTRIP Casterにて配信詳細"
+      "comment": "20220701変更◆Mount Point(RTCM3.2)：34E24AAE◆受信機 ビズステーション株式会社RWX(GNSS測量機1級_国土地理院登録番号223)◆アンテナ HX-CSX601A◆ Drogger Processorにて福岡高田・玉名・長崎国見の三次元網平均計算にて位置決定、PCV補正値有◆国家座標◆Windows版DroggerNTRIPCasterにて配信詳細 "
     },
     {
       "id": 92,
