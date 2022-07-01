@@ -99,7 +99,7 @@ function ConvertStationDataToKanban(_referenceStationData, marker)
     if(_referenceStationData.status == "公開")
     statusColor = "green";
 
-    var header = "<span class=station-name>" + "aaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssaa" + _referenceStationData.stationName + "</span>" + 
+    var header = "<span class=station-name>" + _referenceStationData.stationName + "</span>" + 
     "<span class=station-status><font color = " + statusColor + ">" + _referenceStationData.status + "中</font></span>";
     var contents = "<hr><font size=4>" + _referenceStationData.cityName + 
     "<br> 北緯: " + _referenceStationData.latitude + ", 東経: " + _referenceStationData.longitude + ", 楕円体高: " + _referenceStationData.geoidHeight + 
