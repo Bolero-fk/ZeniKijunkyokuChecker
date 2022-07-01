@@ -79,6 +79,9 @@ function AddRefarenceStationMarker(_referenceStationData, map)
     var marker = L.marker(markerPosition, {riseOnHover: true}).addTo(map);
     if(_referenceStationData.status != "公開")
         marker.setIcon(L.spriteIcon('red'))
+    else
+        marker.setIcon(L.spriteIcon('green'))
+
     // marker.bindPopup();
     ConvertStationDataToKanban(_referenceStationData, marker);
     return marker;
@@ -99,8 +102,8 @@ function ConvertStationDataToKanban(_referenceStationData, marker)
     if(_referenceStationData.status == "公開")
     statusColor = "green";
 
-    var header = "<span class=station-name>" + _referenceStationData.stationName + "</span>" + 
-    "<span class=station-status><font color = " + statusColor + ">" + _referenceStationData.status + "中</font></span>";
+    var header = "<header class=header><div class=station-name>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" + _referenceStationData.stationName + "</div>" + 
+    "<div class=station-status><font color = " + statusColor + ">" + _referenceStationData.status + "中</font></div></div>";
     var contents = "<hr><font size=4>" + _referenceStationData.cityName + 
     "<br> 北緯: " + _referenceStationData.latitude + ", 東経: " + _referenceStationData.longitude + ", 楕円体高: " + _referenceStationData.geoidHeight + 
     "<br> サーバアドレス: ntrip.phys.info.hiroshima-cu.ac.jp" + _referenceStationData.serverAddress + 
@@ -118,8 +121,8 @@ function AddRefarenceStationCircle(_referenceStationData, map)
     var markerPosition = [_referenceStationData.latitude, _referenceStationData.longitude];
     var radius = 30000; // 30[km]
     var circle = L.circle(markerPosition, {
-        color: 'blue',
-        fillColor: '#30f',
+        color: 'green',
+        fillColor: '#3f0',
         fillOpacity: 0.5,
         radius: radius
     }).addTo(map);
