@@ -30,7 +30,7 @@ a.leaflet-control-slider-toggle {
 }
 .leaflet-control-slider.leaflet-control-slider-horizontal p.leaflet-control-slider-value {
     line-height: 36px;
-    text-align: left;
+    text-align: center;
     height: 25px;
     margin: 0px 10px 0px 10px;
     clear:none;

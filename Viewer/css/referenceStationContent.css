@@ -1,0 +1,27 @@
+.reference-station-content .leaflet-popup-content {
+    background: #e93434;
+    color: #ffffff;
+}
+
+.comment-box {
+    width: auto;                /* 横幅を200pxに指定 */
+    height: 100px;               /* 横幅を200pxに指定 */
+    border: 1px solid #000;      /* わかりやすくボーダーを引く */
+    overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.station-name {
+    width:10;
+    font-size: x-large;
+    overflow-wrap: break-word;
+	word-break: keep-all;
+}
+
+.station-status {
+    font-size: x-large;
+    overflow-wrap: break-word;
+	word-break: keep-all;
+    float: right;
+}
