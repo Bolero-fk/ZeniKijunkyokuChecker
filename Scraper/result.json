@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-03 00:20:19",
+  "UpdateTime(JST)": "2022-07-04 00:20:19",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -203,13 +203,13 @@
       "latitude": "42.916292084",
       "longitude": "143.038592273",
       "geoidHeight": "107.9835",
-      "serverAddress": "kzlab.f5.si",
+      "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
-      "connectionType": "STRSVR",
+      "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "RTKNAVIでは TCP Clientで接続可　詳細"
+      "comment": "Mount Point：kzlab，ID：なし，Password：なし　詳細"
     },
     {
       "id": 15,
