@@ -25,7 +25,7 @@ function GetJson()
 {
     var json = [];
     $.ajaxSetup({async: false});//同期通信(json取得処理終了までそのあとの処理を実行しない)
-    $.getJSON("https://raw.githubusercontent.com/Bolero-fk/githubPagesTest/main/docs/resource/test.json", (data) => {
+    $.getJSON("https://raw.githubusercontent.com/Bolero-fk/ZeniKijunkyokuChecker/main/Viewer/resource/result.json", (data) => {
         for (let i = 0; i < data.ReferenceStationData.length; i++){
             var referenceStationData = data.ReferenceStationData[i];
             json.push(referenceStationData);
