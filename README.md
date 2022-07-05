@@ -2,7 +2,7 @@
 善意の基準局チェッカー
 
 ## デモ
-github pagesを利用して[公開](https://bolero-fk.github.io/ZeniKijunkyokuChecker/)しています
+[ここ](https://bolero-fk.github.io/ZeniKijunkyokuChecker/)から利用できます
 
 ## 詳細
 RTKで利用できる基準局の情報を[善意の基準局掲示板](https://rtk.silentsystem.jp/)からスクレイピングしてリポジトリにjson形式で保存しています。  
