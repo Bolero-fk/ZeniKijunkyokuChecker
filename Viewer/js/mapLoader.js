@@ -123,7 +123,7 @@ function AddRefarenceStationCircle(_referenceStationData, map)
     var circle = L.circle(markerPosition, {
         color: 'green',
         fillColor: '#3f0',
-        fillOpacity: 0.5,
+        fillOpacity: 0.1,
         radius: radius
     }).addTo(map);
 
