@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-05 00:22:30",
+  "UpdateTime(JST)": "2022-07-06 00:27:16",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -740,16 +740,16 @@
       "id": 50,
       "cityName": "神奈川県横浜市都筑区茅ケ崎城址",
       "stationName": "土地家屋調査士17号局　たむら事務所",
-      "latitude": "35.545635166",
-      "longitude": "139.581372257",
-      "geoidHeight": "55.3561",
+      "latitude": "35.545635388",
+      "longitude": "139.581372444",
+      "geoidHeight": "55.398",
       "serverAddress": "rtk2go.com",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "STRSVR",
       "status": "休止",
       "mail": "○",
-      "comment": "Mount Point:TAMTAM,ID・Pass:zxGwhHQQ,ubloxF9PにてRTK観測。観測日2021年1月30日　受信機：ublox F9P　1005（基準局座標）,1077（GPS）,1087（GLONASS）,1097（Galileo）,1127（BeiDou）,1230（GLONASS補正） 突然のメンテナンスがあるのでご使用の際はご一報下さい。その間はメンテしません。"
+      "comment": "Mount Point:tamtam,ID・Pass:なし。スタティック観測日2022年7月5日　受信機：ublox F9P突然のメンテナンスがあるのでご使用の際はご一報下さい。その間はメンテしません。"
     },
     {
       "id": 51,
