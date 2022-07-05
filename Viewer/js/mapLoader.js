@@ -82,22 +82,12 @@ function AddRefarenceStationMarker(_referenceStationData, map)
     else
         marker.setIcon(L.spriteIcon('green'))
 
-    // marker.bindPopup();
-    ConvertStationDataToKanban(_referenceStationData, marker);
+    marker.bindPopup(ConvertStationDataToPopupText(_referenceStationData), {'maxWidth': '500', 'width': '200'});
     return marker;
 }
 
-function ConvertStationDataToKanban(_referenceStationData, marker)
-{
-    var customPopup = "<b>My office</b><br/>";
-    
-    // specify popup options 
-    var customOptions =
-    {
-        'maxWidth': '500',
-        'width': '200',
-    };
-
+function ConvertStationDataToPopupText(_referenceStationData, marker)
+{    
     var statusColor = "red";
     if(_referenceStationData.status == "公開")
     statusColor = "green";
@@ -110,7 +100,8 @@ function ConvertStationDataToKanban(_referenceStationData, marker)
     "<br> ポート番号: " + _referenceStationData.portNumber + ", データ形式: " + _referenceStationData.dataType + ", 接続形式: " + _referenceStationData.connectionType +
     "<br> コメント " + 
     "<br> <div class=comment-box>" + _referenceStationData.comment + "</div>" +  "</font>";
-    marker.bindPopup(header + contents, customOptions);
+
+    return header + contents;
 }
 
 function AddRefarenceStationCircle(_referenceStationData, map)
