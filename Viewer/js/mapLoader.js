@@ -40,8 +40,8 @@ function InitializeMap()
     var map = L.map('map',{
         preferCanvas:true
     });
-    map.setView([35.40, 136], 5);
-    L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+    map.setView([38,136], 6);
+    L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
         attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
     }).addTo(map);
 
