@@ -15,7 +15,7 @@ def ReadKijunkyokuTableRow(_tableRow)
     stationData.store('connectionType', _tableRow.css('td')[8].text)
     stationData.store('status', _tableRow.css('td')[9].text)
     stationData.store('mail', _tableRow.css('td')[10].text)
-    stationData.store('comment', _tableRow.css('td')[11].text)
+    stationData.store('comment', _tableRow.css('td')[11].inner_html)
 
     return stationData
 end
