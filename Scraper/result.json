@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-07 00:27:20",
+  "UpdateTime(JST)": "2022-07-08 00:33:30",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -134,7 +134,7 @@
       "connectionType": "Ntrip",
       "status": "休止",
       "mail": "×",
-      "comment": "【準備中】"
+      "comment": "試験運用のため【準備中】"
     },
     {
       "id": 10,
