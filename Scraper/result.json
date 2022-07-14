@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-14 00:33:32",
+  "UpdateTime(JST)": "2022-07-15 00:23:52",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -599,7 +599,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": ""
+      "comment": "Mount Point:AC557F56 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は暫定"
     },
     {
       "id": 41,
