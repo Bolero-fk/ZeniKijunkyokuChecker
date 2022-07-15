@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-15 00:23:52",
+  "UpdateTime(JST)": "2022-07-16 00:24:45",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1385,9 +1385,9 @@
       "id": 93,
       "cityName": "福岡県大牟田市桜町１３２番地",
       "stationName": "桜町測量／溝田・佐野土地家屋調査士事務所",
-      "latitude": "33.004415611",
-      "longitude": "130.448987556",
-      "geoidHeight": "45.0853",
+      "latitude": "33.004415556",
+      "longitude": "130.448987500",
+      "geoidHeight": "45.2",
       "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
