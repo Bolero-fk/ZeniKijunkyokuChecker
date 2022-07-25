@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-07-25 00:21:54",
+  "UpdateTime(JST)": "2022-07-26 00:23:57",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1274,7 +1274,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint: KNCT-Takuma，ID・Password：なし，対応衛星：GPS, QZSS, GLONASS, BeiDou, Galileo，基準局座標は2018/10/25に電子基準点三野（基線長約7.7km）とのStatic測位により決定しました。2020/2/21より2周波に対応しました。機材はublox ZED-F9P，アンテナは JCA225Sです。2021/11/24基準局座標を再取得しました。"
+      "comment": "Mountpoint: KNCT-TAKUMA，ID・Password：なし，対応衛星：GPS, QZSS, GLONASS, BeiDou, Galileo，基準局座標は2018/10/25に電子基準点三野（基線長約7.7km）とのStatic測位により決定しました。2020/2/21より2周波に対応しました。機材はublox ZED-F9P，アンテナは JCA225Sです。2021/11/24基準局座標を再取得しました。"
     },
     {
       "id": 86,
