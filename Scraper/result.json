@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-08-02 00:25:59",
+  "UpdateTime(JST)": "2022-08-03 00:22:37",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -987,9 +987,9 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "(2022.6.27）8月下旬まで休止中　利用したい方は連絡してください。Mountpoint ：HIGASHIURA　User: guest　password: guest　u-blox(ZED-F9P)   アンテナはANN-MB-00　ジオイド高　38.1422ｍ  元期座標に変換　1077,1087,1097,1127=1Hz　1005,1008,1230=0.1Hz"
+      "comment": "Mountpoint ：HIGASHIURA　User: guest　password: guest　u-blox(ZED-F9P)   アンテナはANN-MB-00　ジオイド高　38.1422ｍ  元期座標に変換　1077,1087,1097,1127=1Hz　1005,1008,1230=0.1Hz"
     },
     {
       "id": 67,
