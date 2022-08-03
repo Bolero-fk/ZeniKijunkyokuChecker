@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-08-03 00:22:37",
+  "UpdateTime(JST)": "2022-08-04 00:25:14",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -218,13 +218,13 @@
       "latitude": "42.916292084",
       "longitude": "143.038592273",
       "geoidHeight": "107.9835",
-      "serverAddress": "geortk.jp",
+      "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：kzlab，ID：なし，Password：なし　<a href=\"https://www.n-survey.com/gis/Base/index2.htm\" target=\"_blank\">詳細</a>"
+      "comment": "Mount Point：BCDB1DDE，ID：なし，Password：なし　<a href=\"https://www.n-survey.com/gis/Base/index2.htm\" target=\"_blank\">詳細</a>"
     },
     {
       "id": 16,
