@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-08-04 00:25:14",
+  "UpdateTime(JST)": "2022-08-05 00:25:46",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -169,7 +169,7 @@
     {
       "id": 12,
       "cityName": "北海道夕張",
-      "stationName": "UTK 局 (2周波)",
+      "stationName": "UTK 局 ",
       "latitude": "43.01114815",
       "longitude": "141.69234018",
       "geoidHeight": "50.406",
@@ -179,7 +179,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " F9p . 9～5時公開 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R2.4元期変換に戻す "
+      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R2.4元期変換に戻す "
     },
     {
       "id": 13,
@@ -777,9 +777,9 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "STRSVR",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "Mount Point:tamtam,ID・Pass:なし。スタティック観測日2022年7月5日　受信機：ublox F9P突然のメンテナンスがあるのでご使用の際はご一報下さい。その間はメンテしません。"
+      "comment": "現在移設中。Mount Point:tamtam,ID・Pass:なし。スタティック観測日2022年7月5日　受信機：ublox F9P突然のメンテナンスがあるのでご使用の際はご一報下さい。その間はメンテしません。"
     },
     {
       "id": 53,
