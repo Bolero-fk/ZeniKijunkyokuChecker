@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-08-08 00:20:45",
+  "UpdateTime(JST)": "2022-08-09 00:25:03",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -222,7 +222,7 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mount Point：BCDB1DDE，ID：なし，Password：なし　<a href=\"https://www.n-survey.com/gis/Base/index2.htm\" target=\"_blank\">詳細</a>"
     },
