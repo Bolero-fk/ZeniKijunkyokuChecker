@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-01 00:23:04",
+  "UpdateTime(JST)": "2022-09-02 00:24:59",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -162,7 +162,7 @@
       "portNumber": "5555",
       "dataType": "u-blox",
       "connectionType": "STRSVR",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": ""
     },
