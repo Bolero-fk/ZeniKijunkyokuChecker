@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-04 00:22:26",
+  "UpdateTime(JST)": "2022-09-05 00:21:52",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1482,7 +1482,7 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-RTCM  ID:なし, Password:なし 電子基準点綾(基線長約8km)を使用した後処理基線解析結果です。（元期変換済）"
     },
