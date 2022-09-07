@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-07 00:23:38",
+  "UpdateTime(JST)": "2022-09-08 00:25:18",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1409,7 +1409,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "20220701変更◆Mount Point(RTCM3.2)：34E24AAE<br>◆受信機 ビズステーション株式会社RWX(GNSS測量機1級_国土地理院登録番号223)◆アンテナ HX-CSX601A◆ Drogger Processorにて福岡高田・玉名・長崎国見の三次元網平均計算にて位置決定、PCV補正値有<br>◆国家座標◆Windows版DroggerNTRIPCasterにて配信<br><a href=\"https://sakura.3ku.jp/ntrip-caster/\">詳細</a> "
+      "comment": "<font color=\"red\">国土地理院民間等電子基準点(C級) 登録番号 No.63</font><br>マウントポイント：34E24AAE<br>◆受信機 ビズステーション株式会社RWX(GNSS測量機1級_国土地理院登録番号223)◆アンテナ HX-CSX601A◆<br>◆国家座標◆Windows版DroggerNTRIPCasterにて配信<br><a href=\"https://sakura.3ku.jp/ntrip-caster/\">詳細</a> "
     },
     {
       "id": 95,
