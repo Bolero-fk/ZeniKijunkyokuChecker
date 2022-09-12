@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-12 00:23:50",
+  "UpdateTime(JST)": "2022-09-13 00:28:09",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -128,13 +128,13 @@
       "latitude": "43.170488",
       "longitude": "141.730226",
       "geoidHeight": "76.203",
-      "serverAddress": "rtk2go.com",
+      "serverAddress": "114.179.24.34",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "休止",
       "mail": "×",
-      "comment": "試験運用のため【準備中】"
+      "comment": "試験運用のため【準備中】Mount Point : SOUGO.KK , ID:user, PW:passwd"
     },
     {
       "id": 10,
@@ -230,16 +230,16 @@
       "id": 16,
       "cityName": "北海道清水町",
       "stationName": "Farm-i",
-      "latitude": "42.9",
-      "longitude": "142.9",
+      "latitude": "42.89",
+      "longitude": "142.93",
       "geoidHeight": "230.899",
-      "serverAddress": "rtk2go.com",
+      "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
-      "comment": "試験運用に付き休止あり。受信機F9P。２周波。  Mount Point：RTK-MIKAGE　ID/Passなし。  RTCM3.2　1005,1008,1074,1084,1194,1124。トプコン実績有。  電子基準点（020887,970789）により後処理測量。  半径10km圏　御影エリアの大部分、隣接する地域の一部分 。 免責：品質・性能等を保証しません。また、あらゆる状況・事象等に関して一切責任を負いません。"
+      "comment": "2022.9caster変更。試験運用に付き休止あり。受信機F9P。２周波。  Mount Point：RTK-MIKAGE　ID/Passなし。  RTCM3.2　1005,1008,1074,1084,1194,1124。トプコン・CHCNAV実績有。  電子基準点（020887,970789）により後処理測量。  半径10km圏　御影エリアの大部分、隣接する地域の一部分 。 免責：品質・性能等を保証しません。また、あらゆる状況・事象等に関して一切責任を負いません。"
     },
     {
       "id": 17,
