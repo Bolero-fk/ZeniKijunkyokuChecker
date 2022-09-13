@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-13 00:28:09",
+  "UpdateTime(JST)": "2022-09-14 00:25:44",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -50,9 +50,9 @@
       "id": 4,
       "cityName": "北海道雨竜郡秩父別町",
       "stationName": "MABOT_CHIP",
-      "latitude": "43.76602214",
-      "longitude": "141.95643340",
-      "geoidHeight": "71.617",
+      "latitude": "43.76602206",
+      "longitude": "141.95643442",
+      "geoidHeight": "71.674",
       "serverAddress": "114.179.24.34",
       "portNumber": "2101",
       "dataType": "RTCM3",
