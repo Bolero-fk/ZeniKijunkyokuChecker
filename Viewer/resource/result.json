@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-15 00:25:42",
+  "UpdateTime(JST)": "2022-09-16 00:25:48",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -323,28 +323,28 @@
       "latitude": "39.171241703",
       "longitude": "140.443261336",
       "geoidHeight": "130.3684",
-      "serverAddress": "60.120.185.198",
+      "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:KAN-JH7XGN ID:なし，Pass:なし,　受信機simpleRTK2B STRSVRでUBXをRTCMに変換 1005(1),1019(1),1020(1),1042(1),1044(1),1046(1),1077(1),1087(1),1097(1),1117(1),1127(1)．アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
+      "comment": "Mount Point:jh7xgn ID:なし，Pass:なし,　受信機simpleRTK2B STRSVRでUBXをRTCMに変換 1005(10),1077(1),1087(1),1097(1),1115(1),1127(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
     },
     {
       "id": 23,
       "cityName": "秋田県湯沢市",
       "stationName": "古川克巳土地家屋調査士事務所",
-      "latitude": "39.159024928",
-      "longitude": "140.492023153",
-      "geoidHeight": "133.3225",
-      "serverAddress": "rtk2go.com",
+      "latitude": "39.15902494",
+      "longitude": "140.49202306",
+      "geoidHeight": "133.410",
+      "serverAddress": "grortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:KAN-FURUKAWA ID:なし，Password:なし,　受信機ublox C099 RTCM3 1005(1),1077(1),1087(1),1097(1),1115(1),1127(1),1230(1) アンテナu-blox ANN-MB-00 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 4/13改測しました。"
+      "comment": "Mount Point:furukawa ID:なし，Password:なし,受信機ublox F9P トラ技キット RTCM3 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1) アンテナu-blox ANN-MB-00 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） R4/4/27改測しました。"
     },
     {
       "id": 24,
