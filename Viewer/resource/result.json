@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-16 00:25:48",
+  "UpdateTime(JST)": "2022-09-17 00:24:58",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -179,7 +179,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R2.4元期変換に戻す "
+      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R2.4元期変換 "
     },
     {
       "id": 13,
@@ -305,9 +305,9 @@
       "id": 21,
       "cityName": "秋田県雄勝郡",
       "stationName": "羽後町赤袴",
-      "latitude": "39.171241703",
-      "longitude": "140.443261336",
-      "geoidHeight": "130.3684",
+      "latitude": "39.17124172",
+      "longitude": "140.44326122",
+      "geoidHeight": "130.458",
       "serverAddress": "rtk2go.com",
       "portNumber": "2101",
       "dataType": "RTCM3",
@@ -320,9 +320,9 @@
       "id": 22,
       "cityName": "秋田県雄勝郡",
       "stationName": "雄勝郡羽後町赤袴",
-      "latitude": "39.171241703",
-      "longitude": "140.443261336",
-      "geoidHeight": "130.3684",
+      "latitude": "39.17124172",
+      "longitude": "140.44326122",
+      "geoidHeight": "130.458",
       "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
