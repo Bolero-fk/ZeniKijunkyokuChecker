@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-09-18 00:24:04",
+  "UpdateTime(JST)": "2022-09-19 00:24:19",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -387,7 +387,7 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
       "comment": "マウントポイント名：SHIBATA989、ID：無、パスワード：無 出力：RTCM3 1077(1)、1087(1)、1097(1)、1127(1)、1230(1) 受信機u-blox ZED-F9P  アンテナ：u-blox ANN-MB-00 L1+L2   運用時間：8:00～17:00"
     },
