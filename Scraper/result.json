@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-10-20 00:30:11",
+  "UpdateTime(JST)": "2022-10-21 00:30:03",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -170,16 +170,16 @@
       "id": 12,
       "cityName": "北海道夕張",
       "stationName": "UTK 局 ",
-      "latitude": "43.01114815",
-      "longitude": "141.69234018",
-      "geoidHeight": "50.406",
+      "latitude": "43.011148100",
+      "longitude": "141.692340040",
+      "geoidHeight": "50.418",
       "serverAddress": "RTK2go.com",
       "portNumber": "2101",
       "dataType": "u-blox",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R2.4元期変換 "
+      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R4.10.7元期変換 "
     },
     {
       "id": 13,
