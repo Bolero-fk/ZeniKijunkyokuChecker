@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-10-25 00:31:02",
+  "UpdateTime(JST)": "2022-10-26 00:31:12",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -728,13 +728,13 @@
       "latitude": "35.639624713",
       "longitude": "139.30002365",
       "geoidHeight": "249.595",
-      "serverAddress": "rtk.tokyo-ct.net",
+      "serverAddress": "rtk2go.com",
       "portNumber": "2101",
-      "dataType": "u-blox",
-      "connectionType": "STRSVR",
-      "status": "休止",
+      "dataType": "RTCM3",
+      "connectionType": "Ntrip",
+      "status": "公開",
       "mail": "○",
-      "comment": "Ntripに変更のため休止中．アンテナ：HARXON CORP. HX-CSX601A  ublox F9P評価ボードで受信したデータを，GPS + GLONASS + Galileo + Beidou + QZSS (フォーマットはublox)で送信しています． 基準局座標は，24時間のstatic測位で求めた値を，八王子基準局(基線長6.7km)でRTK演算して決定しました．5Hzで送信しています． 2019/08/30 停電で休止していたため復旧．"
+      "comment": "Mountpoint：KUNUGIDA-F9P　アンテナ：HARXON CORP. HX-CSX601A 　ublox F9P評価ボードで受信したデータを，GPS + GLONASS + Galileo + Beidou(フォーマットはrtcm3.2)で送信しています． 基準局座標は，24時間のstatic測位で求めた値を，八王子基準局(基線長6.7km)でRTK演算して決定しました．5Hzで送信しています．2022/10/25 ntripへの移行が完了したため復旧．"
     },
     {
       "id": 50,
