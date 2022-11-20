@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-11-20 00:20:13",
+  "UpdateTime(JST)": "2022-11-21 00:20:08",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -387,7 +387,7 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
       "comment": "マウントポイント名：sato-ricefarm、ID：無し、パスワード：sato-gnss、受信機：u-blox ZED-F9P、アンテナ：u-blox ANN-MB‐00（2周波）、受信衛星：GPS・QZSS・GLONASS・Galileo・BeiDou"
     },
