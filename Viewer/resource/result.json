@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-11-21 00:20:08",
+  "UpdateTime(JST)": "2022-11-22 00:22:17",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1188,6 +1188,21 @@
     },
     {
       "id": 80,
+      "cityName": "安芸太田町-加計",
+      "stationName": "YOSHIMURA",
+      "latitude": "34.6168786",
+      "longitude": "132.31778749",
+      "geoidHeight": "226.464",
+      "serverAddress": "RTK2go.com",
+      "portNumber": "2101",
+      "dataType": "u-blox",
+      "connectionType": "STRSVR",
+      "status": "休止",
+      "mail": "○",
+      "comment": "ID Password無しMountPoint yoshimura ２０２２年１２月再開予定。スタティック観測の後（2022年11月15日）戸河内ＡとＰPＫ。新事務所移転に伴い、位置情報が変更されています。試験運用のため停止させる場合があります。現在位置確定のため停止しています。暫定数値公開しましたが受信環境があまりよくありません、アンテナ設置位置変更します"
+    },
+    {
+      "id": 81,
       "cityName": "広島市",
       "stationName": "オフィス小田",
       "latitude": "34.58215241",
@@ -1200,21 +1215,6 @@
       "status": "休止",
       "mail": "○",
       "comment": "まだ正確な位置情報が取れておらず、テスト運用中です、情報収集等のため常時配信はできていません。Mount Point:OFFICEODA ID:なし Password:なし 配信: GPS, BDS　office-oda.softether.net:80 にてTCP Serverでもテスト配信中、座標は広島市立大学の基準局を使用して計測したもの。"
-    },
-    {
-      "id": 81,
-      "cityName": "安芸太田町-加計",
-      "stationName": "YOSHIMURA",
-      "latitude": "34.57308084",
-      "longitude": "132.3205949",
-      "geoidHeight": "186.677",
-      "serverAddress": "RTK2go.com",
-      "portNumber": "2101",
-      "dataType": "u-blox",
-      "connectionType": "STRSVR",
-      "status": "休止",
-      "mail": "○",
-      "comment": "ID Password無しMountPoint yoshimura ２０２２年１２月再開予定。スタティック観測の後（2022年11月15日）戸河内ＡとＰPＫ。新事務所移転に伴い、位置情報が変更されています。試験運用のため停止させる場合があります。現在位置確定のため停止しています。"
     },
     {
       "id": 82,
