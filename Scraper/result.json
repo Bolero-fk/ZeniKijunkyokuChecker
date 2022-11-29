@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-11-29 00:18:02",
+  "UpdateTime(JST)": "2022-11-30 00:20:29",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1174,7 +1174,7 @@
     {
       "id": 79,
       "cityName": "兵庫県神戸市",
-      "stationName": "神戸市立神戸工科高等学校",
+      "stationName": "神戸市立神戸工科高等学校(神戸市立科学技術高等学校)",
       "latitude": "34.703944358",
       "longitude": "135.213736900",
       "geoidHeight": "76.179",
