@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-12-09 00:18:44",
+  "UpdateTime(JST)": "2022-12-10 00:17:48",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1553,13 +1553,13 @@
       "latitude": "31.991316558",
       "longitude": "131.336394631",
       "geoidHeight": "69.1956",
-      "serverAddress": "rtk2go.com",
+      "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "休止",
-      "mail": "×",
-      "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-RTCM  ID:なし, Password:なし 電子基準点綾(基線長約8km)を使用した後処理基線解析結果です。（元期変換済）"
+      "status": "公開",
+      "mail": "○",
+      "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点綾(基線長約8km)を使用した後処理基線解析結果です。（元期変換済）"
     },
     {
       "id": 105,
