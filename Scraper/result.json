@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-12-15 00:19:15",
+  "UpdateTime(JST)": "2022-12-16 00:19:27",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -303,6 +303,21 @@
     },
     {
       "id": 21,
+      "cityName": "秋田県雄勝郡羽後町",
+      "stationName": "古川克巳土地家屋調査士事務所",
+      "latitude": "39.17124172",
+      "longitude": "140.44326122",
+      "geoidHeight": "130.458",
+      "serverAddress": "grortk.jp",
+      "portNumber": "2101",
+      "dataType": "RTCM3",
+      "connectionType": "Ntrip",
+      "status": "公開",
+      "mail": "×",
+      "comment": "Mount Point:furukawa ID:なし，Password:なし,受信機ビズステーション株式会社,DG-PRO1RWS RTCM3 1005(10),1074(1),1084(1),1094(1),1124(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） R4/4/27改測しました。"
+    },
+    {
+      "id": 22,
       "cityName": "秋田県雄勝郡",
       "stationName": "羽後町赤袴",
       "latitude": "39.17124172",
@@ -317,7 +332,7 @@
       "comment": "Mount Point:KAN-RWS002 ID:なし，Pass:なし,　受信機simpleRTK2B RTCM3 STRSVRでUBXをRTCMに変換 1005(1),1077(1),1087(1),1097(1),1117(1),1127(1)．アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
     },
     {
-      "id": 22,
+      "id": 23,
       "cityName": "秋田県雄勝郡",
       "stationName": "雄勝郡羽後町赤袴",
       "latitude": "39.17124172",
@@ -330,21 +345,6 @@
       "status": "公開",
       "mail": "×",
       "comment": "Mount Point:jh7xgn ID:なし，Pass:なし,　受信機simpleRTK2B STRSVRでUBXをRTCMに変換 1005(10),1077(1),1087(1),1097(1),1115(1),1127(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
-    },
-    {
-      "id": 23,
-      "cityName": "秋田県湯沢市",
-      "stationName": "古川克巳土地家屋調査士事務所",
-      "latitude": "39.15902494",
-      "longitude": "140.49202306",
-      "geoidHeight": "133.410",
-      "serverAddress": "grortk.jp",
-      "portNumber": "2101",
-      "dataType": "RTCM3",
-      "connectionType": "Ntrip",
-      "status": "公開",
-      "mail": "×",
-      "comment": "Mount Point:furukawa ID:なし，Password:なし,受信機ublox F9P トラ技キット RTCM3 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1) アンテナu-blox ANN-MB-00 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） R4/4/27改測しました。"
     },
     {
       "id": 24,
