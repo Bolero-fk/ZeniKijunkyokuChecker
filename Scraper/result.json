@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2022-12-23 00:19:19",
+  "UpdateTime(JST)": "2022-12-24 00:18:01",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -708,7 +708,7 @@
     },
     {
       "id": 48,
-      "cityName": "坂東市",
+      "cityName": "茨城県坂東市",
       "stationName": "木村道夫土地家屋調査士事務所",
       "latitude": "36.045158086",
       "longitude": "139.880493602",
