@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-01-09 00:17:24",
+  "UpdateTime(JST)": "2023-01-10 00:25:45",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1608,6 +1608,21 @@
     },
     {
       "id": 108,
+      "cityName": "宮崎県西都市",
+      "stationName": "妻ベース",
+      "latitude": "32.107846310",
+      "longitude": "131.397628110",
+      "geoidHeight": "46.786",
+      "serverAddress": "geortk.jp",
+      "portNumber": "2101",
+      "dataType": "RTCM3",
+      "connectionType": "Ntrip",
+      "status": "公開",
+      "mail": "×",
+      "comment": "【試験運用中】 Mount Point : saito-B , ID：なし, PW：なし　緯度経度楕円体高については暫定値です。近々電子基準点西都を利用したStatic観測予定しています。"
+    },
+    {
+      "id": 109,
       "cityName": "宮崎県東諸県郡国富町",
       "stationName": "土地家屋調査士佐藤守三事務所",
       "latitude": "31.991316558",
@@ -1622,7 +1637,7 @@
       "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点綾(基線長約8km)を使用した後処理基線解析結果です。（元期変換済）"
     },
     {
-      "id": 109,
+      "id": 110,
       "cityName": "宮崎県宮崎市",
       "stationName": "土地家屋調査士 殿所事務所",
       "latitude": "31.926474881",
@@ -1637,7 +1652,7 @@
       "comment": "Mountpoint : komatsudai01  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。電力はソーラー供給のため連日雨天の場合は休止するときがあります。"
     },
     {
-      "id": 110,
+      "id": 111,
       "cityName": "鹿児島県霧島市",
       "stationName": "第一工科大学",
       "latitude": "31.746833333",
@@ -1652,7 +1667,7 @@
       "comment": "<font color=\"#ff0000\">国土地理院民間等電子基準点(C級) 登録番号 No.3</font><br>第一工科大学  空間情報研究室　Mount Point：kiri1，ID：無し，Password：無し"
     },
     {
-      "id": 111,
+      "id": 112,
       "cityName": "宮崎県北諸県郡三股町",
       "stationName": "土地家屋調査士稲元志朗事務所",
       "latitude": "31.729379511",
@@ -1667,7 +1682,7 @@
       "comment": "受信機 u-blox ZED-F9P Mount Point：mimata01 ID:なし, Password:なし 電子基準点都城(基線長約9km)を使用した後処理基線解析結果です。（元期変換済）令和2年12月12日座標更新"
     },
     {
-      "id": 112,
+      "id": 113,
       "cityName": "鹿児島県日置市",
       "stationName": "伊集院局",
       "latitude": "31.650743083",
@@ -1682,7 +1697,7 @@
       "comment": "Mount Point：ijyu1，ID：無し，Password：無し, <a href=\"&lt;/td\"></a>"
     },
     {
-      "id": 113,
+      "id": 114,
       "cityName": "宮崎県串間市",
       "stationName": "土地家屋調査士川崎雅人事務所",
       "latitude": "31.464726506",
