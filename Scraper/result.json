@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-01-13 00:29:04",
+  "UpdateTime(JST)": "2023-01-14 00:19:36",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -329,7 +329,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:KAN-RWS002 ID:なし，Pass:なし,　受信機simpleRTK2B RTCM3 STRSVRでUBXをRTCMに変換 1005(1),1077(1),1087(1),1097(1),1117(1),1127(1)．アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
+      "comment": "Mount Point:KAN-RWS002 ID:なし，Pass:なし,　受信機simpleRTK2B RTCM3 RTCMを直接F９Pから出力 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1)　アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は、電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
     },
     {
       "id": 23,
@@ -344,7 +344,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:jh7xgn ID:なし，Pass:なし,　受信機simpleRTK2B STRSVRでUBXをRTCMに変換 1005(10),1077(1),1087(1),1097(1),1115(1),1127(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
+      "comment": "Mount Point:jh7xgn ID:なし，Pass:なし,　受信機simpleRTK2B RTCMを直接F9Pから出力 1005(10),1077(1),1087(1),1097(1),1127(1),1230(10)  アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
     },
     {
       "id": 24,
@@ -1643,13 +1643,13 @@
       "latitude": "31.926474881",
       "longitude": "131.393393439",
       "geoidHeight": "53.423",
-      "serverAddress": "rtk2go.com",
+      "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint : komatsudai01  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。電力はソーラー供給のため連日雨天の場合は休止するときがあります。"
+      "comment": "Mountpoint : komatsudai02  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。"
     },
     {
       "id": 111,
