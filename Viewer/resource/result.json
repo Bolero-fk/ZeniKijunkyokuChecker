@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-01-17 00:19:02",
+  "UpdateTime(JST)": "2023-01-18 00:18:42",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1612,7 +1612,7 @@
       "stationName": "妻ベース",
       "latitude": "32.107846310",
       "longitude": "131.397628110",
-      "geoidHeight": "46.786",
+      "geoidHeight": "46.768",
       "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
