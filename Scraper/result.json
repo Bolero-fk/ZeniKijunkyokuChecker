@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-01-18 00:18:42",
+  "UpdateTime(JST)": "2023-01-19 00:19:24",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -863,13 +863,13 @@
       "latitude": "35.580478609",
       "longitude": "139.511953665",
       "geoidHeight": "92.453",
-      "serverAddress": "3.16,214.124",
+      "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "休止",
       "mail": "○",
-      "comment": "2021/09/26 表示座標、サーバアドレスを変更しました。民間電子基準点（C級No.2）Mount Point: K-west 　ID:なし，Password:なし，受信機 u-blox ZED-F9P ,アンテナ Tallysman TW3870 基準局座標値は電子基準点 町田、八王子、世田谷の3点よりStatic観測、三次元網平均計算、SemiDyna2020ver.1.0.0よりセミダイナミック補正後の元期座標"
+      "comment": "2023/01/18 サーバアドレス、Mount Pointを変更しました。民間電子基準点（C級No.2）サーバーアドレス：ntrip1.bizstation.jp Mount Point: E8B5845A 　ID:なし，Password:なし，受信機 u-blox ZED-F9P ,アンテナ Tallysman TW3870 基準局座標値は電子基準点 町田、八王子、世田谷の3点よりStatic観測、三次元網平均計算、SemiDyna2020ver.1.0.0よりセミダイナミック補正後の元期座標"
     },
     {
       "id": 59,
