@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-01-26 00:18:14",
+  "UpdateTime(JST)": "2023-01-27 00:18:09",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1640,16 +1640,16 @@
       "id": 110,
       "cityName": "宮崎県西都市",
       "stationName": "妻ベース",
-      "latitude": "32.107846208",
-      "longitude": "131.397628778",
-      "geoidHeight": "46.8585",
+      "latitude": "32.107846217",
+      "longitude": "131.397628764",
+      "geoidHeight": "46.8368",
       "serverAddress": "geortk.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "【調整中】 Mount Point : saito-B , ID：なし, PW：なし　電子基準点西都(基線長約4km)を利用 Static観測です。（元期変換済）"
+      "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点西都(基線長約4.7km)を利用した Static観測です。（元期変換済）"
     },
     {
       "id": 111,
