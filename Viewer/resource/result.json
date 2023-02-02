@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-02-02 00:18:50",
+  "UpdateTime(JST)": "2023-02-03 00:18:46",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -650,9 +650,9 @@
       "id": 44,
       "cityName": "茨城県八千代町",
       "stationName": "仲内土地家屋調査士事務所",
-      "latitude": "36.17837610",
-      "longitude": "139.88998860",
-      "geoidHeight": "69.7",
+      "latitude": "36.178383800",
+      "longitude": "139.889987800",
+      "geoidHeight": "70.3",
       "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
