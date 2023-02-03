@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-02-03 00:18:46",
+  "UpdateTime(JST)": "2023-02-04 00:18:31",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -308,13 +308,13 @@
       "latitude": "39.17124172",
       "longitude": "140.44326122",
       "geoidHeight": "130.458",
-      "serverAddress": "grortk.jp",
+      "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:furukawa ID:なし，Password:なし,受信機ビズステーション株式会社,DG-PRO1RWS RTCM3 1005(10),1074(1),1084(1),1094(1),1124(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） R4/4/27改測しました。"
+      "comment": "Mount Point:BCDCD722 ID:なし，Password:なし,受信機ビズステーション株式会社,DG-PRO1RWS RTCM3 1005(10),1074(1),1084(1),1094(1),1115(1),1124(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） R4/4/27改測しました。"
     },
     {
       "id": 22,
@@ -329,7 +329,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:KAN-RWS002 ID:なし，Pass:なし,　受信機simpleRTK2B RTCM3 RTCMを直接F９Pから出力 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1)　アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は、電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
+      "comment": "Mount Point:KAN-RWS002 ID:使用者のメルアド，Pass:なし,　受信機simpleRTK2B RTCM3 RTCMを直接F９Pから出力 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1)　アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は、電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
     },
     {
       "id": 23,
