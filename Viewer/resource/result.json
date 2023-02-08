@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-02-08 00:18:50",
+  "UpdateTime(JST)": "2023-02-09 00:19:21",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1439,7 +1439,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:otkck,ID:なしPswd:なし, 受信機ublox F9P アンテナGN-GGB0710, 基準局座標値は「熊取　EL05135428901」からのSTATIC測量結果 高さはアンテナ底面の楕円体高　2023/01/31一時的に配信を中止しています。"
+      "comment": "Mount Point:otkck,ID:なしPswd:なし, 受信機DroggerRWS アンテナGN-GGB0710"
     },
     {
       "id": 97,
