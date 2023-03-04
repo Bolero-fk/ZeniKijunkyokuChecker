@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-04 00:19:21",
+  "UpdateTime(JST)": "2023-03-05 00:17:37",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1334,7 +1334,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "☆10/24再開☆<br>MP: JP-RJBE10<br>Rcvr: ZED-F9P(2周波) w/ ANN-MB-00-00<br>System:GPS,QZSS,GLO,GAL,BDS<br>電子基準点 神戸中央(局:950356,距離:9.4km)とのRTKPOST演算(24H実施)<br>ジオイド高37.136[m]<br>ECEF X:-3728922.2380,Y:3693819.9470,Z:3611684.8720<br>★'21/5/31 再計算座標確定"
+      "comment": "★★'23/3/末 閉鎖予定★★ MP: JP-RJBE10 Rcvr: ZED-F9P(2周波) w/ ANN-MB-00-00 System:GPS,QZSS,GLO,GAL,BDS 電子基準点 神戸中央(局:950356,距離:9.4km)とのRTKPOST演算(24H実施) ジオイド高37.136[m] "
     },
     {
       "id": 90,
