@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-07 00:20:38",
+  "UpdateTime(JST)": "2023-03-08 00:18:51",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -605,9 +605,9 @@
       "id": 41,
       "cityName": "茨城県桜川市",
       "stationName": "根本土地家屋調査士事務所",
-      "latitude": "36.327082093",
-      "longitude": "140.108833198",
-      "geoidHeight": "60.4",
+      "latitude": "36.327082100",
+      "longitude": "140.108833100",
+      "geoidHeight": "101.9",
       "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
       "dataType": "RTCM3",
