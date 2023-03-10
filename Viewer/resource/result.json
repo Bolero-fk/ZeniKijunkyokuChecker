@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-10 00:20:41",
+  "UpdateTime(JST)": "2023-03-11 00:18:46",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1542,7 +1542,7 @@
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
       "comment": "Mountpoint:nishitech ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:行橋局(960686) 基準局設置場所:西日本工大おばせキャンパスM棟屋上 ジオイド高:32.7393 備考:工学部総合システム工学科土木工学系で管理・運用しています。"
     },
