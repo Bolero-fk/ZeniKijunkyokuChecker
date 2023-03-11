@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-11 00:18:46",
+  "UpdateTime(JST)": "2023-03-12 00:16:47",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -725,8 +725,8 @@
       "id": 49,
       "cityName": "茨城県境町",
       "stationName": "木村泰之土地家屋調査士事務所",
-      "latitude": "36.112654759",
-      "longitude": "139.797979630",
+      "latitude": "36.1126546944",
+      "longitude": "139.7979796389",
       "geoidHeight": "59.1",
       "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
