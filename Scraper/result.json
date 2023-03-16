@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-16 00:19:15",
+  "UpdateTime(JST)": "2023-03-17 00:20:01",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -65,15 +65,15 @@
       "id": 5,
       "cityName": "秩父別町",
       "stationName": "kaminari3",
-      "latitude": "43.75793592",
-      "longitude": "141.96585639",
-      "geoidHeight": "80.512",
+      "latitude": "43.75793598",
+      "longitude": "141.96585645",
+      "geoidHeight": "80.513",
       "serverAddress": "RTK2go.com",
       "portNumber": "2101",
       "dataType": "RTCM3",
       "connectionType": "Ntrip",
       "status": "公開",
-      "mail": "○",
+      "mail": "×",
       "comment": "試験中　MountPoint:seiten　ID,Pw なし"
     },
     {
