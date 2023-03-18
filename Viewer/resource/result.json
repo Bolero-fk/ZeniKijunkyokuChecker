@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-18 00:18:50",
+  "UpdateTime(JST)": "2023-03-19 00:16:47",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -65,9 +65,9 @@
       "id": 5,
       "cityName": "秩父別町",
       "stationName": "kaminari3",
-      "latitude": "43.75793598",
-      "longitude": "141.96585645",
-      "geoidHeight": "80.513",
+      "latitude": "43.75791193",
+      "longitude": "141.96571891",
+      "geoidHeight": "75.964",
       "serverAddress": "RTK2go.com",
       "portNumber": "2101",
       "dataType": "RTCM3",
@@ -725,8 +725,8 @@
       "id": 49,
       "cityName": "茨城県境町",
       "stationName": "木村泰之土地家屋調査士事務所",
-      "latitude": "36.112677972",
-      "longitude": "139.797947371",
+      "latitude": "36.1126779724",
+      "longitude": "139.7979473707",
       "geoidHeight": "59.4",
       "serverAddress": "ntrip1.bizstation.jp",
       "portNumber": "2101",
@@ -734,7 +734,7 @@
       "connectionType": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：AC557F56 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:Harxon HX-CSX601A．基準局座標値は電子基準点三和（基線長約10.1km）とのStatic測量結果 高さは楕円体高"
+      "comment": "Mount Point：AC557F56 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測結果　高さは楕円体高"
     },
     {
       "id": 50,
