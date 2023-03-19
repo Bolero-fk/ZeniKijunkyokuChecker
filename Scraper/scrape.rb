@@ -2,48 +2,49 @@ require 'open-uri'
 require 'nokogiri'
 require 'json'
 
-def ReadKijunkyokuTableRow(_tableRow)
-    stationData = {}
-    stationData.store('cityName', _tableRow.css('td')[0].text)
-    stationData.store('stationName', _tableRow.css('td')[1].text)
-    stationData.store('latitude', _tableRow.css('td')[2].text)
-    stationData.store('longitude', _tableRow.css('td')[3].text)
-    stationData.store('geoidHeight', _tableRow.css('td')[4].text)
-    stationData.store('serverAddress', _tableRow.css('td')[5].text)
-    stationData.store('portNumber', _tableRow.css('td')[6].text)
-    stationData.store('dataType', _tableRow.css('td')[7].text)
-    stationData.store('connectionType', _tableRow.css('td')[8].text)
-    stationData.store('status', _tableRow.css('td')[9].text)
-    stationData.store('mail', _tableRow.css('td')[10].text)
-    stationData.store('comment', _tableRow.css('td')[11].inner_html)
-
-    return stationData
+def read_kijunkyoku_table_row(table_row)
+  {
+    'city_name' => table_row.css('td')[0].text,
+    'station_name' => table_row.css('td')[1].text,
+    'latitude' => table_row.css('td')[2].text,
+    'longitude' => table_row.css('td')[3].text,
+    'geoid_height' => table_row.css('td')[4].text,
+    'server_address' => table_row.css('td')[5].text,
+    'port_number' => table_row.css('td')[6].text,
+    'data_type' => table_row.css('td')[7].text,
+    'connection_type' => table_row.css('td')[8].text,
+    'status' => table_row.css('td')[9].text,
+    'mail' => table_row.css('td')[10].text,
+    'comment' => table_row.css('td')[11].inner_html
+  }
 end
 
 if __FILE__ == $0
     # 善意の基準局のURL
     url = 'https://rtk.silentsystem.jp/'
-    doc = Nokogiri.HTML(URI.open(url)) 
-    table = doc.xpath("//tr")
 
-    fileName = 'result.json'
-    json = {}
-    json.store("UpdateTime(JST)", Time.at(Time.now(), in: "+09:00").strftime("%Y-%m-%d %H:%M:%S"))
-    json.store("ReferenceStationData", [])
+    # URLからHTMLを取得
+    doc = Nokogiri.HTML(URI.open(url))
 
-    stationDatas = []
-    table.each_with_index do |row, i|
-        # ヘッダーを読み飛ばす
-        if i == 0 
-            then next 
-        end
-    
-        json["ReferenceStationData"].push({'id' => i})
-        json["ReferenceStationData"].last.update(ReadKijunkyokuTableRow(row))
+    # HTML内のtrタグを全て取得
+    table_rows = doc.xpath('//tr')
+
+    # 出力するJSONファイル名を指定
+    file_name = 'result.json'
+
+    # 出力するJSONデータの雛形を作成
+    json = {
+        'UpdateTime(JST)' => Time.now.strftime('%Y-%m-%d %H:%M:%S'),
+        'ReferenceStationData' => []
+    }
+
+    # HTML内のtrタグからデータを取得してJSONに追加
+    table_rows.drop(1).each.with_index(1) do |row, i|
+        json['ReferenceStationData'] << { 'id' => i }.merge(read_kijunkyoku_table_row(row))
     end
 
-    # json形式へ変更
-    File.open(fileName, 'w') do |file|
+    # JSONファイルを出力
+    File.open(file_name, 'w') do |file|
         file.puts(JSON.pretty_generate(json))
     end
 end
