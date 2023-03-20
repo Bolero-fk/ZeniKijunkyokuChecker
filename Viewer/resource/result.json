@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-19 15:17:19",
+  "UpdateTime(JST)": "2023-03-20 15:19:58",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -173,7 +173,7 @@
       "latitude": "43.011148100",
       "longitude": "141.692340040",
       "geoid_height": "50.418",
-      "server_address": "RTK2go.com",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
@@ -734,7 +734,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：AC557F56 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測結果　高さは楕円体高"
+      "comment": "Mount Point：AC557F56 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測解析結果　高さは楕円体高"
     },
     {
       "id": 50,
