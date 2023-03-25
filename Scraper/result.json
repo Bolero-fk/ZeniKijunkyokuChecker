@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-24 15:18:38",
+  "UpdateTime(JST)": "2023-03-25 15:16:00",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -65,9 +65,9 @@
       "id": 5,
       "city_name": "秩父別",
       "station_name": "kaminari3",
-      "latitude": "43.75792438",
-      "longitude": "141.96570028",
-      "geoid_height": "80.360",
+      "latitude": "43.75792434",
+      "longitude": "141.96570037",
+      "geoid_height": "80.361",
       "server_address": "RTK2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
@@ -1700,16 +1700,16 @@
       "id": 114,
       "city_name": "宮崎県西都市",
       "station_name": "妻ベース",
-      "latitude": "32.107846217",
-      "longitude": "131.397628764",
-      "geoid_height": "46.8368",
+      "latitude": "32.107846278",
+      "longitude": "131.397628750",
+      "geoid_height": "46.9228",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点西都(基線長約4.7km)を利用した Static観測です。（元期変換済）"
+      "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点 西都・新富・佐土原を利用した Static観測による三次元網平均計算結果です。（元期変換済）"
     },
     {
       "id": 115,
