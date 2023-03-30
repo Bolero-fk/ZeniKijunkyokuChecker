@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-03-29 17:16:05",
+  "UpdateTime(JST)": "2023-03-30 15:18:19",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -65,9 +65,9 @@
       "id": 5,
       "city_name": "秩父別",
       "station_name": "kaminari3",
-      "latitude": "43.75792434",
-      "longitude": "141.96570037",
-      "geoid_height": "80.361",
+      "latitude": "43.75792438",
+      "longitude": "141.96570024",
+      "geoid_height": "80.383",
       "server_address": "RTK2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
