@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-04-14 15:16:34",
+  "UpdateTime(JST)": "2023-04-15 15:15:41",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -42,9 +42,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "現在冬期間のため休止中：R4.9よりサーバーをRTK2goへ変更、Mount Point：Asahikawa-HAMA，ID：なし，Password：forest2020、受信機：２周波 ZED-F9P、アンテナ：u-blox 、基準局座標値は電子基準点 旭川(基線長約6.6km)を使用したRTKPOSTによる後処理基線解析結果（2020.4　楕円体高を修正）、firmwareをHPG1.30へUpdate、Raspberry Pi4にて24時間運用"
+      "comment": "R4.9よりサーバーをRTK2goへ変更、Mount Point：Asahikawa-HAMA，ID：なし，Password：forest2020、受信機：２周波 ZED-F9P、アンテナ：u-blox 、基準局座標値は電子基準点 旭川(基線長約6.6km)を使用したRTKPOSTによる後処理基線解析結果（2020.4　楕円体高を修正）、firmwareをHPG1.30へUpdate、Raspberry Pi4にて24時間運用"
     },
     {
       "id": 4,
