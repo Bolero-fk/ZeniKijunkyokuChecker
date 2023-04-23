@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-04-22 15:15:49",
+  "UpdateTime(JST)": "2023-04-23 15:15:40",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1778,13 +1778,13 @@
       "latitude": "31.729379511",
       "longitude": "131.115305022",
       "geoid_height": "209.9986",
-      "server_address": "rtk2go.com",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "×",
-      "comment": "受信機 u-blox ZED-F9P Mount Point：mimata01 ID:なし, Password:なし 電子基準点都城(基線長約9km)を使用した後処理基線解析結果です。（元期変換済）令和2年12月12日座標更新"
+      "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点都城(基線長約9km)を使用した後処理基線解析結果です。（元期変換済）令和2年12月12日座標更新"
     },
     {
       "id": 120,
