@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-04-23 15:15:40",
+  "UpdateTime(JST)": "2023-04-24 15:17:46",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1744,6 +1744,21 @@
     {
       "id": 117,
       "city_name": "宮崎県宮崎市",
+      "station_name": "土地家屋調査士塩月事務所",
+      "latitude": "31.944754444",
+      "longitude": "131.431897056",
+      "geoid_height": "43.597",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point：709125DA，ID：無し，Password：無し,"
+    },
+    {
+      "id": 118,
+      "city_name": "宮崎県宮崎市",
       "station_name": "土地家屋調査士 殿所事務所",
       "latitude": "31.926474881",
       "longitude": "131.393393439",
@@ -1757,7 +1772,7 @@
       "comment": "Mountpoint : komatsudai02  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。"
     },
     {
-      "id": 118,
+      "id": 119,
       "city_name": "鹿児島県霧島市",
       "station_name": "第一工科大学",
       "latitude": "31.746833333",
@@ -1772,7 +1787,7 @@
       "comment": "<font color=\"#ff0000\">国土地理院民間等電子基準点(C級) 登録番号 No.3</font><br>第一工科大学  空間情報研究室　Mount Point：kiri1，ID：無し，Password：無し"
     },
     {
-      "id": 119,
+      "id": 120,
       "city_name": "宮崎県北諸県郡三股町",
       "station_name": "土地家屋調査士稲元志朗事務所",
       "latitude": "31.729379511",
@@ -1782,12 +1797,12 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点都城(基線長約9km)を使用した後処理基線解析結果です。（元期変換済）令和2年12月12日座標更新"
     },
     {
-      "id": 120,
+      "id": 121,
       "city_name": "鹿児島県日置市",
       "station_name": "伊集院局",
       "latitude": "31.650743083",
@@ -1802,7 +1817,7 @@
       "comment": "Mount Point：ijyu1，ID：無し，Password：無し, <a href=\"&lt;/td\"></a>"
     },
     {
-      "id": 121,
+      "id": 122,
       "city_name": "宮崎県串間市",
       "station_name": "土地家屋調査士川崎雅人事務所",
       "latitude": "31.464726506",
