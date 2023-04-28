@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-04-27 15:16:11",
+  "UpdateTime(JST)": "2023-04-28 15:16:57",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1805,16 +1805,16 @@
       "id": 121,
       "city_name": "宮崎県北諸県郡三股町",
       "station_name": "土地家屋調査士稲元志朗事務所",
-      "latitude": "31.729379511",
-      "longitude": "131.115305022",
-      "geoid_height": "209.9986",
+      "latitude": "31.7293795278",
+      "longitude": "131.1153049722",
+      "geoid_height": "210.1112",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "×",
-      "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点都城(基線長約9km)を使用した後処理基線解析結果です。（元期変換済）令和2年12月12日座標更新"
+      "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点（都城、宮崎田野、大隅）を使用した三次元網平均計算結果です。（元期変換済）令和5年4月28日座標更新"
     },
     {
       "id": 122,
