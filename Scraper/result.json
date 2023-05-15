@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-05-14 15:15:21",
+  "UpdateTime(JST)": "2023-05-15 15:16:55",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -387,9 +387,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "mountpoint: YamagataUniv-Agri , PW: KEvfPBKk , 受信機：u-blox ZED-F9P, 受信衛星：GPS・QZSS・GRONASS・Galileo・BeiDou,   ArduPilotのMissionPlannerで「RTK/GPS Inject」を使用される方へ：「NTRIP」を選択して「ntrip://｛各自のメアド｝:KevfPBKk@RTK2go.com:2101/YamagataUniv-Agri」と入力するとRTK-GNSSを有効にできます。"
+      "comment": "【現在停止中】mountpoint: YamagataUniv-Agri , PW: KEvfPBKk , 受信機：u-blox ZED-F9P, 受信衛星：GPS・QZSS・GRONASS・Galileo・BeiDou,   ArduPilotのMissionPlannerで「RTK/GPS Inject」を使用される方へ：「NTRIP」を選択して「ntrip://｛各自のメアド｝:KevfPBKk@RTK2go.com:2101/YamagataUniv-Agri」と入力すると有効にできます。"
     },
     {
       "id": 27,
