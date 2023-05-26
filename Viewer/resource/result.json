@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-05-25 15:15:35",
+  "UpdateTime(JST)": "2023-05-26 15:16:21",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -50,16 +50,16 @@
       "id": 4,
       "city_name": "北海道雨竜郡秩父別町",
       "station_name": "MABOT_CHIP",
-      "latitude": "43.76602206",
-      "longitude": "141.95643442",
-      "geoid_height": "71.674",
+      "latitude": "43.766022054",
+      "longitude": "141.956434420",
+      "geoid_height": "71.6960",
       "server_address": "114.179.24.34",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "【調整中】 Mount Point : MABOT_CHIP_BASE , ID:user, PW:passwd"
+      "comment": " Mount Point : MABOT_CHIP_BASE , ID:user, PW:password"
     },
     {
       "id": 5,
@@ -125,16 +125,16 @@
       "id": 9,
       "city_name": "北海道岩見沢市",
       "station_name": "相互開発(株)",
-      "latitude": "43.170488",
-      "longitude": "141.730226",
-      "geoid_height": "76.203",
+      "latitude": "43.1706857",
+      "longitude": "141.7301746",
+      "geoid_height": "37.5013",
       "server_address": "114.179.24.34",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "×",
-      "comment": "試験運用のため【準備中】Mount Point : SOUGO.KK , ID:user, PW:passwd"
+      "comment": "【調整中】Mount Point : SOUGO.KK , ID:user, PW:passwd"
     },
     {
       "id": 10,
@@ -734,7 +734,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：AC557F56 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測解析結果　高さは楕円体高"
+      "comment": "Mount Point：10D867EA ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測解析結果　高さは楕円体高"
     },
     {
       "id": 50,
