@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-06-05 15:16:26",
+  "UpdateTime(JST)": "2023-06-06 15:16:28",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -734,7 +734,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D867EA ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測解析結果　高さは楕円体高"
+      "comment": "Mount Point：AC557F56　ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測解析結果　高さは楕円体高"
     },
     {
       "id": 50,
