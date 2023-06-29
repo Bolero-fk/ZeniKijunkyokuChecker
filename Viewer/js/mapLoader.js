@@ -159,11 +159,11 @@ function addReferenceStationMarker(referenceStationData, map) {
 function convertStationDataToPopupText(referenceStationData) {
     // ステータスの色を決定する
     const statusColor = referenceStationData.status === "公開" ? "green" : "red";
-
+    console.log(referenceStationData.station_name)
     // ヘッダーとコンテンツの文字列を作成する
     const header = `
     <header>
-      <div>${referenceStationData.stationName}</div>
+      <div>${referenceStationData.station_name}</div>
       <div><font color="${statusColor}">${referenceStationData.status}中</font></div>
     </header>
   `;
@@ -171,10 +171,10 @@ function convertStationDataToPopupText(referenceStationData) {
     const contents = `
     <hr>
     <font size="4">
-      ${referenceStationData.cityName}<br>
-      北緯: ${referenceStationData.latitude}, 東経: ${referenceStationData.longitude}, 楕円体高: ${referenceStationData.geoidHeight}<br>
-      サーバアドレス: ntrip.phys.info.hiroshima-cu.ac.jp${referenceStationData.serverAddress}<br>
-      ポート番号: ${referenceStationData.portNumber}, データ形式: ${referenceStationData.dataType}, 接続形式: ${referenceStationData.connectionType}<br>
+      ${referenceStationData.city_name}<br>
+      北緯: ${referenceStationData.latitude}, 東経: ${referenceStationData.longitude}, 楕円体高: ${referenceStationData.geoid_height}<br>
+      サーバアドレス: ntrip.phys.info.hiroshima-cu.ac.jp${referenceStationData.server_address}<br>
+      ポート番号: ${referenceStationData.port_number}, データ形式: ${referenceStationData.data_type}, 接続形式: ${referenceStationData.connection_type}<br>
       コメント<br>
       <div class="comment-box">${referenceStationData.comment}</div>
     </font>
