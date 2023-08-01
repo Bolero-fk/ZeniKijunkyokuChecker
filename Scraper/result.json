@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-07-31 15:17:12",
+  "UpdateTime(JST)": "2023-08-01 15:16:34",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1760,16 +1760,16 @@
       "id": 118,
       "city_name": "宮崎県東諸県郡国富町",
       "station_name": "土地家屋調査士佐藤守三事務所",
-      "latitude": "31.991316558",
-      "longitude": "131.336394631",
-      "geoid_height": "69.1956",
+      "latitude": "31.991316417",
+      "longitude": "131.336394611",
+      "geoid_height": "69.3646",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点綾(基線長約8km)を使用した後処理基線解析結果です。（元期変換済）"
+      "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点（綾、佐土原、宮崎田野）を使用した三次元網平均計算結果です。（元期変換済）令和5年7月28日座標更新"
     },
     {
       "id": 119,
