@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-08-02 15:15:29",
+  "UpdateTime(JST)": "2023-08-03 15:16:25",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1746,8 +1746,8 @@
       "city_name": "宮崎県西都市",
       "station_name": "妻ベース",
       "latitude": "32.107846278",
-      "longitude": "131.397628750",
-      "geoid_height": "46.9228",
+      "longitude": "131.397628778",
+      "geoid_height": "46.935",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
