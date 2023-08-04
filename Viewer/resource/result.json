@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-08-03 15:16:25",
+  "UpdateTime(JST)": "2023-08-04 15:16:03",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1272,9 +1272,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "現在rtk2go.comへの接続不良により休止中です。Mountpoint: NAIST（RTCM3, GPS+BDS, ID・パスワードなし, ublox社NEO-M8P）、NAIST-UBX（UBX, GPS+GLO+GAL+BDS+QZS, ID・パスワードなし, ublox社 ZED-F9P）。基準局座標は2018/4/13に大阪府交野市の電子基準点（距離：6.8km）とStatic測位して決定しました。"
+      "comment": "Mountpoint: NAIST（RTCM3, GPS+BDS, ID:ご自身のメールアドレス, パスワードなし, ublox社NEO-M8P）、NAIST-UBX（停止中）（UBX, GPS+GLO+GAL+BDS+QZS, ID・パスワードなし, ublox社 ZED-F9P）。基準局座標は2018/4/13に大阪府交野市の電子基準点（距離：6.8km）とStatic測位して決定しました。"
     },
     {
       "id": 86,
