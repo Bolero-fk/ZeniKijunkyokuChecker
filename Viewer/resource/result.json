@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-08-22 15:16:06",
+  "UpdateTime(JST)": "2023-08-23 15:15:52",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1572,9 +1572,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "利用規約に同意していただける方へ公開しています。<a href=\"https://www.oita-it.ac.jp/news/rtk/\">詳細</a> ※「RTK2go.com」の仕様変更により、ID部分に利用者のメールアドレス要入力"
+      "comment": "メンテンス中"
     },
     {
       "id": 106,
