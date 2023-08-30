@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-08-29 15:16:30",
+  "UpdateTime(JST)": "2023-08-30 15:16:38",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -134,7 +134,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point : 0CDF89D    ID : なし    パスワード  なし    受信機 : u-blox ZED-F9P使用 DG-PRO01RWS    アンテナ : u-blox ANN-MB-00    基準座標は、電子基準点(新十津川A)よりSTATIC測位(基線長 9.8km)    配信 : RTCM3.2 (1005,1008,1075,1085,1095,1115,1125,1230)"
+      "comment": "Mount Point : 0CDF89D    ID : なし    パスワード  なし    受信機 : u-blox ZED-F9P使用 DG-PRO01RWS    アンテナ : u-blox ANN-MB-00    基準座標は、電子基準点(新十津川A)よりSTATIC測位(基線長 9.8km)    配信 : RTCM3.2 (1005,1008,1075,1085,1095,1115,1125,1230)  当方 CHCNAVで使用中です。  できれば、利用目的をメールしてください。"
     },
     {
       "id": 10,
@@ -486,7 +486,7 @@
       "city_name": "石川県中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
       "latitude": "36.95950164",
-      "longitude": "136.86857733",
+      "longitude": "136.86857732",
       "geoid_height": "53.882",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
