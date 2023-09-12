@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-09-11 15:16:43",
+  "UpdateTime(JST)": "2023-09-12 15:16:43",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -259,7 +259,7 @@
     {
       "id": 18,
       "city_name": "北海道沙流郡平取町",
-      "station_name": "森林組合有志局(平取公開第1号)hamaの信者",
+      "station_name": "沙流川森林組合有志局(平取公開第1号)hamaの信者",
       "latitude": "42.588590600",
       "longitude": "142.132457500",
       "geoid_height": "99.288",
@@ -500,16 +500,16 @@
       "id": 34,
       "city_name": "石川県中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.95950157",
-      "longitude": "136.86857739",
-      "geoid_height": "53.897",
+      "latitude": "36.95950168",
+      "longitude": "136.86857714",
+      "geoid_height": "53.889",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：981FD22E　ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水)からの三次元網平均計算による成果（元期） 観測日時：2023年9月9日18時～10日18時"
+      "comment": "Mount Point：981FD22E　ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水)からの三次元網平均計算による成果（元期）"
     },
     {
       "id": 35,
