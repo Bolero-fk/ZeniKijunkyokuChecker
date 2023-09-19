@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-09-18 15:17:11",
+  "UpdateTime(JST)": "2023-09-19 15:17:04",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -839,7 +839,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "MountPoint <a href=\"https://hinohana.com/wp/\">InohanaKobo</a>  ID 無し、Password 無し  受信機 ZED-F9P：2周波 　アンテナ : GN-GGB0710<br>RaspberryPiZero str2str フルタイム配信  RTCM3(1005,1077,1087,1097,1127,1230) <font color=\"red\"></font>"
+      "comment": "rtk2go登録・復活しました。 MountPoint InohanaKobo  ID 無し、Password 無し 受信機 ZED-F9P：2周波 　アンテナ : GN-GGB0710 RaspberryPiZero str2str フルタイム配信  RTCM3(1005,1077,1087,1097,1127,1230) "
     },
     {
       "id": 57,
