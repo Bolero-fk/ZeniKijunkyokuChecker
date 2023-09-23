@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-09-22 15:16:18",
+  "UpdateTime(JST)": "2023-09-23 15:14:06",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -498,7 +498,7 @@
     },
     {
       "id": 34,
-      "city_name": "石川県中能登町",
+      "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
       "latitude": "36.95950168",
       "longitude": "136.86857714",
