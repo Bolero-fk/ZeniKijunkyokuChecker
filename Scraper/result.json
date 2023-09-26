@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-09-25 15:17:24",
+  "UpdateTime(JST)": "2023-09-26 15:17:07",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1430,16 +1430,16 @@
       "id": 96,
       "city_name": "静岡県御前崎市",
       "station_name": "ohnb",
-      "latitude": "34.611555056",
-      "longitude": "138.187898167",
-      "geoid_height": "81.4",
+      "latitude": "34.611555083",
+      "longitude": "138.187898194",
+      "geoid_height": "81.35",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、静岡相良２)を使用した三次元網平均計算による成果（元期）（24Hスタティック観測、SemiDyna2023.par利用）"
+      "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、浜岡１、静岡相良２)を使用した三次元網平均計算による成果（元期）（72Hスタティック観測、SemiDyna2023.par利用）"
     },
     {
       "id": 97,
