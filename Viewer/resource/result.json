@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-09-29 15:16:34",
+  "UpdateTime(JST)": "2023-09-30 15:14:14",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -124,7 +124,7 @@
     {
       "id": 9,
       "city_name": "北海道空知郡奈井江町",
-      "station_name": "奈井江町大和基地局",
+      "station_name": "奈井江町大和基準局",
       "latitude": "43.4438076916",
       "longitude": "141.8760742384",
       "geoid_height": "58.3788",
@@ -260,16 +260,16 @@
       "id": 18,
       "city_name": "北海道沙流郡平取町本町",
       "station_name": "沙流川森林組合有志局(平取公開第1号)hamaの信者",
-      "latitude": "42.588590600",
-      "longitude": "142.132457500",
-      "geoid_height": "99.288",
+      "latitude": "42.5885906350",
+      "longitude": "142.1324575160",
+      "geoid_height": "99.2880",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point～E00D5806,ID～なし,パスワード～なし,2023年9月8日より24時間配信中,信頼出来る基準局よりRTK測量にて算出,職員の有志による出資にて設置,自己責任による使用をお願いします,メールが届くように設定し直しておきました,設置者〜純＆上総"
+      "comment": "Mount Point～E00D5806,ID～なし,パスワード～なし,元期,2023年9月8日より24時間配信中,信頼出来る基準局よりRTK測量にて算出,職員の有志による出資にて設置,自己責任による使用をお願いします,設置者〜純＆上総"
     },
     {
       "id": 19,
@@ -1409,7 +1409,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：ken_kizyunkyoku0131 ID:なし，Password:なし"
+      "comment": "Mount Point：ken_kizyunkyoku0131 ID:なし，Password:なし  アンテナ:GN-GGB0710 受信機:ZED-F9P 座標値:電子基準点(益田・三隅・匹見)からのスタティック解析(元期)　※三次元網平均計算による"
     },
     {
       "id": 95,
