@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-09-30 15:14:14",
+  "UpdateTime(JST)": "2023-10-01 15:14:21",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1887,7 +1887,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点（都城、宮崎田野、大隅）を使用した三次元網平均計算結果です。（元期変換済）令和5年4月28日座標更新"
     },
