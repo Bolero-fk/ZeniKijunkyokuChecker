@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-02 15:17:11",
+  "UpdateTime(JST)": "2023-10-03 15:17:38",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -509,7 +509,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：981FD22E　ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水)からの三次元網平均計算による成果（元期）"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentorio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）"
     },
     {
       "id": 35,
