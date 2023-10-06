@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-05 15:17:12",
+  "UpdateTime(JST)": "2023-10-06 15:17:36",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -567,9 +567,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:BCDA0C8E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は電子基準点日立・S高萩・常北とのStatic観測解析した成果　2022.12.1公開　2023.09.05改測　現在メンテナンス中"
+      "comment": "Mount Point:BCDA0C8E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は電子基準点日立・S高萩・常北とのStatic観測解析した成果　2022.12.1公開　2023.09.05改測"
     },
     {
       "id": 39,
