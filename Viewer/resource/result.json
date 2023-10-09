@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-08 15:14:49",
+  "UpdateTime(JST)": "2023-10-09 15:17:56",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -500,16 +500,16 @@
       "id": 34,
       "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.95950168",
-      "longitude": "136.86857714",
-      "geoid_height": "53.889",
+      "latitude": "36.959501681",
+      "longitude": "136.868577145",
+      "geoid_height": "53.8899",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentorio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）"
     },
     {
       "id": 35,
@@ -1325,16 +1325,16 @@
       "id": 89,
       "city_name": "静岡県浜松市",
       "station_name": "土地家屋調査士　小川登記測量事務所",
-      "latitude": "34.7285377814",
-      "longitude": "137.5920719197",
-      "geoid_height": "49.4194",
+      "latitude": "34.728537806",
+      "longitude": "137.592071917",
+      "geoid_height": "49.469",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "\tMount Point:0C8BCB0E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "\tMount Point:0C8BCB0E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:HX-CSX601A．基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 90,
