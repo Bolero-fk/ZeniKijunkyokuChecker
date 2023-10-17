@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-16 15:16:12",
+  "UpdateTime(JST)": "2023-10-17 15:17:25",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1415,16 +1415,16 @@
       "id": 95,
       "city_name": "島根県益田市",
       "station_name": "高津屋技研（株）",
-      "latitude": "34.68767383",
-      "longitude": "131.81028307",
-      "geoid_height": "42.427",
+      "latitude": "34.68767372",
+      "longitude": "131.81028328",
+      "geoid_height": "42.420",
       "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント名：Takatsuya、ID：無し、パスワード：無し、受信機：u-blox ZED-F9P、アンテナ：u-blox ANN-MB-00"
+      "comment": "マウントポイント名：Takatsuya、ID：無し、パスワード：無し、受信機：u-blox ZED-F9P、アンテナ：u-blox ANN-MB-00、座標値：電子基準点（益田、三隅、須佐）との基線解析"
     },
     {
       "id": 96,
