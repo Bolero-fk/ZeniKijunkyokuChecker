@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-18 15:17:18",
+  "UpdateTime(JST)": "2023-10-19 15:16:52",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -914,7 +914,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "FaceBook 「高校生のRTK-GNSS同好会！」用に、当時高校生が設置。受信機u-blox ZED-F9P(トラ技） アンテナ Beitian BT-290 Mount Point: MASK　ID: guest　Password: guest　　基準局座標値は電子基準点:小金井(基線長約5.0㎞)を使用したRTKPOSTによる後処理基線解析結果。ご利用時の感想、励みになります。(2022.4.10 再公開) "
+      "comment": "R5,10,19　暫定復旧。受信機u-blox ZED-F9P(トラ技） アンテナ Beitian BT-290 Mount Point: MASK　ID: guest　Password: guest　　基準局座標値は電子基準点:小金井(基線長約5.0㎞)を使用したRTKPOSTによる後処理基線解析結果。現在、GPS及びGalileoのみで運用中。"
     },
     {
       "id": 62,
