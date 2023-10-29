@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-28 15:15:33",
+  "UpdateTime(JST)": "2023-10-29 15:14:33",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1347,9 +1347,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "\tMount Point:0C8BCB0E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:HX-CSX601A．基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "2023年10月31日までメンテナンスのため休止を予定\tMount Point:0C8BCB0E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:HX-CSX601A．基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 91,
