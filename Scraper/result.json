@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-29 15:14:33",
+  "UpdateTime(JST)": "2023-10-30 15:16:56",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1339,17 +1339,17 @@
     {
       "id": 90,
       "city_name": "静岡県浜松市",
-      "station_name": "土地家屋調査士　小川登記測量事務所",
-      "latitude": "34.728537750",
-      "longitude": "137.592071833",
-      "geoid_height": "49.386",
+      "station_name": "合同会社　巡検（3周波）・土地家屋調査士　小川宗隆事務所",
+      "latitude": "34.728599806",
+      "longitude": "137.591980472",
+      "geoid_height": "50.6969",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "2023年10月31日までメンテナンスのため休止を予定\tMount Point:0C8BCB0E ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:HX-CSX601A．基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "Mount Point:B49FE93E ID:なし，Password:なし，受信機:RZS.D アンテナ:HX-CSX601A 基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 91,
