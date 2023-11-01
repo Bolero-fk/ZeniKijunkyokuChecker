@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-10-31 15:16:58",
+  "UpdateTime(JST)": "2023-11-01 15:16:53",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1324,7 +1324,7 @@
     {
       "id": 89,
       "city_name": "浜松市東区有玉北町",
-      "station_name": "sube",
+      "station_name": "土地家屋調査士　須部事務所",
       "latitude": "34.7605743317",
       "longitude": "137.7524699208",
       "geoid_height": "61.2545",
