@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-11-05 15:14:38",
+  "UpdateTime(JST)": "2023-11-06 15:18:11",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -259,7 +259,7 @@
     {
       "id": 18,
       "city_name": "北海道沙流郡平取町振内町",
-      "station_name": "㈲川上木材有志局(平取公開第2号)kazuの信者",
+      "station_name": "㈲川上木材有志局(平取公開2号局)kazuの信者",
       "latitude": "42.725524820",
       "longitude": "142.300629698",
       "geoid_height": "120.344",
@@ -274,7 +274,7 @@
     {
       "id": 19,
       "city_name": "北海道沙流郡平取町本町",
-      "station_name": "沙流川森林組合有志局(平取公開第1号)hamaの信者",
+      "station_name": "沙流川森林組合有志局(平取公開1号局)hamaの信者",
       "latitude": "42.588590635",
       "longitude": "142.132457516",
       "geoid_height": "99.288",
