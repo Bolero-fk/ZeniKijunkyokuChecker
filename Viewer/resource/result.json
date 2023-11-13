@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-11-12 15:14:50",
+  "UpdateTime(JST)": "2023-11-13 15:17:20",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1355,9 +1355,9 @@
       "id": 91,
       "city_name": "静岡県浜松市",
       "station_name": "合同会社　巡検（3周波）・土地家屋調査士　小川宗隆事務所",
-      "latitude": "34.728599806",
-      "longitude": "137.591980472",
-      "geoid_height": "50.6969",
+      "latitude": "34.728599904",
+      "longitude": "137.591980465",
+      "geoid_height": "50.6896",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
