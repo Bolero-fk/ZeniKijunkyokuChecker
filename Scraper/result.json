@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-11-18 15:15:06",
+  "UpdateTime(JST)": "2023-11-19 15:15:39",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1474,7 +1474,7 @@
     {
       "id": 99,
       "city_name": "静岡県御前崎市",
-      "station_name": "ohnb",
+      "station_name": "ohnb/C029",
       "latitude": "34.611555083",
       "longitude": "138.187898194",
       "geoid_height": "81.35",
@@ -1484,7 +1484,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、浜岡１、静岡相良２)を使用した三次元網平均計算による成果（元期）（72Hスタティック観測、SemiDyna2023.par利用）"
+      "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、浜岡１、静岡相良２)を使用した三次元網平均計算による成果（元期）（72Hスタティック観測、SemiDyna2023.par利用）令和５年１０月２５日民間等電子基準点C級登録　登録番号　No.737"
     },
     {
       "id": 100,
