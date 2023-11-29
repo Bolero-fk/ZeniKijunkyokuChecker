@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-11-28 15:18:02",
+  "UpdateTime(JST)": "2023-11-29 15:17:31",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1289,7 +1289,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:0CA05A92 ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　 基準局座標値は電子基準点（静岡森、袋井、S天竜)を使用した三次元網平均計算による成果（元期） （24Hスタティック観測、SemiDyna2023.par利用）GPS,,GLO,GAL,BDS　諸事情によりQZSS配信中止しました。2023.11機材不調により配信停止中です。"
+      "comment": "Mount Point:0CA05A92 ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　 基準局座標値は電子基準点（静岡森、袋井、S天竜)を使用した三次元網平均計算による成果（元期） （24Hスタティック観測、SemiDyna2023.par利用）GPS,,GLO,GAL,BDS　諸事情によりQZSS配信中止しました。"
     },
     {
       "id": 87,
