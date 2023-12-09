@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-12-08 15:17:09",
+  "UpdateTime(JST)": "2023-12-09 15:15:15",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -517,7 +517,7 @@
       "station_name": "金森智修土地家屋調査士事務所",
       "latitude": "36.959501681",
       "longitude": "136.868577145",
-      "geoid_height": "53.8899",
+      "geoid_height": "53.8900",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
