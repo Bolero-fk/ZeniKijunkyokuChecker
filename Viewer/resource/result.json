@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-12-09 15:15:15",
+  "UpdateTime(JST)": "2023-12-10 15:15:10",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -963,18 +963,18 @@
     },
     {
       "id": 65,
-      "city_name": "千葉県横芝光町",
+      "city_name": "千葉県山武郡横芝光町",
       "station_name": "土地家屋調査士押尾正一事務所",
-      "latitude": "35.663666611",
-      "longitude": "140.506393944",
-      "geoid_height": "44.8348",
+      "latitude": "35.663666639",
+      "longitude": "140.506393917",
+      "geoid_height": "44.7828",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point：0C06E596 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は暫定値です。ご利用は自己責任でお願いします。責任問題については当方は一切関知しません。「奇準局」から「基準局」なったばかりなので、気まぐれで落ちているときはご了承ください。"
+      "comment": "Mount Point:0C06E596，ID:なし，Password:なし， 受信機:ublox F9P DG-PRO1 RWP．アンテナ:u-blox． ご利用は自己責任でお願いします。 責任問題については当方は一切関知しません。 システム維持には努めますが落ちているときはご了承ください。 2023.12.10改測"
     },
     {
       "id": 66,
@@ -1692,9 +1692,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "利用規約に同意していただける方へ公開しています。詳細は https://www.oita-it.ac.jp/news/rtk/ ※「RTK2go.com」の仕様変更により、ID部分に利用者のメールアドレス要入力"
+      "comment": "メンテナンス中、利用規約に同意していただける方へ公開しています。詳細は https://www.oita-it.ac.jp/news/rtk/ ※「RTK2go.com」の仕様変更により、ID部分に利用者のメールアドレス要入力"
     },
     {
       "id": 114,
