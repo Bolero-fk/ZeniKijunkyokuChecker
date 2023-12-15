@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-12-14 15:17:34",
+  "UpdateTime(JST)": "2023-12-15 15:17:12",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -524,7 +524,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2023.9.11改測"
     },
     {
       "id": 36,
@@ -1019,7 +1019,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "2023/01/18 サーバアドレス、Mount Pointを変更しました。電子基準点（C級No.2）サーバーアドレス：ntrip1.bizstation.jp Mount Point: E8B5845A 　ID:なし，Password:なし，受信機 u-blox ZED-F9P ,アンテナ Tallysman TW3870 基準局座標値は電子基準点 町田、八王子、世田谷の3点よりStatic観測、三次元網平均計算、SemiDyna2020ver.1.0.0よりセミダイナミック補正後の元期座標"
+      "comment": "電子基準点（C級No.2）令和2年7月より運用していましたが転居のため、令和5年12月25日もって配信を終了いたします。"
     },
     {
       "id": 69,
