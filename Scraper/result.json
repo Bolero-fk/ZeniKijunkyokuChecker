@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-12-17 15:15:29",
+  "UpdateTime(JST)": "2023-12-18 15:17:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -740,8 +740,8 @@
       "id": 50,
       "city_name": "茨城県古河市",
       "station_name": "福田土地家屋調査士事務所",
-      "latitude": "36.197885650",
-      "longitude": "139.721427651",
+      "latitude": "36.19788557067",
+      "longitude": "139.7214276663",
       "geoid_height": "64.6",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
@@ -749,7 +749,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D971AA ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は暫定"
+      "comment": "Mount Point：10D971AA ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は基準局座標値は電子基準点［三和,久喜,佐野］との24H_Static観測解析結果"
     },
     {
       "id": 51,
@@ -800,8 +800,8 @@
       "id": 54,
       "city_name": "茨城県境町",
       "station_name": "木村泰之土地家屋調査士事務所",
-      "latitude": "36.1126779290222",
-      "longitude": "139.797947378685",
+      "latitude": "36.1126779063",
+      "longitude": "139.7979473777",
       "geoid_height": "60.0",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
@@ -809,7 +809,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE7E6　ID:なし　Password：なし　受信機：Septentrio RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下］との72H_Static観測解析結果　高さは楕円体高　2021.05.02公開　2023.11.07改測"
+      "comment": "Mount Point：B49FE7E6　ID:なし　Password：なし　受信機：Septentrio RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下］との72H_Static観測解析結果　2021.05.02公開　2023.11.07改測"
     },
     {
       "id": 55,
@@ -839,7 +839,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D85AA2 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：u-blox　基準局座標値は電子基準点［三和,石下,つくば１］とのStatic観測解析結果　高さは楕円体高"
+      "comment": "Mount Point：10D85AA2 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：u-blox　基準局座標値は電子基準点［三和,石下,つくば１］とのStatic観測解析結果"
     },
     {
       "id": 57,
