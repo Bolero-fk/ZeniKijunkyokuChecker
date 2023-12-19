@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-12-18 15:17:23",
+  "UpdateTime(JST)": "2023-12-19 15:17:02",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -755,8 +755,8 @@
       "id": 51,
       "city_name": "茨城県八千代町",
       "station_name": "仲内土地家屋調査士事務所",
-      "latitude": "36.178383800",
-      "longitude": "139.889987800",
+      "latitude": "36.1783835979",
+      "longitude": "139.889987938",
       "geoid_height": "70.3",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
@@ -764,7 +764,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D90FC2 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は暫定"
+      "comment": "Mount Point：10D90FC2 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は電子基準点［三和,石下］との24H_Static観測解析結果"
     },
     {
       "id": 52,
@@ -1475,16 +1475,16 @@
       "id": 99,
       "city_name": "安芸太田町-加計",
       "station_name": "YOSHIMURA",
-      "latitude": "34.6168750490",
-      "longitude": "132.317787417",
-      "geoid_height": "227.706",
-      "server_address": "RTK2go.com",
-      "port_number": "2101",
+      "latitude": "34.616877129",
+      "longitude": "132.317780666",
+      "geoid_height": "227.835",
+      "server_address": "160.16.134.72",
+      "port_number": "80",
       "data_type": "u-blox",
       "connection_type": "STRSVR",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint yoshimura ２０２２年１２月再開予定（新事務所移転に伴う）。スタティック観測の後（2022/11/24UTC）戸河内Ａ,芸北,千代田,とＰPＫ。以前の位置情報から変更されています。試験運用のため停止させる場合があります。位置決定(2022/11/28)（芸北-当アンテナ位置-戸河内への誤差10ｍｍ程度）-3536262.812\t3890553.914\t3599340.303"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2023年12月試験運用再開 スタティック観測の後 戸河内Ａ,芸北,千代田,とＰPＫ。試験運用のため停止させる場合があります。芸北-戸河内-千代田で3次元網平均"
     },
     {
       "id": 100,
