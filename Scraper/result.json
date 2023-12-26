@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2023-12-25 15:16:47",
+  "UpdateTime(JST)": "2023-12-26 15:16:08",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1480,11 +1480,11 @@
       "geoid_height": "227.835",
       "server_address": "160.16.134.72",
       "port_number": "80",
-      "data_type": "u-blox",
+      "data_type": "RTCM3",
       "connection_type": "STRSVR",
       "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint YOSHIMURA  2023年12月試験運用再開 スタティック観測の後 戸河内Ａ,芸北,千代田,とＰPＫ。試験運用のため停止させる場合があります。芸北-戸河内-千代田で3次元網平均"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2023年12月試験運用再開 スタティック観測の後 戸河内Ａ,芸北,千代田,とＰPＫ。芸北-戸河内-千代田で3次元網平均（元期） M8P 1周波RTCM3での試験運用中"
     },
     {
       "id": 100,
