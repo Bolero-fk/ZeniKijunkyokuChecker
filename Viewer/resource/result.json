@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-01 15:16:12",
+  "UpdateTime(JST)": "2024-01-02 15:16:58",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -522,9 +522,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2023.9.11改測　地震のためしばらく休止します。"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2023.9.11改測"
     },
     {
       "id": 36,
@@ -1713,18 +1713,18 @@
     },
     {
       "id": 115,
-      "city_name": "福岡県うきは市吉井町",
+      "city_name": "福岡県うきは市",
       "station_name": "sym",
       "latitude": "33.35644320",
       "longitude": "130.76143127",
       "geoid_height": "67.0664",
-      "server_address": "",
+      "server_address": "103.169.145.16",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "開局準備中マウントポイント: main, ID: なし, パスワード: なし\\n 試験運用中。そのうち運用中止します。任意ですが、使用する際は時間等メールでご一報いただけるとその時間にはメンテナンスは行わないよういたします。\\n 受信機: ZED-F9P, アンテナ: JCA228B"
+      "comment": "マウントポイント: main, ID: なし, パスワード: なし\\n 試験運用中。そのうち運用中止します。任意ですが、使用する際は時間等メールでご一報いただけるとその時間にはメンテナンスは行わないよういたします。\\n 受信機: ZED-F9P, アンテナ: JCA228B"
     },
     {
       "id": 116,
