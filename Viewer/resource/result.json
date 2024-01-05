@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-04 15:18:13",
+  "UpdateTime(JST)": "2024-01-05 15:17:00",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1865,16 +1865,16 @@
       "id": 125,
       "city_name": "熊本市",
       "station_name": "熊本学園大学",
-      "latitude": "32.803791672",
-      "longitude": "130.730539100",
-      "geoid_height": "86.3792",
+      "latitude": "32.803788188",
+      "longitude": "130.730568187",
+      "geoid_height": "86.5499",
       "server_address": "160.16.134.72",
       "port_number": "80",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
       "status": "休止",
       "mail": "○",
-      "comment": "移設作業のため休止中、Mountpoint:KUMAGAKU、ID:akaushi、password: cqntripupload、アンテナTW3710(Tallysman社製)で受信したデータ（GPS+BeiDou+QZSS）をNEO-M8P-2（ublox社製）で処理して2019.10.20より配信中。電子基準点 熊本（基線長約3km）からStatic計測。"
+      "comment": "Mountpoint:KUMAGAKU、ID:akaushi、password: cqntripupload、アンテナTW3710(Tallysman社製)で受信したデータ（GPS+BeiDou+QZSS）をNEO-M8P-2（ublox社製）で処理して2024.1.5より配信中。位置データは2023.12.23に電子基準点 熊本（基線長約3km）からStatic計測した今期データ。"
     },
     {
       "id": 126,
