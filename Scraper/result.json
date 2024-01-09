@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-08 15:17:34",
+  "UpdateTime(JST)": "2024-01-09 15:17:44",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1475,16 +1475,16 @@
       "id": 99,
       "city_name": "安芸太田町-加計",
       "station_name": "YOSHIMURA",
-      "latitude": "34.616877129",
-      "longitude": "132.317780666",
-      "geoid_height": "227.835",
+      "latitude": "34.616876778",
+      "longitude": "132.317780653",
+      "geoid_height": "227.841",
       "server_address": "160.16.134.72",
-      "port_number": "80",
+      "port_number": "2101",
       "data_type": "RTCM3",
-      "connection_type": "STRSVR",
+      "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint YOSHIMURA  2023年12月試験運用再開 スタティック観測の後 戸河内Ａ,芸北,千代田,とＰPＫ。芸北-戸河内-千代田で3次元網平均（元期） M8P 1周波RTCM3での試験運用中"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開 スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P ２周波RTCM3(GPS,GLO,GAL,BDS )で運用中 （試験運用から若干座標が異なっています）"
     },
     {
       "id": 100,
