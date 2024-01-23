@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-22 15:18:17",
+  "UpdateTime(JST)": "2024-01-23 15:17:54",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1353,7 +1353,7 @@
     },
     {
       "id": 91,
-      "city_name": "静岡県浜松市東区有玉北町",
+      "city_name": "静岡県浜松市中央区有玉北町",
       "station_name": "土地家屋調査士　須部事務所",
       "latitude": "34.7605743317",
       "longitude": "137.7524699208",
