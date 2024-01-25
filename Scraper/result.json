@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-24 15:18:33",
+  "UpdateTime(JST)": "2024-01-25 15:18:12",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1799,7 +1799,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point：0C4526A6 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:JCA228B．基準局座標値は暫定"
+      "comment": "Mount Point：kawano3band，Password:なし，受信機:Septentrio社mosaic-X5，アンテナ:HX－CSX601A．基準局座標値は暫定"
     },
     {
       "id": 121,
