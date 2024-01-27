@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-26 15:16:12",
+  "UpdateTime(JST)": "2024-01-27 15:13:51",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1793,7 +1793,7 @@
       "latitude": "33.098424472",
       "longitude": "130.456265194",
       "geoid_height": "43.52",
-      "server_address": "ntrip1.bizstation.jp",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
