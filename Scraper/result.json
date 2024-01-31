@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-01-30 15:16:50",
+  "UpdateTime(JST)": "2024-01-31 15:15:45",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1754,7 +1754,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機: RWX アンテナ:HX-CSX601A 基準局座標値は暫定(2023.2.22公開)"
+      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 基準局座標値は暫定(2023.2.22公開)"
     },
     {
       "id": 118,
