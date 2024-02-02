@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-02-01 15:15:27",
+  "UpdateTime(JST)": "2024-02-02 15:16:14",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -147,7 +147,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "Mpoint:YAMABE　Pass:     port:2101"
     },
