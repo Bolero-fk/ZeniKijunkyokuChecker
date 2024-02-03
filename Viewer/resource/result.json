@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-02-02 15:16:14",
+  "UpdateTime(JST)": "2024-02-03 15:15:05",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -824,7 +824,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE7E6　ID:なし　Password：なし　受信機：Septentrio RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下］との72H_Static観測解析結果　2021.05.02公開　2023.11.07改測"
+      "comment": "Mount Point：B49FE7E6　ID:なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点［三和,庄和A,石下］との72H_Static観測解析結果　2021.05.02公開　2023.11.07改測"
     },
     {
       "id": 56,
