@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-02-09 15:15:18",
+  "UpdateTime(JST)": "2024-02-10 15:14:13",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -530,9 +530,9 @@
       "id": 36,
       "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.9595018747",
-      "longitude": "136.8685764041",
-      "geoid_height": "53.8296",
+      "latitude": "36.959501887",
+      "longitude": "136.868576391",
+      "geoid_height": "53.8327",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
