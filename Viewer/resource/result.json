@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-02-17 15:15:04",
+  "UpdateTime(JST)": "2024-02-18 15:16:25",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -530,16 +530,16 @@
       "id": 36,
       "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.9595018879",
-      "longitude": "136.8685764014",
-      "geoid_height": "53.8848",
+      "latitude": "36.9595018918",
+      "longitude": "136.8685763811",
+      "geoid_height": "53.8815",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2024.2.15改測"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2024.2.17改測"
     },
     {
       "id": 37,
