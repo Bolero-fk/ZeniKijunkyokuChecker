@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-02-19 15:16:33",
+  "UpdateTime(JST)": "2024-02-20 15:15:01",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -994,17 +994,17 @@
     {
       "id": 67,
       "city_name": "東京都八王子市",
-      "station_name": "東京工業高等専門学校",
+      "station_name": "東京工業高等専門学校・情報工学科棟屋上",
       "latitude": "35.639624713",
       "longitude": "139.30002365",
       "geoid_height": "249.595",
-      "server_address": "rtk2go.com",
+      "server_address": "rtk.tokyo-ct.net",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint：KUNUGIDA-F9P　アンテナ：HARXON CORP. HX-CSX601A 　ublox F9P評価ボードで受信したデータを，GPS + GLONASS + Galileo + Beidou(フォーマットはrtcm3.2)で送信しています． 基準局座標は，24時間のstatic測位で求めた値を，八王子基準局(基線長6.7km)でRTK演算して決定しました．5Hzで送信しています．2022/10/25 ntripへの移行が完了したため復旧．"
+      "comment": "Mountpoint：nittc-f9p, アンテナ：HARXON CORP. HX-CSX601A, ublox F9P評価ボードで受信したデータをGPS + GLONASS + Galileo + Beidou(フォーマットはrtcm3.2)で送信しています．基準局座標は，24時間のstatic測位で求めた値を，八王子基準局(基線長6.7km)でRTK演算して決定しました．5Hzで送信しています．2024/02/20 メンテナンス・直接配信に変更，ポート番号は2104もok"
     },
     {
       "id": 68,
@@ -1310,16 +1310,16 @@
       "id": 88,
       "city_name": "兵庫県伊丹市",
       "station_name": "土地家屋調査士藤井十章",
-      "latitude": "34.791478028",
-      "longitude": "135.391626889",
-      "geoid_height": "73.212",
+      "latitude": "34.791478138",
+      "longitude": "135.3916269444",
+      "geoid_height": "73.1913",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:0C8BD4BE (1074,1084,1094,1230,1005) ID:なし, Password:なし, <br>受信機: DG-PRO1 RWS アンテナ:u-blox  <br>Drogger Processorで解析"
+      "comment": "Mount Point:0C8BD4BE (1074,1084,1094,1230,1005) ID:なし, Password:なし,  受信機: DG-PRO1 RWS アンテナ:u-blox  Drogger Processorで解析 R6.02.17再観測"
     },
     {
       "id": 89,
