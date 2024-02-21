@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-02-20 15:15:01",
+  "UpdateTime(JST)": "2024-02-21 15:15:49",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -200,16 +200,16 @@
       "id": 14,
       "city_name": "北海道夕張",
       "station_name": "UTK 局 ",
-      "latitude": "43.011148100",
-      "longitude": "141.692340040",
-      "geoid_height": "50.418",
+      "latitude": "43.011148240",
+      "longitude": "141.692340080",
+      "geoid_height": "50.3568",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R4.10.7元期変換 "
+      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R6.2.1元期変換 "
     },
     {
       "id": 15,
@@ -530,16 +530,16 @@
       "id": 36,
       "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.9595018918",
-      "longitude": "136.8685763811",
-      "geoid_height": "53.8815",
+      "latitude": "36.9595018879",
+      "longitude": "136.8685764014",
+      "geoid_height": "53.8848",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2024.2.17改測"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2024.2.15改測"
     },
     {
       "id": 37,
