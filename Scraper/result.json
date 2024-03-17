@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-03-16 15:14:11",
+  "UpdateTime(JST)": "2024-03-17 15:16:09",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -140,16 +140,16 @@
       "id": 10,
       "city_name": "北海道富良野市",
       "station_name": "富良野市山部局",
-      "latitude": "43.274504481",
-      "longitude": "142.379761000",
-      "geoid_height": "281.335",
-      "server_address": "rtk2go.com",
+      "latitude": "43.274516161",
+      "longitude": "142.379754",
+      "geoid_height": "278.751",
+      "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "休止",
-      "mail": "×",
-      "comment": "Mpoint:YAMABE　Pass:     port:2101"
+      "mail": "○",
+      "comment": "Mpoint:0CA0597A　Pass: なし    port:2101"
     },
     {
       "id": 11,
