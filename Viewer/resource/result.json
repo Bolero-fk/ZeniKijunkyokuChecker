@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-03-17 15:16:09",
+  "UpdateTime(JST)": "2024-03-18 15:16:10",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -485,16 +485,16 @@
       "id": 33,
       "city_name": "新潟県新潟市",
       "station_name": "（有）ジーテック",
-      "latitude": "37.89752660",
-      "longitude": "139.08308480",
-      "geoid_height": "45.710",
+      "latitude": "37.8975272",
+      "longitude": "139.0830841",
+      "geoid_height": "45.84",
       "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "STRSVR",
       "status": "公開",
       "mail": "○",
-      "comment": "試験運用中です。　　マウントポイント：NIIGATA-GTEC　　ユーザー名：なし、パスワード：なし　　機材：ARDUSIMPLE社製を利用　　受信機：u-Blox F9P(simpleRTK2Blite)　　アンテナ：AS-ANT2BCAL(Calibrated Survey GNSS Multiband antenna (IP67))　　GPS+GLO+GAL+BDS"
+      "comment": "2024/3/18 再計測を行いました（基準局座標値は電子基準点「新潟」基線長8.29km　を用いた後解析結果）。　　マウントポイント：NIIGATA-GTEC　　ユーザー名：なし、パスワード：なし　　機材：ARDUSIMPLE社製を利用　　受信機：u-Blox F9P(simpleRTK2Blite)　　アンテナ：AS-ANT2BCAL(Calibrated Survey GNSS Multiband antenna (IP67))　　GPS+GLO+GAL+BDS"
     },
     {
       "id": 34,
