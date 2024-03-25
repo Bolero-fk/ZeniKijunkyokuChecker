@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-03-24 15:14:36",
+  "UpdateTime(JST)": "2024-03-25 15:17:54",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -209,7 +209,7 @@
       "connection_type": "Ntrip",
       "status": "休止",
       "mail": "○",
-      "comment": " F9p . 公開要求対応 . Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R6.2.1元期変換 "
+      "comment": "公開要求対応 . F9p .  Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R6.2.1元期変換済み "
     },
     {
       "id": 15,
