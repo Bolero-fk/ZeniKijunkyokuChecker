@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-04-03 15:16:06",
+  "UpdateTime(JST)": "2024-04-04 15:16:24",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -803,13 +803,13 @@
       "latitude": "36.11435713",
       "longitude": "140.07701944",
       "geoid_height": "76.288",
-      "server_address": "RTK2go.com",
+      "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:KANAME-RTCM3 ID:なし，Password:なし，受信機ublox F9P DG-PRO1 RWS TYPE1005（基準局位置），1077,1087,1097,1127,1230．アンテナ　Harxon　HX-CSX601A．基準局座標値は電子基準点つくば１とのStatic測量結果 高さは楕円体高"
+      "comment": "2024/4/4 Casterをrtk2goからbizstationに変更　Mount Point:B49FE46E ID:なし，Password:なし，受信機ublox F9P DG-PRO1 RWS TYPE1005（基準局位置），1077,1087,1097,1127,1230．アンテナ　Harxon　HX-CSX601A．基準局座標値は電子基準点つくば１とのStatic測量結果 高さは楕円体高"
     },
     {
       "id": 55,
@@ -1499,7 +1499,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開 スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P ２周波RTCM3(GPS,GLO,GAL,BDS )で運用中 （試験運用から若干座標が異なっています）"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開 スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P ２周波RTCM3(GPS,GLO,GAL,BDS )で運用中 （仰角35度以上での使用をお薦めします）"
     },
     {
       "id": 101,
@@ -1752,9 +1752,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 基準局座標値は暫定(2023.2.22公開)"
+      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 基準局座標値は暫定(2023.2.22公開)※2024.4.4～4.9まで休止します。"
     },
     {
       "id": 118,
