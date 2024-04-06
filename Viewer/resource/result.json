@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-04-05 15:16:29",
+  "UpdateTime(JST)": "2024-04-06 15:15:26",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1474,17 +1474,17 @@
     {
       "id": 99,
       "city_name": "島根県益田市",
-      "station_name": "土地家屋調査士　斎藤事務所",
-      "latitude": "34.677202902",
-      "longitude": "131.848995461",
-      "geoid_height": "41.708",
+      "station_name": "【三周波】土地家屋調査士　斎藤事務所 ",
+      "latitude": "34.6772027",
+      "longitude": "131.84899519",
+      "geoid_height": "41.76",
       "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：ken_kizyunkyoku0131 ID:なし，Password:なし  アンテナ:GN-GGB0710 受信機:ZED-F9P 座標値:電子基準点(益田・三隅・匹見)からのスタティック解析(元期)　※三次元網平均計算による"
+      "comment": "Mount Point：ken_kizyunkyoku0131 ID:なし，Password:なし  アンテナ:JCA228F 受信機:UM980 座標値:電子基準点(益田・三隅・匹見)からのスタティック解析(元期)　※三次元網平均計算による"
     },
     {
       "id": 100,
