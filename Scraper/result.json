@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-04-07 15:16:34",
+  "UpdateTime(JST)": "2024-04-08 15:15:24",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1745,16 +1745,16 @@
       "id": 117,
       "city_name": "大分県日田市",
       "station_name": "羽野福美土地家屋調査士事務所",
-      "latitude": "33.320577000",
-      "longitude": "130.939030194",
-      "geoid_height": "132.7959",
+      "latitude": "33.3205769732",
+      "longitude": "130.9390301597",
+      "geoid_height": "132.8523",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 基準局座標値は暫定(2023.2.22公開)※2024.4.4～4.9まで休止します。"
+      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 座標は電子基準点：日田・前津江・小石原 からの三次元網平均計算による成果値(2023.2.22公開,2024.04.04改測)"
     },
     {
       "id": 118,
