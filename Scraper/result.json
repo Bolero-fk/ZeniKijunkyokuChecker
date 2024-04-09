@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-04-08 15:15:24",
+  "UpdateTime(JST)": "2024-04-09 15:17:29",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1394,7 +1394,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE93E ID:なし，Password:なし，受信機:RZS.D アンテナ:HX-CSX601A 基準局座標値は電子基準点（雄踏A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "Mount Point:B49FE93E ID:なし，Password:なし，受信機:RZS.D アンテナ:HX-CSX601A 基準局座標値は電子基準点（雄踏A、湖西、浜松伊左地、三ケ日、浜松A)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 94,
