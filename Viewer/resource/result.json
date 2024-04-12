@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-04-11 15:17:08",
+  "UpdateTime(JST)": "2024-04-12 15:16:40",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -143,13 +143,13 @@
       "latitude": "43.274516161",
       "longitude": "142.379754",
       "geoid_height": "278.751",
-      "server_address": "ntrip1.bizstation.jp",
+      "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "休止",
       "mail": "○",
-      "comment": "Mpoint:0CA0597A　Pass: なし    port:2101"
+      "comment": "Mpoint:yamabe13　Pass: なし    port:2101"
     },
     {
       "id": 11,
