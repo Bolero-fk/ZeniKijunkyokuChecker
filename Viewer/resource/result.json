@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-04-24 15:18:36",
+  "UpdateTime(JST)": "2024-04-25 15:17:47",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1992,7 +1992,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint : komatsudai02  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。"
     },
