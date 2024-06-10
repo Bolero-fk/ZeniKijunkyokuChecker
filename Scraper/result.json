@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-06-09 15:17:31",
+  "UpdateTime(JST)": "2024-06-10 15:20:41",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -545,16 +545,16 @@
       "id": 37,
       "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.9595018821",
-      "longitude": "136.86857639",
-      "geoid_height": "53.8658",
+      "latitude": "36.9595018618",
+      "longitude": "136.868576398",
+      "geoid_height": "53.8664",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2024.06.08改測"
+      "comment": "Mount Point：B49FE922　ID：なし　Password：なし　受信機：Septentrio mosaic-X5 RZS.D　アンテナ：Harxon HX-CSX601A　基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）2024.06.09改測"
     },
     {
       "id": 38,
@@ -1722,9 +1722,9 @@
       "port_number": "2101",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "ＭｏｕｎｔＰｏｉｎｔ：ＫＫＣ－ＫＩＴＡＫＹＵＳＨＵ，ＰＡＳＳ：ＫＫＣ２０２０，（半角大文字です），ublox M8PのRAW，トラ技キット仕様，PPP-Staticモード測位にての位置情報です。不定期で停止することがあります。ーーー配信中ーーー"
+      "comment": "ＭｏｕｎｔＰｏｉｎｔ：ＫＫＣ－ＫＩＴＡＫＹＵＳＨＵ，ＰＡＳＳ：ＫＫＣ２０２０，（半角大文字です），ublox M8PのRAW，トラ技キット仕様，PPP-Staticモード測位にての位置情報です。不定期で停止することがあります。ーーー休止中ーーー"
     },
     {
       "id": 116,
