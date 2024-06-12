@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-06-11 15:19:26",
+  "UpdateTime(JST)": "2024-06-12 15:18:09",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1070,16 +1070,16 @@
       "id": 72,
       "city_name": "神奈川県横浜市都筑区",
       "station_name": "土地家屋調査士17号局　トレイス土地家屋調査士法人横浜",
-      "latitude": "35.55039697222",
-      "longitude": "139.5855194722",
-      "geoid_height": "78.533",
+      "latitude": "35.550396916",
+      "longitude": "139.585519611",
+      "geoid_height": "78.572",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント:tamtam，ID・Pass:なし。電子基準点・川崎、世田谷、町田によるstatic計算。2024年5月22日観測。突然のメンテナンスがあるのでご使用の際はご一報下さい。"
+      "comment": "マウントポイント:tamtam，ID・Pass:なし。電子基準点・川崎、世田谷、町田によるstatic計算。2024年6月3日観測。突然のメンテナンスがあるのでご使用の際はご一報下さい。"
     },
     {
       "id": 73,
