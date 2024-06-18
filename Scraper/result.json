@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-06-17 15:20:12",
+  "UpdateTime(JST)": "2024-06-18 15:19:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -554,7 +554,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922、ID：なし、Password：なし、受信機：Septentrio mosaic-X5 RZS.D、アンテナ：Harxon HX-CSX601A 、基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期）、2024.06.09改測"
+      "comment": "Mount Point：B49FE922，ID：なし，Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A ，基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期），2024.06.09改測"
     },
     {
       "id": 38,
