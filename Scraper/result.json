@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-07-07 15:18:46",
+  "UpdateTime(JST)": "2024-07-08 15:19:28",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -224,7 +224,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：n-survey，ID：なし，Password：なし　<a href=\"https://www.n-survey.com/gis/Base/index.htm\" target=\"_blank\">詳細</a>"
+      "comment": "Mount Point：n-survey，ID：なし，Password：なし"
     },
     {
       "id": 16,
@@ -239,7 +239,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：BCDB1DDE，ID：なし，Password：なし　<a href=\"https://www.n-survey.com/gis/Base/index2.htm\" target=\"_blank\">詳細</a>"
+      "comment": "Mount Point：BCDB1DDE，ID：なし，Password：なし"
     },
     {
       "id": 17,
@@ -575,16 +575,16 @@
       "id": 39,
       "city_name": "長野県長野市",
       "station_name": "（有）エヌシー技研",
-      "latitude": "36.6232925061",
-      "longitude": "138.2072913250",
-      "geoid_height": "398.5521",
+      "latitude": "36.623292623",
+      "longitude": "138.207291090",
+      "geoid_height": "398.538",
       "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "任意ですが、”利用目的”をメール連絡いただければ幸いです。メンテナンス等による公開停止時にご連絡を差し上げます。<br>アンテナ・受信機：DG-PRO1RWS（u-blox F9P搭載）<br>マウントポイント：NC_NAGANO、ID：なし、パスワード：なし<br>詳細：<a href=\"https://ncgiken.localinfo.jp/pages/4441547/STATIC\">エヌシー技研 ホームページ</a><br>運用開始2021.01.12"
+      "comment": "アンテナ・受信機：DG-PRO1RWS（u-blox F9P搭載） マウントポイント：NC_NAGANO　ID：なし、パスワード：なし　運用開始2021.01.12、改測2024.05.18"
     },
     {
       "id": 40,
