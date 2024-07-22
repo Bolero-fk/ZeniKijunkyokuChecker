@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-07-21 15:19:30",
+  "UpdateTime(JST)": "2024-07-22 15:20:37",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -374,7 +374,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント:981E8A9A ID:無し パスワード:無し 基準局座標はソフトバンクイチミル（補正あり元期座標）より取得"
+      "comment": "マウントポイント:981E8A9A ID:無し パスワード:無し 基準局座標はソフトバンクイチミル（補正あり元期座標）より取得．利用者アンケートを行なっています．ご協力お願いいたします．→ https://forms.gle/oGN4bHRyqWg6x64U9"
     },
     {
       "id": 26,
