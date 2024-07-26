@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-07-25 15:19:09",
+  "UpdateTime(JST)": "2024-07-26 15:19:30",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1458,6 +1458,21 @@
     },
     {
       "id": 98,
+      "city_name": "静岡県浜松市",
+      "station_name": "静岡県土地家屋調査士会西遠支部　toyo/（3周波）\t",
+      "latitude": "34.760404555",
+      "longitude": "137.66619513",
+      "geoid_height": "76.623",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point:B49FE946 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（浜松伊左地,雄踏A,引佐,S浜松,浜松A)を使用した三次元網平均計算による成果（元期）です。"
+    },
+    {
+      "id": 99,
       "city_name": "奈良県生駒市",
       "station_name": "奈良先端科学技術大学院大学",
       "latitude": "34.73211595",
@@ -1472,7 +1487,7 @@
       "comment": "Mountpoint: NAIST（RTCM3, GPS+BDS, ID:ご自身のメールアドレス, パスワードなし, ublox社NEO-M8P）、NAIST-UBX（停止中）（UBX, GPS+GLO+GAL+BDS+QZS, ID・パスワードなし, ublox社 ZED-F9P）。基準局座標は2018/4/13に大阪府交野市の電子基準点（距離：6.8km）とStatic測位して決定しました。"
     },
     {
-      "id": 99,
+      "id": 100,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部　junken/C033（3周波)",
       "latitude": "34.7285999166",
@@ -1487,7 +1502,7 @@
       "comment": "★令和6年5月16日　国土地理院民間等電子基準点C級登録　登録番号　No.2318★　Mount Point:B49FE93E 　ID:なし，Password:なし，受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（雄踏A、湖西、浜松伊左地、三ケ日、浜松A)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 100,
+      "id": 101,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部　Annex/（3周波）",
       "latitude": "34.728496083",
@@ -1500,21 +1515,6 @@
       "status": "公開",
       "mail": "○",
       "comment": "Mount Point:103F4E2A 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（S浜松、浜松A、竜洋、浜松伊左地、浜北)を使用した三次元網平均計算による成果（元期）です。"
-    },
-    {
-      "id": 101,
-      "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部　toyo/（3周波）\t",
-      "latitude": "34.728496038",
-      "longitude": "137.592091327",
-      "geoid_height": "43.164",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "Mount Point:B49FE946 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（浜松伊左地,雄踏A,引佐,S浜松,浜松A)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 102,
