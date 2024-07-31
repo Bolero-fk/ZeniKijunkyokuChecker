@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-07-30 15:19:38",
+  "UpdateTime(JST)": "2024-07-31 15:19:51",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1518,21 +1518,6 @@
     },
     {
       "id": 102,
-      "city_name": "静岡県湖西市",
-      "station_name": "静岡県土地家屋調査士会西遠支部　kuwano/（3周波）",
-      "latitude": "34.728496012",
-      "longitude": "137.592091479",
-      "geoid_height": "43.182",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "Mount Point:E8B618BA　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（湖西,豊橋A,雄踏A,三ケ日,浜松伊左地)を使用した三次元網平均計算による成果（元期）です。"
-    },
-    {
-      "id": 103,
       "city_name": "岡山市",
       "station_name": "上田技研",
       "latitude": "34.72667197",
@@ -1547,7 +1532,7 @@
       "comment": "岡山市東区でテスト運用中"
     },
     {
-      "id": 104,
+      "id": 103,
       "city_name": "浜松市",
       "station_name": "静岡大学浜松キャンパス",
       "latitude": "34.72621238",
@@ -1560,6 +1545,21 @@
       "status": "公開",
       "mail": "○",
       "comment": "詳細は https://hamamatsu-gnss.org/ をご覧ください．使用機器：Trimble NetR9．対応システム：GPS，GLO，GAL，BDS，QZS．更新頻度：1Hz．ポート80番でも配信．"
+    },
+    {
+      "id": 104,
+      "city_name": "静岡県湖西市",
+      "station_name": "静岡県土地家屋調査士会西遠支部　kuwano/（3周波）",
+      "latitude": "34.718009947",
+      "longitude": "137.533192331",
+      "geoid_height": "49.602",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point:E8B618BA　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（湖西,豊橋A,雄踏A,三ケ日,浜松伊左地)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 105,
