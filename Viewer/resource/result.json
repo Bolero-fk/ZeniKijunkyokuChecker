@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-07-31 15:19:51",
+  "UpdateTime(JST)": "2024-08-01 15:19:38",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1799,7 +1799,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:otkck,ID:なしPswd:なし, 受信機DroggerRWS アンテナGN-GGB0710"
+      "comment": "Mount Point:otkck,ID:なしPswd:なし, 受信機DroggerRWS アンテナGN-GGB0710　元期"
     },
     {
       "id": 121,
