@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-08-16 15:18:47",
+  "UpdateTime(JST)": "2024-08-17 15:17:31",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1672,7 +1672,7 @@
       "station_name": "YOSHIMURA",
       "latitude": "34.616864361",
       "longitude": "132.317790777",
-      "geoid_height": "226.9965",
+      "geoid_height": "226.997",
       "server_address": "160.16.134.72",
       "port_number": "2101",
       "data_type": "RTCM3",
