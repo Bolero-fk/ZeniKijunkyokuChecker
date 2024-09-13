@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-09-12 15:20:39",
+  "UpdateTime(JST)": "2024-09-13 15:21:49",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -545,16 +545,16 @@
       "id": 37,
       "city_name": "石川県鹿島郡中能登町",
       "station_name": "金森智修土地家屋調査士事務所",
-      "latitude": "36.9595018683",
-      "longitude": "136.8685763977",
-      "geoid_height": "53.8608",
+      "latitude": "36.9595018719",
+      "longitude": "136.8685763883",
+      "geoid_height": "53.8659",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922，ID：なし，Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A ，基準局座標値は電子基準点（志賀A、氷見、押水）からの三次元網平均計算による成果（元期），2024.08.28改測"
+      "comment": "Mount Point：B49FE922，ID：なし，Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A ，基準局座標値は電子基準点（志賀A、氷見、押水、能登島）からの三次元網平均計算による成果（元期），2024.08.26改測"
     },
     {
       "id": 38,
@@ -1094,7 +1094,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "国土地理院民間等電子基準点(C級) 登録番号 No.2429  Mount Point：B49FE586  ID:なし   Password:なし  受信機:RZS.D   アンテナ:HX-CSX601A"
+      "comment": "国土地理院民間等電子基準点(C級) 登録番号 No.2429　　Mount Point：B49FE586　　 ID:なし　　 Password:なし　　 受信機:RZS.D　　アンテナ:HX-CSX601A"
     },
     {
       "id": 74,
