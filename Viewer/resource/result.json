@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-09-16 15:22:33",
+  "UpdateTime(JST)": "2024-09-17 15:21:27",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -839,7 +839,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "2024/4/4 Casterをrtk2goからbizstationに変更　Mount Point:B49FE46E ID:なし，Password:なし，受信機ublox F9P DG-PRO1 RZS3周波 TYPE1005（基準局位置），1008(10),1075(1),1115(1),1125(1),1095(1)．アンテナ　Harxon　HX-CSX601A．基準局座標値は電子基準点つくば１とのStatic測量結果 高さは楕円体高"
+      "comment": "2024/4/4 Casterをrtk2goからbizstationに変更　Mount Point:3041F3CA 2024.9.17変更 ID:なし，Password:なし，受信機ublox F9P DG-PRO1 RWS2周波 TYPE1005（基準局位置），1008(10),1075(1),1115(1),1125(1),1085(1),1095(1)．アンテナ　Harxon　HX-CSX601A．基準局座標値は電子基準点つくば１とのStatic測量結果 高さは楕円体高"
     },
     {
       "id": 57,
