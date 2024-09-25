@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-09-24 15:21:51",
+  "UpdateTime(JST)": "2024-09-25 15:22:28",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1857,9 +1857,9 @@
       "port_number": "80",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "Mount Point: OEM7、ID・Password なし。配信: GPS/GLO/GAL/QZS/BDS (MSM7, EPH)、アンテナ座標。機材:RTKLIB2.4.3b34, NovAtel OEM729 (L1, L2, L5), Javad GrANT-G5T。座標は電子基準点広島2Aから求めた元期です(2021-03-27)。"
+      "comment": "一時停止中です。Mount Point: OEM7、ID・Password なし。配信: GPS/GLO/GAL/QZS/BDS (MSM7, EPH)、アンテナ座標。機材:RTKLIB2.4.3b34, NovAtel OEM729 (L1, L2, L5), Javad GrANT-G5T。座標は電子基準点広島2Aから求めた元期です(2021-03-27)。"
     },
     {
       "id": 125,
