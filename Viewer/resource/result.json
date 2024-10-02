@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-10-01 15:21:47",
+  "UpdateTime(JST)": "2024-10-02 15:22:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -719,7 +719,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：8C3529B6 ID：なし，Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［下館,岩瀬,上三川］とのStatic観測解析結果　2024.08.23改測"
+      "comment": "Mount Point：8C3529B6 ID：なし，Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［下館,岩瀬,上三川］とのStatic観測解析結果，改測：2024.08.23"
     },
     {
       "id": 49,
@@ -809,7 +809,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D971AA ID:なし　Password:なし　受信機:ublox F9P DG-PRO1 RWS　アンテナ:u-blox　基準局座標値は電子基準点［三和,久喜,佐野］とのStatic観測解析結果　2024.09.17改測"
+      "comment": "Mount Point：10D971AA，ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS，アンテナ:u-blox，基準局座標値は電子基準点［三和,久喜,佐野］とのStatic観測解析結果，改測：2024.09.17"
     },
     {
       "id": 55,
@@ -824,7 +824,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D90FC2 ID:なし　Password:なし　受信機:ublox F9P DG-PRO1 RWS　アンテナ:u-blox　基準局座標値は電子基準点［三和,石下］とのStatic観測解析結果　2024.02.02改測"
+      "comment": "Mount Point：10D90FC2，ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS，アンテナ:u-blox，基準局座標値は電子基準点［三和,石下］とのStatic観測解析結果，改測：2024.02.02"
     },
     {
       "id": 56,
@@ -899,7 +899,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：10D85AA2 ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：u-blox　基準局座標値は電子基準点［三和,石下,つくば１］とのStatic観測解析結果　2024.09.10改測"
+      "comment": "Mount Point：10D85AA2，ID:なし，Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［三和,石下,つくば１］とのStatic観測解析結果，改測：2024.09.10"
     },
     {
       "id": 61,
@@ -914,7 +914,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B814F4E6　ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：u-blox　基準局座標値は電子基準点［庄和A,石下,守谷］とのStatic観測解析結果　2024.09.09改測"
+      "comment": "Mount Point：B814F4E6，ID:なし，Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［庄和A,石下,守谷］とのStatic観測解析結果，改測：2024.09.09"
     },
     {
       "id": 62,
@@ -944,7 +944,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：98668632　ID:なし　Password：なし　受信機：ublox F9P DG-PRO1 RWS　アンテナ：u-blox　基準局座標値は電子基準点［守谷,庄和Ａ］とのStatic観測解析結果　2024.09.29改測"
+      "comment": "Mount Point：98668632，ID:なし，Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［守谷,庄和Ａ］とのStatic観測解析結果，改測：2024.09.29"
     },
     {
       "id": 64,
