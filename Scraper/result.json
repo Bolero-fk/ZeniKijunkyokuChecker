@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-10-02 15:22:23",
+  "UpdateTime(JST)": "2024-10-03 15:22:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -723,7 +723,7 @@
     },
     {
       "id": 49,
-      "city_name": "茨城県桜川市",
+      "city_name": "茨城県桜川市本木",
       "station_name": "根本土地家屋調査士事務所",
       "latitude": "36.327082100",
       "longitude": "140.108833100",
@@ -768,7 +768,7 @@
     },
     {
       "id": 52,
-      "city_name": "茨城県筑西市",
+      "city_name": "茨城県筑西市藤ヶ谷",
       "station_name": "上野土地家屋調査士事務所",
       "latitude": "36.263985362",
       "longitude": "139.948963820",
@@ -783,7 +783,7 @@
     },
     {
       "id": 53,
-      "city_name": "茨城県筑西市",
+      "city_name": "茨城県筑西市中上野",
       "station_name": "片平土地家屋調査士事務所",
       "latitude": "36.217910009",
       "longitude": "140.025828386",
@@ -869,7 +869,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE7E6，ID：なし，Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下］とのStatic観測解析結果，改測：2024.10.01"
+      "comment": "Mount Point：B49FE7E6，ID・Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下］とのStatic観測解析結果，改測：2024.10.01"
     },
     {
       "id": 59,
