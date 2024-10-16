@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-10-13 15:20:06",
+  "UpdateTime(JST)": "2024-10-16 15:22:26",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -42,9 +42,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "R4.9よりサーバーをRTK2goへ変更、Mount Point：Asahikawa-HAMA，ID：なし，Password：forest2020、受信機：２周波 ZED-F9P、アンテナ：u-blox 、基準局座標値は電子基準点 旭川(基線長約6.6km)を使用したRTKPOSTによる後処理基線解析結果（2020.4　楕円体高を修正、2024.9 今期→元期へ変更）、firmwareをHPG1.30へUpdate、Raspberry Pi4にて24時間運用"
+      "comment": "(調整中)R4.9よりサーバーをRTK2goへ変更、Mount Point：Asahikawa-HAMA，ID：なし，Password：forest2020、受信機：２周波 ZED-F9P、アンテナ：u-blox 、基準局座標値は電子基準点 旭川(基線長約6.6km)を使用したRTKPOSTによる後処理基線解析結果（2020.4　楕円体高を修正、2024.9 今期→元期へ変更）、firmwareをHPG1.30へUpdate、Raspberry Pi4にて24時間運用"
     },
     {
       "id": 4,
@@ -800,8 +800,8 @@
       "id": 54,
       "city_name": "茨城県古河市",
       "station_name": "福田土地家屋調査士事務所",
-      "latitude": "36.19788557067",
-      "longitude": "139.7214276663",
+      "latitude": "36.197885571",
+      "longitude": "139.721427666",
       "geoid_height": "64.6",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
@@ -891,7 +891,7 @@
       "city_name": "茨城県常総市",
       "station_name": "安田土地家屋調査士事務所",
       "latitude": "36.106801804",
-      "longitude": "139.996162239",
+      "longitude": "139.996162240",
       "geoid_height": "61.0",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
@@ -980,16 +980,16 @@
       "id": 66,
       "city_name": "千葉県印西市",
       "station_name": "川上土地家屋調査士事務所",
-      "latitude": "35.841627830",
-      "longitude": "140.162092465",
-      "geoid_height": "46.196",
+      "latitude": "35.841462447",
+      "longitude": "140.162027170",
+      "geoid_height": "48.176",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：84DC4F82，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定"
+      "comment": "Mount Point：84DC4F82，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は近傍電子基準点５点とのStatic観測解析結果，改測：2024.10.13"
     },
     {
       "id": 67,
@@ -1353,6 +1353,21 @@
     },
     {
       "id": 91,
+      "city_name": "静岡県沼津市",
+      "station_name": "土地家屋調査士木戸事務所",
+      "latitude": "35.12484075",
+      "longitude": "138.7943254",
+      "geoid_height": "54.828",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "休止",
+      "mail": "○",
+      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、戸田B)を使用した三次元網平均計算による成果（元期）です。20241025:機材修繕により停波"
+    },
+    {
+      "id": 92,
       "city_name": "京都府京都市",
       "station_name": "京都情報大学院大学 (合同会社KKラボ)",
       "latitude": "34.985040628",
@@ -1367,7 +1382,7 @@
       "comment": "Mountpoint: KK-LAB-KCG (RTCM3.2, GPS+BeiDou, ID・パスワード: 無し, u-blox社NEO-M8P)。基準局座標は、合同会社KKラボが2019/8/9に京都伏見の電子基準点観測データ24時間分を利用して決定。"
     },
     {
-      "id": 92,
+      "id": 93,
       "city_name": "愛知県知多郡東浦町",
       "station_name": "東浦",
       "latitude": "34.95379956",
@@ -1382,7 +1397,7 @@
       "comment": "Mountpoint ：HIGASHIURA　User: guest　password: guest　u-blox(ZED-F9P)   アンテナはANN-MB-00　ジオイド高　38.1422ｍ  元期座標に変換　1077,1087,1097,1127=1Hz　1005,1008,1230=0.1Hz"
     },
     {
-      "id": 93,
+      "id": 94,
       "city_name": "静岡県伊東市",
       "station_name": "土地家屋調査士田畑事務所",
       "latitude": "34.888166312",
@@ -1397,7 +1412,7 @@
       "comment": "Mount Point：TABATA-LHI、ID：なし、Password：なし<br>受信機：u-blox ZED-F9P、RTCM3（GPS,QZSS,GLONASS,Galileo,BeiDou) "
     },
     {
-      "id": 94,
+      "id": 95,
       "city_name": "兵庫県姫路市",
       "station_name": "兵庫県立大学姫路工学キャンパス",
       "latitude": "34.876713869",
@@ -1412,7 +1427,7 @@
       "comment": "作成: 2021/02/15<br>2021/03/29 位置座標を修正<br>Mount Point: UH-RTCM3 (1005, 1007, 1087, 1097, 1127, 1230)<br>ユーザ名/パス: なし/なし<br>※鳥取大学湖山キャンパスのサーバより配信<br>詳細は http://www.eng.u-hyogo.ac.jp/mse/mse13/research_rtk.html<br>受信機: u-blox ZED-F9P，アンテナ: Tallysman 製 VP6250"
     },
     {
-      "id": 95,
+      "id": 96,
       "city_name": "兵庫県小野市",
       "station_name": "KATASANファーム",
       "latitude": "34.83626623",
@@ -1427,7 +1442,7 @@
       "comment": "Mountpoint :KT 座標 :電子基準点三木3.71kmとのFIX値，トラ技DIPキット，アンテナ交換，ジオイド高 :36.8777m 2021/04/21 2周波試験配信開始 ZED-F9P, Mt:KT-RTCM3, Lat:34.83626524, Lon:134.98312175, Hei:146.000, Ant:JCA228E"
     },
     {
-      "id": 96,
+      "id": 97,
       "city_name": "静岡県周智郡森町",
       "station_name": "土地家屋調査士加藤事務所",
       "latitude": "34.83465658",
@@ -1442,7 +1457,7 @@
       "comment": "Mount Point:0CA05A92 ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　 基準局座標値は電子基準点（静岡森、袋井、S天竜)を使用した三次元網平均計算による成果（元期） （24Hスタティック観測、SemiDyna2023.par利用）GPS,GLO,GAL,BDS,QZSS (QZSS配信はじめました。)　"
     },
     {
-      "id": 97,
+      "id": 98,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部nobuhiro　/（3周波）",
       "latitude": "34.824542449",
@@ -1457,7 +1472,7 @@
       "comment": "Mount Point:B49FE766　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 98,
+      "id": 99,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部sakura　/（3周波）",
       "latitude": "34.815251639",
@@ -1472,7 +1487,7 @@
       "comment": "Mount Point:24EB90EA　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 99,
+      "id": 100,
       "city_name": "兵庫県伊丹市",
       "station_name": "土地家屋調査士藤井十章",
       "latitude": "34.791478138",
@@ -1487,7 +1502,7 @@
       "comment": "Mount Point:0C8BD4BE (1074,1084,1094,1230,1005) ID:なし, Password:なし,  受信機: DG-PRO1 RWS アンテナ:u-blox  Drogger Processorで解析 R6.02.17再観測"
     },
     {
-      "id": 100,
+      "id": 101,
       "city_name": "兵庫県三木市",
       "station_name": "ジオセンス(1周波）",
       "latitude": "34.78542084",
@@ -1502,7 +1517,7 @@
       "comment": "受信機：Neo-M8T<br>衛星：GPS,QZSS,BeiDou,Galileo <br>基準局座標値：電子基準点三木（2.4ｋｍ）とのStatic測量　<br> アンテナ：Novatel GPS-703-GGG<br>ジオイド高：36.9382ｍ  "
     },
     {
-      "id": 101,
+      "id": 102,
       "city_name": "兵庫県三木市",
       "station_name": "ジオセンス(２周波）",
       "latitude": "34.78542084",
@@ -1517,7 +1532,7 @@
       "comment": "受信機：ZED-F9P<br>衛星：GPS,GLONASS,Galileo,BeiDou<br> Mountpoint：<br>　u-blox Raw -&gt; geosense_f9p<br>　 RTCM3.2 -&gt; geosense_f9p _rtcm<br>基準局座標値：電子基準点三木（2.4ｋｍ）とのStatic測量　 <br>アンテナ：Novatel GPS-703-GGG <br>ジオイド高：36.9382ｍ "
     },
     {
-      "id": 102,
+      "id": 103,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部　sube/C032（3周波）",
       "latitude": "34.7605743333",
@@ -1532,7 +1547,7 @@
       "comment": "★令和6年5月16日　国土地理院民間等電子基準点C級登録　登録番号　No.2317★　Mount Point:B49FE4EA 　ID:なし，Password:なし，受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（S浜松、浜北、浜松伊左地、浜松A、竜洋)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 103,
+      "id": 104,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部　toyo/（3周波）\t",
       "latitude": "34.760404555",
@@ -1547,7 +1562,7 @@
       "comment": "Mount Point:B49FE946 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（浜松伊左地,雄踏A,引佐,S浜松,浜松A)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
-      "id": 104,
+      "id": 105,
       "city_name": "奈良県生駒市",
       "station_name": "奈良先端科学技術大学院大学",
       "latitude": "34.73211595",
@@ -1562,7 +1577,7 @@
       "comment": "Mountpoint: NAIST（RTCM3, GPS+BDS, ID:ご自身のメールアドレス, パスワードなし, ublox社NEO-M8P）、NAIST-UBX（停止中）（UBX, GPS+GLO+GAL+BDS+QZS, ID・パスワードなし, ublox社 ZED-F9P）。基準局座標は2018/4/13に大阪府交野市の電子基準点（距離：6.8km）とStatic測位して決定しました。"
     },
     {
-      "id": 105,
+      "id": 106,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部　junken/C033（3周波)",
       "latitude": "34.7285999166",
@@ -1577,7 +1592,7 @@
       "comment": "★令和6年5月16日　国土地理院民間等電子基準点C級登録　登録番号　No.2318★　Mount Point:B49FE93E 　ID:なし，Password:なし，受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（雄踏A、湖西、浜松伊左地、三ケ日、浜松A)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 106,
+      "id": 107,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部　Annex/（3周波）",
       "latitude": "34.728496083",
@@ -1592,7 +1607,7 @@
       "comment": "Mount Point:103F4E2A 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（S浜松、浜松A、竜洋、浜松伊左地、浜北)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
-      "id": 107,
+      "id": 108,
       "city_name": "岡山市",
       "station_name": "上田技研",
       "latitude": "34.72667197",
@@ -1607,7 +1622,7 @@
       "comment": "岡山市東区でテスト運用中"
     },
     {
-      "id": 108,
+      "id": 109,
       "city_name": "浜松市",
       "station_name": "静岡大学浜松キャンパス",
       "latitude": "34.72621238",
@@ -1622,7 +1637,7 @@
       "comment": "詳細は https://hamamatsu-gnss.org/ をご覧ください．使用機器：Trimble NetR9．対応システム：GPS，GLO，GAL，BDS，QZS．更新頻度：1Hz．ポート80番でも配信．"
     },
     {
-      "id": 109,
+      "id": 110,
       "city_name": "静岡県湖西市",
       "station_name": "静岡県土地家屋調査士会西遠支部　kuwano/（3周波）",
       "latitude": "34.718009947",
@@ -1637,7 +1652,7 @@
       "comment": "Mount Point:E8B618BA　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（湖西,豊橋A,雄踏A,三ケ日,浜松伊左地)を使用した三次元網平均計算による成果（元期）です。"
     },
     {
-      "id": 110,
+      "id": 111,
       "city_name": "兵庫県神戸市",
       "station_name": "RJBE10(2周波)",
       "latitude": "34.712044443",
@@ -1652,7 +1667,7 @@
       "comment": "★★'23/4 閉鎖しました★★ MP: JP-RJBE10 Rcvr: ZED-F9P(2周波) w/ ANN-MB-00-00 System:GPS,QZSS,GLO,GAL,BDS 電子基準点 神戸中央(局:950356,距離:9.4km)とのRTKPOST演算(24H実施) ジオイド高37.136[m] "
     },
     {
-      "id": 111,
+      "id": 112,
       "city_name": "兵庫県神戸市",
       "station_name": "神戸市立神戸工科高等学校(神戸市立科学技術高等学校)",
       "latitude": "34.703944358",
@@ -1667,7 +1682,7 @@
       "comment": "公開：2020/07/08<br>更新：2022/11/28(ｻｰﾊﾞｱﾄﾞﾚｽ,ﾏｳﾝﾄﾎﾟｲﾝﾄ)<br>受信機：ZED-F9P(ANN-MB-00)<br>配信DATA諸元：元期<a href=\"https://geortk.jp/mountpoint\"> MountPoint【KOBEKOKA】</a><br>基準局座標：電子基準点神戸中央(4.2km)とのstatic測量<br>標高：39.0352m、ジオイド高：37.1438m"
     },
     {
-      "id": 112,
+      "id": 113,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部kazu　/（3周波）",
       "latitude": "34.703231185",
@@ -1682,7 +1697,7 @@
       "comment": "Mount Point:E8B61C12　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 113,
+      "id": 114,
       "city_name": "静岡県湖西市新居町",
       "station_name": "静岡県土地家屋調査士会西遠支部sahara　/（3周波）",
       "latitude": "34.688312946",
@@ -1697,7 +1712,7 @@
       "comment": "Mount Point:B49FE6AA　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 114,
+      "id": 115,
       "city_name": "島根県益田市",
       "station_name": "高津屋技研（株）",
       "latitude": "34.68767372",
@@ -1712,7 +1727,7 @@
       "comment": "マウントポイント名：709001EE、ID：無し、パスワード：無し、受信機：u-blox ZED-F9P、アンテナ：u-blox ANN-MB-00、座標値：電子基準点（益田、三隅、須佐）との基線解析"
     },
     {
-      "id": 115,
+      "id": 116,
       "city_name": "静岡県浜松市",
       "station_name": "静岡県土地家屋調査士会西遠支部nakazushi　/（3周波）",
       "latitude": "34.680160567",
@@ -1727,7 +1742,7 @@
       "comment": "Mount Point:B49FE912　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 116,
+      "id": 117,
       "city_name": "島根県益田市",
       "station_name": "【三周波】土地家屋調査士　斎藤事務所 ",
       "latitude": "34.6772027",
@@ -1742,7 +1757,7 @@
       "comment": "Mount Point：ken_kizyunkyoku0131 ID:なし，Password:なし  アンテナ:JCA228F 受信機:UM980 座標値:電子基準点(益田・三隅・匹見)からのスタティック解析(元期)　※三次元網平均計算による"
     },
     {
-      "id": 117,
+      "id": 118,
       "city_name": "奈良県大和郡山市",
       "station_name": "奈良工業高等専門学校",
       "latitude": "34.648226702",
@@ -1757,7 +1772,7 @@
       "comment": "Mount Point：nara-k、ID：メールアドレス、Password：none。ID・Passwordの詳細は  http://rtk2go.com/how-to-connect/ をご覧ください。受信機：ZED-F9P、アンテナ：TW3972、基準局座標値は電子基準点生駒、基線長7.4kmを使用したRTKPOSTによる後処理基線解析結果（2024/06/19の24時間データを使用）"
     },
     {
-      "id": 118,
+      "id": 119,
       "city_name": "広島県-安芸太田町-加計",
       "station_name": "YOSHIMURA",
       "latitude": "34.616864361",
@@ -1772,7 +1787,7 @@
       "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開 スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P １周波（アンテナ都合）RTCM3(GPS,GLO,GAL,BDS )（仰角35度以上での使用をお薦めします）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura"
     },
     {
-      "id": 119,
+      "id": 120,
       "city_name": "三重県名張市",
       "station_name": "近畿大学工業高等専門学校",
       "latitude": "34.61311816",
@@ -1787,7 +1802,7 @@
       "comment": "Mountpoint：kindai-kosen , ID：your e-mail address , password：none , 受信機：NEO-M8P-2, アンテナ：BT-290, 配信種：GPS+GLO, 基準局座標値は電子基準点(室生(基線長8.4km)、月ヶ瀬(基線長13.0km)、白山(基線長19.5km))とのStatic測量にて測量。高さは楕円体高。"
     },
     {
-      "id": 120,
+      "id": 121,
       "city_name": "静岡県御前崎市",
       "station_name": "ohnb/C029",
       "latitude": "34.611555083",
@@ -1802,7 +1817,7 @@
       "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、浜岡１、静岡相良２)を使用した三次元網平均計算による成果（元期）（72Hスタティック観測、SemiDyna2023.par利用）令和５年１０月２５日民間等電子基準点C級登録　登録番号　No.737"
     },
     {
-      "id": 121,
+      "id": 122,
       "city_name": "広島市",
       "station_name": "オフィス小田",
       "latitude": "34.58215241",
@@ -1817,7 +1832,7 @@
       "comment": "まだ正確な位置情報が取れておらず、テスト運用中です、情報収集等のため常時配信はできていません。Mount Point:OFFICEODA ID:なし Password:なし 配信: GPS, BDS　office-oda.softether.net:80 にてTCP Serverでもテスト配信中、座標は広島市立大学の基準局を使用して計測したもの。"
     },
     {
-      "id": 122,
+      "id": 123,
       "city_name": "三重県・伊勢",
       "station_name": "伊勢・北海",
       "latitude": "34.522583800",
@@ -1832,7 +1847,7 @@
       "comment": "ublox F9Pによる受信データをRTCM3 (GPS, GALIREO, QZSS, BeiDou)で配信中．GPSアンテナ　Tallysman社 TW2710． Mount Point: ise_hokkai ,User:guest, Password:QHWpbz9i"
     },
     {
-      "id": 123,
+      "id": 124,
       "city_name": "広島県広島市安佐北区",
       "station_name": "土地家屋調査士山中匠/office yamanaka 合同会社",
       "latitude": "34.516560611",
@@ -1847,7 +1862,7 @@
       "comment": "mountpoint:Kabe_oy,ID:なし,password:なし,機材:ublox ZED-F9P, JCA228B,座標は電子基準点（広島１，広島２A，東広島B ）からの三次元網平均計算による成果値（2022年1/18～19改測）"
     },
     {
-      "id": 124,
+      "id": 125,
       "city_name": "大阪府泉大津市",
       "station_name": "阪和豊中1",
       "latitude": "34.49393008",
@@ -1862,7 +1877,7 @@
       "comment": "Mountpoint :hanwatoyonaka1  u-blox（NEO-M8P）<gps></gps>"
     },
     {
-      "id": 125,
+      "id": 126,
       "city_name": "広島県東広島市",
       "station_name": "八本松飯田",
       "latitude": "34.45324559",
@@ -1877,7 +1892,7 @@
       "comment": "Mount Point:jo4jth, ID:なし, Password:なし, 受信機u-blox トラ技RTKスタータキット基準局用【TGRTK-A】RTKLIB(str2str)+Raspberry Pi3 基準局座標値は電子基準点東広島A（基線長約6.4km）Static測量(2019/9/7測量） ベランダ設置のためアンテナロケーションは良くありません。"
     },
     {
-      "id": 126,
+      "id": 127,
       "city_name": "岸和田市",
       "station_name": "大阪土地家屋調査士会",
       "latitude": "34.452845597",
@@ -1892,7 +1907,7 @@
       "comment": "Mount Point:otkck,ID:なしPswd:なし, 受信機DroggerRWS アンテナGN-GGB0710　元期"
     },
     {
-      "id": 127,
+      "id": 128,
       "city_name": "広島市",
       "station_name": "広島市立大学",
       "latitude": "34.4401061",
@@ -1907,7 +1922,7 @@
       "comment": "一時停止中です。Mount Point: OEM7、ID・Password なし。配信: GPS/GLO/GAL/QZS/BDS (MSM7, EPH)、アンテナ座標。機材:RTKLIB2.4.3b34, NovAtel OEM729 (L1, L2, L5), Javad GrANT-G5T。座標は電子基準点広島2Aから求めた元期です(2021-03-27)。"
     },
     {
-      "id": 128,
+      "id": 129,
       "city_name": "広島市",
       "station_name": "安芸祇園HS局",
       "latitude": "34.433317833",
@@ -1922,7 +1937,7 @@
       "comment": "Mountpoint:JP_AkiGion_HS（ID ※参照・パスワードなし）<br> ※「RTK2go.com」の仕様変更により、ID部分に利用者のメールアドレス要入力(2022.11)<br> アンテナ：JCA228F　受信機：ZED-F9P（2周波　G・R・E・J・C）<br> 成果値：電子基準点(広島1・広島熊野・広島2A)からのスタティック解析（元期）<a href=\"https://x.gd/tOH6k\" target=\"_blank\">参考情報</a>"
     },
     {
-      "id": 129,
+      "id": 130,
       "city_name": "香川県三豊市",
       "station_name": "香川高専詫間キャンパス",
       "latitude": "34.23432896",
@@ -1937,7 +1952,7 @@
       "comment": "Mountpoint: KNCT-TAKUMA，ID・Password：なし，対応衛星：GPS, QZSS, GLONASS, BeiDou, Galileo，基準局座標は2018/10/25に電子基準点三野（基線長約7.7km）とのStatic測位により決定しました。2020/2/21より2周波に対応しました。機材はublox ZED-F9P，アンテナは JCA225Sです。2021/11/24基準局座標を再取得しました。"
     },
     {
-      "id": 130,
+      "id": 131,
       "city_name": "福岡県北九州市",
       "station_name": "計測検査株式会社",
       "latitude": "33.86638247",
@@ -1952,7 +1967,7 @@
       "comment": "ＭｏｕｎｔＰｏｉｎｔ：ＫＫＣ－ＫＩＴＡＫＹＵＳＨＵ，ＰＡＳＳ：ＫＫＣ２０２０，（半角大文字です），ublox M8PのRAW，トラ技キット仕様，PPP-Staticモード測位にての位置情報です。不定期で停止することがあります。ーーー公開中ーーー20240611更新"
     },
     {
-      "id": 131,
+      "id": 132,
       "city_name": "福岡県宗像市",
       "station_name": "匠",
       "latitude": "33.81308536",
@@ -1967,7 +1982,7 @@
       "comment": "MountPoint：takumi，ublox M8PのRAW，トラ技キット仕様，PPP-Staticモード測位にての位置情報です。 緯度経度は、高精度を目指して測定中で、暫定です。"
     },
     {
-      "id": 132,
+      "id": 133,
       "city_name": "福岡県京都郡苅田町",
       "station_name": "西日本工業大学おばせキャンパス",
       "latitude": "33.75312034",
@@ -1982,7 +1997,7 @@
       "comment": "Mountpoint:nishitech ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:行橋局(960686) 基準局設置場所:西日本工大おばせキャンパスM棟屋上 ジオイド高:32.7393 備考:工学部総合システム工学科土木工学系で管理・運用しています。"
     },
     {
-      "id": 133,
+      "id": 134,
       "city_name": "大分県中津市",
       "station_name": "大分県立工科短期大学校",
       "latitude": "33.596804061",
@@ -1997,7 +2012,7 @@
       "comment": "利用規約に同意していただける方へ公開しています。詳細は https://www.oita-it.ac.jp/news/rtk/ ※「RTK2go.com」の仕様変更により、ID部分に利用者のメールアドレス要入力"
     },
     {
-      "id": 134,
+      "id": 135,
       "city_name": "高知市",
       "station_name": "泉測量登記事務所・高知ドローン共同体",
       "latitude": "33.562804972",
@@ -2012,7 +2027,7 @@
       "comment": "Mountpoint:40F1AF8A,ID:無,password:無,受信機:Droger DG-PRO1RWS,アンテナ:ANN-MB-00,電子基準点　高知,土佐山,伊野を使用してStatic4時間観測(元期)。ユーザーの把握の為とメンテナンスを行う場合のお知らせをしますので、使用する場合は「メール連絡」の○をクリックして私宛にお知らせください。"
     },
     {
-      "id": 135,
+      "id": 136,
       "city_name": "福岡県うきは市",
       "station_name": "sym",
       "latitude": "33.35644320",
@@ -2027,7 +2042,7 @@
       "comment": "マウントポイント: main, ID: なし, パスワード: なし\\n 試験運用中。そのうち運用中止します。任意ですが、使用する際は時間等メールでご一報いただけるとその時間にはメンテナンスは行わないよういたします。\\n 受信機: ZED-F9P, アンテナ: JCA228B"
     },
     {
-      "id": 136,
+      "id": 137,
       "city_name": "大分県日田市",
       "station_name": "羽野福美土地家屋調査士事務所",
       "latitude": "33.3205769732",
@@ -2042,7 +2057,7 @@
       "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 座標は電子基準点：日田・前津江・小石原 からの三次元網平均計算による成果値(2023.2.22公開,2024.04.04改測)"
     },
     {
-      "id": 137,
+      "id": 138,
       "city_name": "大分市",
       "station_name": "大分工業高等専門学校",
       "latitude": "33.23271329",
@@ -2057,7 +2072,7 @@
       "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4303 備考:使用状況などをメールで送ってもらえれば励みになります^^もしGAFAなんかが使うんだったら大分高専に寄付ちょうだい。"
     },
     {
-      "id": 138,
+      "id": 139,
       "city_name": "福岡県筑後市",
       "station_name": "九州文化財計測支援集団",
       "latitude": "33.220",
@@ -2072,7 +2087,7 @@
       "comment": "UbloxF9Pのトラ技セットを使用しています。全天の見晴らしの良い低丘陵上から、GPS, GLONASS, QZSS, BeiDou, Galileo, を受信してRTCM3で配信しています。基本的に24時間運用ですが、落雷の可能性があるときは運用を一時的に休止します。2022年1月8日から運用再開します。"
     },
     {
-      "id": 139,
+      "id": 140,
       "city_name": "福岡県みやま市高田町",
       "station_name": "土地家屋調査士河野誠事務所",
       "latitude": "33.098424472",
@@ -2087,7 +2102,7 @@
       "comment": "Mount Point：kawano3band，Password:なし，受信機:Septentrio社mosaic-X5，アンテナ:HX－CSX601A．基準局座標値は暫定"
     },
     {
-      "id": 140,
+      "id": 141,
       "city_name": "長崎県川棚町",
       "station_name": "松本忠寿土地家屋調査士事務所",
       "latitude": "33.072740528",
@@ -2102,7 +2117,7 @@
       "comment": "Mount Point：THKCY，ID：なし，Password：なし,20220506　三次元網計算結果に修正"
     },
     {
-      "id": 141,
+      "id": 142,
       "city_name": "福岡県大牟田市桜町１３２番地",
       "station_name": "桜町測量(３周波)／溝田・佐野土地家屋調査士事務所",
       "latitude": "33.004415556",
@@ -2117,7 +2132,7 @@
       "comment": "３周波基準点■国家座標■Mount Point:sakura3wave 受信機: mosaic-goX5モジュール(L1+L2+L5) アンテナ:HX-CSX601A  詳細sakura.3ku.jp"
     },
     {
-      "id": 142,
+      "id": 143,
       "city_name": "福岡県大牟田市桜町１３２番地",
       "station_name": "桜町測量(２周波)／溝田・佐野土地家屋調査士事務所",
       "latitude": "33.004415556",
@@ -2132,7 +2147,7 @@
       "comment": "２周波基準点■国家座標■民間等電子基準点登録(C級No.63)■Mount Point:34E24AAE 受信機: DroggerRWX アンテナ:HX-CSX601A  詳細sakura.3ku.jp"
     },
     {
-      "id": 143,
+      "id": 144,
       "city_name": "大分県豊後大野市三重町",
       "station_name": "大分県農林水産研究指導センター",
       "latitude": "32.98991237",
@@ -2147,7 +2162,7 @@
       "comment": "Mountpoint:oita-mie ID:なし password:なし アンテナ: GN-GGB0710(TOPGNSS) 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:大分三重局(950475) 基準局設置場所:農林水産研究指導センター屋上 ジオイド高:31.8433"
     },
     {
-      "id": 144,
+      "id": 145,
       "city_name": "熊本県合志市",
       "station_name": "熊本高専熊本キャンパス01",
       "latitude": "32.876434604",
@@ -2162,7 +2177,7 @@
       "comment": "ublox6TのRAWを配信しています。rtk2go.comにおいて、kumakuma01 のマウントポイントです。なお、位置データはPPP Static測位によるものです。"
     },
     {
-      "id": 145,
+      "id": 146,
       "city_name": "熊本市",
       "station_name": "熊本学園大学",
       "latitude": "32.803788188",
@@ -2177,7 +2192,7 @@
       "comment": "Mountpoint:KUMAGAKU、ID:akaushi、password: cqntripupload、アンテナTW3710(Tallysman社製)で受信したデータ（GPS+BeiDou+QZSS）をNEO-M8P-2（ublox社製）で処理して2024.1.5より配信中。位置データは2023.12.23に電子基準点 熊本（基線長約3km）からStatic計測した今期データ。"
     },
     {
-      "id": 146,
+      "id": 147,
       "city_name": "熊本県八代市",
       "station_name": "熊本高専八代キャンパス01",
       "latitude": "32.47559962",
@@ -2192,7 +2207,7 @@
       "comment": "ubloxのRAWをGPS+BeiDou で配信しています。　rtk2go.comにおいて、kumayatsu01 のマウントポイントです。"
     },
     {
-      "id": 147,
+      "id": 148,
       "city_name": "宮崎県西都市",
       "station_name": "妻ベース",
       "latitude": "32.107846278",
@@ -2207,7 +2222,7 @@
       "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点 西都・新富・佐土原を利用した Static観測による三次元網平均計算結果です。（元期変換済）"
     },
     {
-      "id": 148,
+      "id": 149,
       "city_name": "宮崎県東諸県郡国富町",
       "station_name": "土地家屋調査士佐藤守三事務所",
       "latitude": "31.991316417",
@@ -2222,7 +2237,7 @@
       "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点（綾、佐土原、宮崎田野）を使用した三次元網平均計算結果です。（元期変換済）令和5年7月28日座標更新"
     },
     {
-      "id": 149,
+      "id": 150,
       "city_name": "宮崎県宮崎市",
       "station_name": "土地家屋調査士塩月事務所",
       "latitude": "31.944754444",
@@ -2237,7 +2252,7 @@
       "comment": "Mount Point：709125DA，ID：無し，Password：無し,"
     },
     {
-      "id": 150,
+      "id": 151,
       "city_name": "宮崎県宮崎市",
       "station_name": "土地家屋調査士 殿所事務所",
       "latitude": "31.926474881",
@@ -2252,7 +2267,7 @@
       "comment": "Mountpoint : komatsudai02  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。"
     },
     {
-      "id": 151,
+      "id": 152,
       "city_name": "鹿児島県霧島市",
       "station_name": "第一工科大学",
       "latitude": "31.746833333",
@@ -2267,7 +2282,7 @@
       "comment": "<font color=\"#ff0000\">国土地理院民間等電子基準点(C級) 登録番号 No.3</font><br>第一工科大学  空間情報研究室　Mount Point：kiri1，ID：無し，Password：無し"
     },
     {
-      "id": 152,
+      "id": 153,
       "city_name": "宮崎県北諸県郡三股町",
       "station_name": "土地家屋調査士稲元志朗事務所",
       "latitude": "31.7293795278",
@@ -2282,7 +2297,7 @@
       "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点（都城、宮崎田野、大隅）を使用した三次元網平均計算結果です。（元期変換済）令和5年4月28日座標更新"
     },
     {
-      "id": 153,
+      "id": 154,
       "city_name": "鹿児島県日置市",
       "station_name": "伊集院局",
       "latitude": "31.650743083",
@@ -2297,7 +2312,7 @@
       "comment": "Mount Point：ijyu1，ID：無し，Password：無し, <a href=\"&lt;/td\"></a>"
     },
     {
-      "id": 154,
+      "id": 155,
       "city_name": "宮崎県串間市",
       "station_name": "土地家屋調査士川崎雅人事務所",
       "latitude": "31.464726506",
