@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-10-18 15:22:07",
+  "UpdateTime(JST)": "2024-10-19 15:19:11",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1362,9 +1362,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、戸田B)を使用した三次元網平均計算による成果（元期）です。20241025:機材修繕により停波"
+      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、戸田B)を使用した三次元網平均計算による成果（元期）です。楕円体高はARP面です。20241015:機材修繕により停波　　20241019:配信再開"
     },
     {
       "id": 92,
