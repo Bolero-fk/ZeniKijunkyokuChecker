@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-10-27 15:19:31",
+  "UpdateTime(JST)": "2024-10-28 15:23:01",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -935,16 +935,16 @@
       "id": 63,
       "city_name": "茨城県鹿嶋市",
       "station_name": "日向寺土地家屋調査士事務所",
-      "latitude": "36.073504453",
-      "longitude": "140.608257014",
-      "geoid_height": "72.4152",
+      "latitude": "36.073504361",
+      "longitude": "140.608256722",
+      "geoid_height": "72.6331",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：98637DC6，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［鉾田,桜川,出島］とのStatic観測解析結果"
+      "comment": "Mount Point：98637DC6，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［鉾田,桜川,出島］とのStatic観測解析結果，改測：2024.10.25"
     },
     {
       "id": 64,
