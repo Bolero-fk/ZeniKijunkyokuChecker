@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-11-15 15:22:28",
+  "UpdateTime(JST)": "2024-11-16 15:21:41",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -725,16 +725,16 @@
       "id": 49,
       "city_name": "茨城県桜川市本木",
       "station_name": "根本土地家屋調査士事務所",
-      "latitude": "36.327082100",
-      "longitude": "140.108833100",
-      "geoid_height": "101.9",
+      "latitude": "36.327081998",
+      "longitude": "140.108833086",
+      "geoid_height": "101.963",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：E8B5A0C6，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定"
+      "comment": "Mount Point：E8B5A0C6，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は近傍電子基準点３点とのStatic観測解析結果，改測：2024.09.27"
     },
     {
       "id": 50,
