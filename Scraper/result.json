@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-11-17 15:19:52",
+  "UpdateTime(JST)": "2024-11-18 15:23:22",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1053,6 +1053,21 @@
     },
     {
       "id": 71,
+      "city_name": "埼玉県新座市",
+      "station_name": "有限会社新生測量設計社／土地家屋調査士古賀毅事務所",
+      "latitude": "35.795018",
+      "longitude": "139.56602586",
+      "geoid_height": "86.83",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "国土地理院民間等電子基準点(C級) 登録番号C039　Mount Point:B49FE6F2　ID:なし，Pswd:4239130，受信機drogger RZS.D（3周波）　アンテナHarxon HX-CSX601A"
+    },
+    {
+      "id": 72,
       "city_name": "東京都西東京市",
       "station_name": "土地家屋調査士　松崎光太郎事務所",
       "latitude": "35.747242008",
@@ -1067,7 +1082,7 @@
       "comment": "アンテナ：TOPGNSS。Ｆ９Ｐ使用。mount point :KOTARO_ch1。ＩＤ、ＰＡＳＳなし。もしおかしいところがあったらご指摘ください！　"
     },
     {
-      "id": 72,
+      "id": 73,
       "city_name": "東京都文京区",
       "station_name": "ＣＱ出版",
       "latitude": "35.73101206",
@@ -1082,7 +1097,7 @@
       "comment": "Mountpoint: CQ-RTCM3（停止中）、CQ-F9P、CQ-UBLOX　User: guest　password: guest　アンテナGN-GBG07(STOTON／TOPGNSS)から3分岐。CQ-RTCM3はNEO-M8P-2のRTCM3、CQ-F9PはZED-F9PのRTCM3、CQ-UBLOXはZED-F9Pのu-blox RAWを配信。電子基準点 足立（基線長約8km）からStatic計測。"
     },
     {
-      "id": 73,
+      "id": 74,
       "city_name": "東京都西東京市",
       "station_name": "西東京RTK_Base　",
       "latitude": "35.72853050",
@@ -1097,7 +1112,7 @@
       "comment": "R5,10,19　暫定復旧。受信機u-blox ZED-F9P(トラ技） アンテナ Beitian BT-290 Mount Point: MASK　ID: guest　Password: guest　　基準局座標値は電子基準点:小金井(基線長約5.0㎞)を使用したRTKPOSTによる後処理基線解析結果。現在、GPS及びGalileoのみで運用中。"
     },
     {
-      "id": 74,
+      "id": 75,
       "city_name": "東京都小金井市",
       "station_name": "法政大学小金井キャンパス（理工学部創生科学科）",
       "latitude": "35.70921",
@@ -1112,7 +1127,7 @@
       "comment": "Mountpoint: HOSEI-F9P、HOSEI-F9P-RTCM3、HOSEI-UBLOX User: guest　password: guest アンテナANN-MB-00。HOSEI-F9P:F9P-&gt;UBX-&gt;RTKLIB-&gt;RTCM3、HOSEI-F9P-RTCM3:F9P-&gt;RTCM3、HOSEI-UBLOX:F9P-&gt;UBXで配信。"
     },
     {
-      "id": 75,
+      "id": 76,
       "city_name": "千葉県佐倉市",
       "station_name": "妙見5号",
       "latitude": "35.708556100",
@@ -1127,7 +1142,7 @@
       "comment": "Mount Point:0C8BA026 ID:なし，Password:なし，受信機:ublox F9P DG-PRO1 RWS．アンテナ:u-blox．基準局座標値は暫定 突然のメンテナンスがあるのでご使用の際はご一報下さい。その間はメンテしません。"
     },
     {
-      "id": 76,
+      "id": 77,
       "city_name": "千葉県山武郡横芝光町",
       "station_name": "土地家屋調査士押尾正一事務所",
       "latitude": "35.663666639",
@@ -1142,7 +1157,7 @@
       "comment": "Mount Point:0C06E596，ID:なし，Password:なし， 受信機:ublox F9P DG-PRO1 RWP．アンテナ:u-blox． ご利用は自己責任でお願いします。 責任問題については当方は一切関知しません。 システム維持には努めますが落ちているときはご了承ください。 2024.05.16改測"
     },
     {
-      "id": 77,
+      "id": 78,
       "city_name": "東京都八王子市",
       "station_name": "東京工業高等専門学校・情報工学科棟屋上",
       "latitude": "35.639624713",
@@ -1157,7 +1172,7 @@
       "comment": "Mountpoint：nittc-f9p, アンテナ：HARXON CORP. HX-CSX601A, ublox F9P評価ボードで受信したデータをGPS + GLONASS + Galileo + Beidou(フォーマットはrtcm3.2)で送信しています．基準局座標は，24時間のstatic測位で求めた値を，八王子基準局(基線長6.7km)でRTK演算して決定しました．5Hzで送信しています．2024/02/20 メンテナンス・直接配信に変更，ポート番号は2104もok"
     },
     {
-      "id": 78,
+      "id": 79,
       "city_name": "東京都大田区",
       "station_name": "MO-Brain",
       "latitude": "35.59291228",
@@ -1172,7 +1187,7 @@
       "comment": "一部WIFIを経由しているので、テスト公開とさせてください。"
     },
     {
-      "id": 79,
+      "id": 80,
       "city_name": "神奈川県川崎市",
       "station_name": "川崎西",
       "latitude": "35.580478609",
@@ -1187,7 +1202,7 @@
       "comment": "電子基準点（C級No.2）令和2年7月より運用していましたが転居のため、令和5年12月25日もって配信を終了いたします。"
     },
     {
-      "id": 80,
+      "id": 81,
       "city_name": "山梨県南巨摩郡",
       "station_name": "土地家屋調査士法人芦澤事務所",
       "latitude": "35.561487222",
@@ -1202,7 +1217,7 @@
       "comment": "国土地理院民間等電子基準点(C級) 登録番号 No.2429　　Mount Point：B49FE586　　 ID:なし　　 Password:なし　　 受信機:RZS.D　　アンテナ:HX-CSX601A"
     },
     {
-      "id": 81,
+      "id": 82,
       "city_name": "神奈川県横浜市都筑区",
       "station_name": "土地家屋調査士17号局　トレイス土地家屋調査士法人横浜",
       "latitude": "35.550396916",
@@ -1217,7 +1232,7 @@
       "comment": "マウントポイント:tamtam，ID・Pass:なし。電子基準点・川崎、世田谷、町田によるstatic計算。2024年6月3日観測。突然のメンテナンスがあるのでご使用の際はご一報下さい。"
     },
     {
-      "id": 82,
+      "id": 83,
       "city_name": "鳥取県鳥取市",
       "station_name": "鳥取大学湖山キャンパス",
       "latitude": "35.51626651",
@@ -1232,7 +1247,7 @@
       "comment": "マウントポイント<br>TTRU-RTCM3: 1005, 1077, 1087, 1097, 1127, 1230. <br>TTRU-RAW: u-blox raw．<br>ユーザ名/パス:なし/なし<br>詳細はhttp://www.mech.tottori-u.ac.jp/crlab/contents/gpsmain.html<br>ublox社製ZED-F9Pによる2周波配信．アンテナはHarxon社製HX-CSX601Aを利用．"
     },
     {
-      "id": 83,
+      "id": 84,
       "city_name": "Tottori",
       "station_name": "Yamatomaru",
       "latitude": "35.51159610",
@@ -1247,7 +1262,7 @@
       "comment": "Drogger GPS､2周波受信局、直接レシバーからWifiルーターでCaster Tableに接続\tMount Point=AKASAKI-JF/鳥取大学の基地から直線で約４９．８ｋｍ,かなり良い受信が出ています。推定水平精度０．０１４推定垂直精度０．０２。漁業者の方もどんど使ってください。短時間で目的地，瀬に乗ることができ，釣果も上がります。又、AIS基地局募集中特に島根県日本海側の方、機器、ソフト無料、ご連絡yamatomaru.net"
     },
     {
-      "id": 84,
+      "id": 85,
       "city_name": "横浜市",
       "station_name": "新横浜",
       "latitude": "35.50609305",
@@ -1262,7 +1277,7 @@
       "comment": "回線切り替え中のため休止しています"
     },
     {
-      "id": 85,
+      "id": 86,
       "city_name": "山梨県富士河口湖町",
       "station_name": "土地家屋調査士　佐野勉事務所",
       "latitude": "35.49754647",
@@ -1277,7 +1292,7 @@
       "comment": "現在試験運用中　Mount Point:981FD39A　ID:なし，Password:なし，受信機:RWS　アンテナ:GN-GGB0710　基準局座標値は電子基準点（富士吉田、上九一色、山梨一宮)を 使用した三次元網平均計算による成果（元期）です。"
     },
     {
-      "id": 86,
+      "id": 87,
       "city_name": "大和市",
       "station_name": "18号局　土地家屋調査士法人アンバーパートナーズ",
       "latitude": "35.496422094",
@@ -1290,21 +1305,6 @@
       "status": "休止",
       "mail": "○",
       "comment": "しばらく休止いたします。　Mount Point：AMBER-P ID：なし、Password：なし  受信機：u-blox ZED-F9P、RTCM3（GPS,QZSS,GLONASS,Galileo,BeiDou)試験中です。"
-    },
-    {
-      "id": 87,
-      "city_name": "埼玉県新座市",
-      "station_name": "有限会社新生測量設計社／土地家屋調査士古賀毅事務所",
-      "latitude": "35.47420648",
-      "longitude": "139.33576931",
-      "geoid_height": "86.83",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "国土地理院民間等電子基準点(C級) 登録番号C039　Mount Point:B49FE6F2　ID:なし，Pswd:4239130，受信機drogger RZS.D（3周波）　アンテナHarxon HX-CSX601A"
     },
     {
       "id": 88,
