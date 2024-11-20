@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-11-19 15:23:27",
+  "UpdateTime(JST)": "2024-11-20 15:22:59",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -499,17 +499,17 @@
     {
       "id": 34,
       "city_name": "山形県米沢市",
-      "station_name": "米沢工業高校専攻科",
+      "station_name": "米沢工業高校_専攻科",
       "latitude": "37.916432910",
       "longitude": "140.145152869",
       "geoid_height": "316.9688",
-      "server_address": "rtk2go.com",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:YONEZAWA-SENKOUKA，【試験中】ID:なし，Password:なし，受信機ublox F9P，RTCM3 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1)，アンテナJCA228B，基準局座標値は電子基準点(基線長6.9km)とRTKPOSTによる後処理基線解析結果（元期）測量高さは楕円体高"
+      "comment": "Mount Point:YONEZAWA-SENKOUKA，【試験中】ID:なし，Password:なし，受信機ublox F9P，RTCM3 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1)，アンテナJCA228B，基準局座標値は電子基準点(米沢:基線長6.9km)とRTKPOSTによる後処理基線解析結果（元期）測量高さは楕円体高"
     },
     {
       "id": 35,
