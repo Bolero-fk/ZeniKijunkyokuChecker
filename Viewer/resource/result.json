@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-11-20 15:22:59",
+  "UpdateTime(JST)": "2024-11-21 15:22:48",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -42,9 +42,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "R4.9よりサーバーをRTK2goへ変更、Mount Point：Asahikawa-HAMA，ID：なし，Password：forest2020、受信機：２周波 ZED-F9P、アンテナ：u-blox 、基準局座標値は電子基準点 旭川(基線長約6.6km)を使用したRTKPOSTによる後処理基線解析結果（2020.4　楕円体高を修正、2024.9 今期→元期へ変更）、firmwareをHPG1.30へUpdate、Raspberry Pi4にて24時間運用"
+      "comment": "（R6.11 冬期間のため休止中）R4.9よりサーバーをRTK2goへ変更、Mount Point：Asahikawa-HAMA，ID：なし，Password：forest2020、受信機：２周波 ZED-F9P、アンテナ：u-blox 、基準局座標値は電子基準点 旭川(基線長約6.6km)を使用したRTKPOSTによる後処理基線解析結果（2020.4　楕円体高を修正、2024.9 今期→元期へ変更）、firmwareをHPG1.30へUpdate、Raspberry Pi4にて24時間運用"
     },
     {
       "id": 4,
@@ -499,11 +499,11 @@
     {
       "id": 34,
       "city_name": "山形県米沢市",
-      "station_name": "米沢工業高校_専攻科",
+      "station_name": "米沢工業高校",
       "latitude": "37.916432910",
       "longitude": "140.145152869",
       "geoid_height": "316.9688",
-      "server_address": "geortk.jp",
+      "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
@@ -569,7 +569,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE922，ID：なし，Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A ，基準局座標値は電子基準点（志賀A、氷見、押水、能登島）からの三次元網平均計算による成果（元期），2024.08.26改測"
+      "comment": "Mount Point：B49FE922，ID：なし，Password：なし，受信機：Septentrio mosaic-X5 RZS.D，アンテナ：Harxon HX-CSX601A ，基準局座標値は電子基準点（志賀A、氷見、押水、能登島）からの三次元網平均計算による成果（元期），改測：2024.08.26"
     },
     {
       "id": 39,
@@ -1549,32 +1549,32 @@
     {
       "id": 104,
       "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部nobuhiro　/（3周波）",
-      "latitude": "34.824542449",
-      "longitude": "137.806620027",
-      "geoid_height": "75.926",
+      "station_name": "静岡県土地家屋調査士会西遠支部nobuhiro　/C051（3周波）",
+      "latitude": "34.82454424",
+      "longitude": "137.80662002",
+      "geoid_height": "75.83",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE766　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
+      "comment": "Mount Point:B49FE766　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（浜北、S浜松、静岡森、袋井、引佐)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
       "id": 105,
       "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部sakura　/（3周波）",
-      "latitude": "34.815251639",
-      "longitude": "137.739504564",
-      "geoid_height": "129.804",
+      "station_name": "静岡県土地家屋調査士会西遠支部sakura　/C049（3周波）",
+      "latitude": "34.81525163",
+      "longitude": "137.73950458",
+      "geoid_height": "129.72",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:24EB90EA　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
+      "comment": "Mount Point:24EB90EA　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（浜北、引佐、S浜松、浜松伊佐地、H新城)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
       "id": 106,
@@ -1639,17 +1639,17 @@
     {
       "id": 110,
       "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部　toyo/（3周波）\t",
-      "latitude": "34.760404555",
-      "longitude": "137.66619513",
-      "geoid_height": "76.623",
+      "station_name": "静岡県土地家屋調査士会西遠支部　toyo/C044（3周波）\t",
+      "latitude": "34.76040444",
+      "longitude": "137.66619527",
+      "geoid_height": "76.5",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE946 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（浜松伊左地,雄踏A,引佐,S浜松,浜松A)を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "Mount Point:B49FE946 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（浜松伊左地,雄踏A,引佐,S浜松,三ヶ日)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
       "id": 111,
@@ -1683,21 +1683,6 @@
     },
     {
       "id": 113,
-      "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部　Annex/（3周波）",
-      "latitude": "34.728496083",
-      "longitude": "137.592091880",
-      "geoid_height": "43.209",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "Mount Point:103F4E2A 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（S浜松、浜松A、竜洋、浜松伊左地、浜北)を使用した三次元網平均計算による成果（元期）です。"
-    },
-    {
-      "id": 114,
       "city_name": "岡山市",
       "station_name": "上田技研",
       "latitude": "34.72667197",
@@ -1712,7 +1697,7 @@
       "comment": "岡山市東区でテスト運用中"
     },
     {
-      "id": 115,
+      "id": 114,
       "city_name": "浜松市",
       "station_name": "静岡大学浜松キャンパス",
       "latitude": "34.72621238",
@@ -1727,22 +1712,22 @@
       "comment": "詳細は https://hamamatsu-gnss.org/ をご覧ください．使用機器：Trimble NetR9．対応システム：GPS，GLO，GAL，BDS，QZS．更新頻度：1Hz．ポート80番でも配信．"
     },
     {
-      "id": 116,
+      "id": 115,
       "city_name": "静岡県湖西市",
-      "station_name": "静岡県土地家屋調査士会西遠支部　kuwano/（3周波）",
-      "latitude": "34.718009947",
-      "longitude": "137.533192331",
-      "geoid_height": "49.602",
+      "station_name": "静岡県土地家屋調査士会西遠支部　kuwano/C045（3周波）",
+      "latitude": "34.71801000",
+      "longitude": "137.53319250",
+      "geoid_height": "49.5",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:E8B618BA　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（湖西,豊橋A,雄踏A,三ケ日,浜松伊左地)を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "Mount Point:E8B618BA　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（湖西,H新居,豊橋A,雄踏A,三ヶ日)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
-      "id": 117,
+      "id": 116,
       "city_name": "兵庫県神戸市",
       "station_name": "RJBE10(2周波)",
       "latitude": "34.712044443",
@@ -1755,6 +1740,21 @@
       "status": "休止",
       "mail": "×",
       "comment": "★★'23/4 閉鎖しました★★ MP: JP-RJBE10 Rcvr: ZED-F9P(2周波) w/ ANN-MB-00-00 System:GPS,QZSS,GLO,GAL,BDS 電子基準点 神戸中央(局:950356,距離:9.4km)とのRTKPOST演算(24H実施) ジオイド高37.136[m] "
+    },
+    {
+      "id": 117,
+      "city_name": "静岡県浜松市",
+      "station_name": "静岡県土地家屋調査士会西遠支部　Annex/C043（3周波）",
+      "latitude": "34.70615944",
+      "longitude": "137.76380388",
+      "geoid_height": "51.6",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point:103F4E2A 　ID:なし，Password:なし，　　　　　　　　　　　　　　　　　　　　　　　　　　受信機:RZS.D アンテナ:HX-CSX601A 　基準局座標値は電子基準点（雄踏A、引佐、H新居、袋井、浅羽)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
       "id": 118,
@@ -1774,32 +1774,32 @@
     {
       "id": 119,
       "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部kazu　/（3周波）",
-      "latitude": "34.703231185",
-      "longitude": "137.661827057",
-      "geoid_height": "69.087",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "×",
-      "comment": "Mount Point:E8B61C12　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
-    },
-    {
-      "id": 120,
-      "city_name": "静岡県湖西市新居町",
-      "station_name": "静岡県土地家屋調査士会西遠支部sahara　/（3周波）",
-      "latitude": "34.688312946",
-      "longitude": "137.569751353",
-      "geoid_height": "52.303",
+      "station_name": "静岡県土地家屋調査士会西遠支部kazu　/C052（3周波）",
+      "latitude": "34.70323111",
+      "longitude": "137.66182694",
+      "geoid_height": "69.0",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE6AA　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
+      "comment": "Mount Point:E8B61C12　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（雄踏A、浜松伊佐地、浜松A、H新居、湖西)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
+    },
+    {
+      "id": 120,
+      "city_name": "静岡県湖西市新居町",
+      "station_name": "静岡県土地家屋調査士会西遠支部sahara　/C053（3周波）",
+      "latitude": "34.68831291",
+      "longitude": "137.56975161",
+      "geoid_height": "52.18",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point:B49FE6AA　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（H新居、湖西、雄踏A、浜松伊佐地、三ヶ日)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
       "id": 121,
@@ -1819,17 +1819,17 @@
     {
       "id": 122,
       "city_name": "静岡県浜松市",
-      "station_name": "静岡県土地家屋調査士会西遠支部nakazushi　/（3周波）",
-      "latitude": "34.680160567",
-      "longitude": "137.722553289",
-      "geoid_height": "43.831",
+      "station_name": "静岡県土地家屋調査士会西遠支部nakazushi /C048（3周波）",
+      "latitude": "34.68016055",
+      "longitude": "137.72255333",
+      "geoid_height": "48.7",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE912　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は近傍電子基準点5点を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
+      "comment": "Mount Point:B49FE912　　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点（浜松A、雄踏A、浜松伊佐地、竜洋、浜北)を使用した三次元網平均計算による成果（元期）です。https://www.google.com/maps/d/edit?mid=1eErbPj1fUiW-dxymZCENiiqR_3XtODY&amp;usp=sharing"
     },
     {
       "id": 123,
