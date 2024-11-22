@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-11-21 15:22:48",
+  "UpdateTime(JST)": "2024-11-22 15:22:02",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -749,7 +749,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：E8B5A0C6，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は近傍電子基準点３点とのStatic観測解析結果，改測：2024.09.27"
+      "comment": "Mount Point：E8B5A0C6，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［岩瀬,下館,八郷］とのStatic観測解析結果，改測：2024.09.27"
     },
     {
       "id": 51,
@@ -2300,31 +2300,31 @@
       "id": 154,
       "city_name": "宮崎県西都市",
       "station_name": "妻ベース",
-      "latitude": "32.107846278",
-      "longitude": "131.397628778",
-      "geoid_height": "46.935",
+      "latitude": "32.107845944",
+      "longitude": "131.397628917",
+      "geoid_height": "46.908",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
-      "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点 西都・新富・佐土原を利用した Static観測による三次元網平均計算結果です。（元期変換済）"
+      "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点 西都・新富・佐土原、綾、川南を利用した Static観測による三次元網平均計算結果です。（元期）令和６年日向灘地震後改測（地震前からすると南南東方向へ約4㎝相対移動）Raspberry Pi  POVO2.0低速回線で配信"
     },
     {
       "id": 155,
       "city_name": "宮崎県東諸県郡国富町",
       "station_name": "土地家屋調査士佐藤守三事務所",
-      "latitude": "31.991316417",
-      "longitude": "131.336394611",
-      "geoid_height": "69.3646",
+      "latitude": "31.991316083",
+      "longitude": "131.336395083",
+      "geoid_height": "69.336",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点（綾、佐土原、宮崎田野）を使用した三次元網平均計算結果です。（元期変換済）令和5年7月28日座標更新"
+      "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点（綾、佐土原、宮崎田野、西都）を使用した三次元網平均計算結果です。（元期変換済）令和６年日向灘地震後改測（地震前からすると南東方向へ約6㎝相対移動）"
     },
     {
       "id": 156,
