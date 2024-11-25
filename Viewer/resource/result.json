@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-11-24 15:19:44",
+  "UpdateTime(JST)": "2024-11-25 15:23:21",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2157,7 +2157,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4303 備考:使用状況などをメールで送ってもらえれば励みになります^^もしGAFAなんかが使うんだったら大分高専に寄付ちょうだい。"
     },
@@ -2307,7 +2307,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "×",
       "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点 西都・新富・佐土原、綾、川南を利用した Static観測による三次元網平均計算結果です。（元期）令和６年日向灘地震後改測（地震前からすると南南東方向へ約4㎝相対移動）Raspberry Pi  POVO2.0低速回線で配信"
     },
