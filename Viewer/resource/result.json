@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-12-08 15:21:26",
+  "UpdateTime(JST)": "2024-12-09 15:24:06",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -183,8 +183,8 @@
     },
     {
       "id": 13,
-      "city_name": "北海道夕張",
-      "station_name": "UTK 局 ",
+      "city_name": "北海道夕張郡長沼町",
+      "station_name": "土地家屋調査士中野輝久事務所 ",
       "latitude": "43.011148240",
       "longitude": "141.692340080",
       "geoid_height": "50.3568",
