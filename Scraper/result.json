@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-12-10 15:24:29",
+  "UpdateTime(JST)": "2024-12-11 15:24:01",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -183,8 +183,8 @@
     },
     {
       "id": 13,
-      "city_name": "北海道夕張郡長沼町",
-      "station_name": "土地家屋調査士中野輝久事務所 ",
+      "city_name": "夕張郡長沼町",
+      "station_name": "土地家屋調査士 中野輝久事務所 ",
       "latitude": "43.011148240",
       "longitude": "141.692340080",
       "geoid_height": "50.3568",
@@ -192,9 +192,9 @@
       "port_number": "2101",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "公開要求対応 . F9p .  Mount,p:KIYO. Pass:NAKANO. 長沼4.4k. R6.2.1元期変換済み "
+      "comment": " Mount Point : KIYO,  Password : utk.1248 ,  F9p,  長沼4.4k, R6.2.1元期変換済 "
     },
     {
       "id": 14,
