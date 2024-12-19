@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-12-18 15:22:39",
+  "UpdateTime(JST)": "2024-12-19 15:22:26",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -927,7 +927,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "【注】レシーバをイーサネット対応作業のため、12月25日まで休止します。"
     },
@@ -1460,16 +1460,16 @@
       "id": 98,
       "city_name": "静岡県沼津市",
       "station_name": "土地家屋調査士木戸事務所",
-      "latitude": "35.12484075",
-      "longitude": "138.7943254",
-      "geoid_height": "54.828",
+      "latitude": "35.12484078",
+      "longitude": "138.79432547",
+      "geoid_height": "54.79",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、戸田B)を使用した三次元網平均計算による成果（元期）です。楕円体高はARP面です。20241015:機材修繕により停波　　20241019:配信再開"
+      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、裾野2、函南、蒲原)を使用した三次元網平均計算による成果（元期）です。楕円体高はARP面です。20241015:機材修繕により停波　　20241019:配信再開　20241219数字を地理院計算結果に修正"
     },
     {
       "id": 99,
