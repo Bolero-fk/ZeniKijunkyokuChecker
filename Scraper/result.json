@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2024-12-22 15:18:28",
+  "UpdateTime(JST)": "2024-12-23 15:20:56",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -927,9 +927,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "【注】レシーバをイーサネット対応作業のため、12月25日まで休止します。"
+      "comment": "Mount Point：B49FE7E6，ID・Password：なし，受信機：Septentrio mosaic-X5 RZS.D+RWE-ETH，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下］とのStatic観測解析結果，改測：2024.10.01"
     },
     {
       "id": 63,
