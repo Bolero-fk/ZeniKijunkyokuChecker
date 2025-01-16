@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-01-15 15:21:03",
+  "UpdateTime(JST)": "2025-01-16 15:20:47",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2165,16 +2165,16 @@
       "id": 145,
       "city_name": "大分市",
       "station_name": "大分工業高等専門学校",
-      "latitude": "33.23271329",
-      "longitude": "131.6515685",
-      "geoid_height": "120.8720128",
+      "latitude": "33.23264031",
+      "longitude": "131.65089966",
+      "geoid_height": "120.83130539337",
       "server_address": "160.16.134.72",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4303 備考:使用状況などをメールで送ってもらえれば励みになります^^もしGAFAなんかが使うんだったら大分高専に寄付ちょうだい。"
+      "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4307 備考:使用状況などをメールで送ってもらえれば励みになります。＊2025年1月設置場所変更"
     },
     {
       "id": 146,
