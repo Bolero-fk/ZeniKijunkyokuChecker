@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-01-20 15:21:17",
+  "UpdateTime(JST)": "2025-01-21 15:21:38",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -815,16 +815,16 @@
       "id": 55,
       "city_name": "茨城県筑西市中上野",
       "station_name": "片平土地家屋調査士事務所",
-      "latitude": "36.217910009",
-      "longitude": "140.025828386",
-      "geoid_height": "69.0",
+      "latitude": "36.217910415",
+      "longitude": "140.025828383",
+      "geoid_height": "73.053",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：E8B6431A，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定"
+      "comment": "Mount Point：E8B6431A，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［下館,つくば１,八郷］とのStatic観測解析結果，改測：2024.10.01"
     },
     {
       "id": 56,
