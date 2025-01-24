@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-01-23 15:21:22",
+  "UpdateTime(JST)": "2025-01-24 15:20:46",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1895,16 +1895,16 @@
       "id": 127,
       "city_name": "広島県-安芸太田町-加計",
       "station_name": "YOSHIMURA",
-      "latitude": "34.616864361",
-      "longitude": "132.317790777",
-      "geoid_height": "226.997",
+      "latitude": "34.616864389",
+      "longitude": "132.317790778",
+      "geoid_height": "226.8133",
       "server_address": "160.16.134.72",
       "port_number": "2101",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開 スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）M8P １周波（アンテナ都合）RTCM3(GPS,GLO )（仰角35度以上での使用をお薦めします）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）M8P １周波（アンテナ都合）RTCM3(GPS,GLO )（仰角35度以上での使用をお薦めします）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura"
     },
     {
       "id": 128,
@@ -2445,6 +2445,21 @@
       "status": "休止",
       "mail": "○",
       "comment": "受信機　u-blox MountPoint:KUSHIMA-M01 ID:なし Pasword:なし 電子基準点串間１(から１．２ｋ)を使用した後処理基線解析結果です。（元期変換済）土日は基本メンテのため休止。"
+    },
+    {
+      "id": 164,
+      "city_name": "沖縄県那覇市",
+      "station_name": "土地家屋調査士法人半嶺当徹事務所",
+      "latitude": "26.206816163",
+      "longitude": "127.685944544",
+      "geoid_height": "71.88",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point：ACA218A2，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定"
     }
   ]
 }
