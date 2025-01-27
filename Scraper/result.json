@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-01-26 15:19:00",
+  "UpdateTime(JST)": "2025-01-27 15:18:31",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2459,7 +2459,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：ACA218A2，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定"
+      "comment": "Mount Point：ACA218A2，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定，設置：2025.01.24"
     }
   ]
 }
