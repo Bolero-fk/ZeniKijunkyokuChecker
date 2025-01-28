@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-01-27 15:18:31",
+  "UpdateTime(JST)": "2025-01-28 15:21:28",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1474,7 +1474,7 @@
     {
       "id": 99,
       "city_name": "静岡県沼津市",
-      "station_name": "土地家屋調査士木戸事務所",
+      "station_name": "sunshiptokyo/C061",
       "latitude": "35.12484078",
       "longitude": "138.79432547",
       "geoid_height": "54.79",
@@ -1484,7 +1484,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、裾野2、函南、蒲原)を使用した三次元網平均計算による成果（元期）です。楕円体高はARP面です。20241015:機材修繕により停波　　20241019:配信再開　20241219数字を地理院計算結果に修正　20250122～20250125まで修繕のため 停波予定"
+      "comment": "Mount Point:B49FE98A　 ID:なし，Password:なし，受信機:RZS.D 　アンテナ:HX-CSX601A 基準局座標値は電子基準点(富士、静岡清水町、裾野2、函南、蒲原)を使用した三次元網平均計算による成果（元期）です。楕円体高はARP面です。20241015:機材修繕により停波　　20241019:配信再開　20241219数字を地理院計算結果に修正　20250122～20250125まで修繕のため 停波\t20250128民間等電子基準点C級登録　登録番号2532"
     },
     {
       "id": 100,
@@ -2127,7 +2127,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
       "comment": "利用規約に同意していただける方へ公開しています。詳細は https://www.oita-it.ac.jp/news/rtk/ ※Ntrip Caster Serverを変更しました。（2025/1/15）"
     },
