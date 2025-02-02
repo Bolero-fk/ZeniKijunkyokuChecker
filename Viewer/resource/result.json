@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-01 15:20:38",
+  "UpdateTime(JST)": "2025-02-02 15:19:30",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1900,11 +1900,11 @@
       "geoid_height": "226.8133",
       "server_address": "160.16.134.72",
       "port_number": "2101",
-      "data_type": "u-blox",
+      "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）M8P １周波（アンテナ都合）RTCM3(GPS,GLO )（仰角35度以上での使用をお薦めします）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P １周波（アンテナ都合）RTCM3(GPS,GLO ,Gal)（仰角35度以上での使用をお薦めします）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura 運用アンテナ2か所"
     },
     {
       "id": 128,
