@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-03 15:21:22",
+  "UpdateTime(JST)": "2025-02-04 15:21:56",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1338,6 +1338,21 @@
     },
     {
       "id": 90,
+      "city_name": "山梨県富士吉田市",
+      "station_name": "第一測量株式会社",
+      "latitude": "35.48162056",
+      "longitude": "138.8037928",
+      "geoid_height": "849.9",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633"
+    },
+    {
+      "id": 91,
       "city_name": "横浜市西区",
       "station_name": "神奈川県土地家屋調査士会",
       "latitude": "35.466141222",
@@ -1352,7 +1367,7 @@
       "comment": "マウントポイント:B4A00B46，ID・Pass:なし。電子基準点・川崎、横浜Ａ、横浜泉によるstatic計算。2023年11月10日観測。"
     },
     {
-      "id": 91,
+      "id": 92,
       "city_name": "鳥取県米子市",
       "station_name": "YNCT",
       "latitude": "35.460892304",
@@ -1367,7 +1382,7 @@
       "comment": "mount point:YNCT-D  id:なし PW:なし  ublox社製ZED-F9P   対応衛星:GPS,QZSS,GLONASS,BeiDou,Galileo 座標は電子基準点米子とのstatic測位により決定"
     },
     {
-      "id": 92,
+      "id": 93,
       "city_name": "神奈川県横浜市",
       "station_name": "㈱ジークスペース",
       "latitude": "35.4421241",
@@ -1382,7 +1397,7 @@
       "comment": "#2020年2月17日開始しました#<br>MountPoint: ZEKE_PIKSI<br>RTCM3.2 1075,1085,1095,1125,1230<br>Swift Navigation Piksi Multi<br>受信機故障につき休止いたします。"
     },
     {
-      "id": 93,
+      "id": 94,
       "city_name": "神奈川県横浜市",
       "station_name": "㈱ジークスペース",
       "latitude": "35.44212223",
@@ -1397,7 +1412,7 @@
       "comment": "   # 2020年2月16日 MountpPoint変更しました＃<br>MountPoint: ZEKE_F9P<br>RTCM3 1005, 1077, 1087, 1097, 1127, 1230<br>U-blox ZEP-F9P 2周波<br>基準局座標は電子基準点(横浜)からRTKPOSTで計測<br>"
     },
     {
-      "id": 94,
+      "id": 95,
       "city_name": "岐阜県各務原市",
       "station_name": "三ツ池",
       "latitude": "35.40061207",
@@ -1412,7 +1427,7 @@
       "comment": "MtPoint：KAKAMIGAHARAUM　ID・PWなし。受信機：F9Pトラ技キット　基準局座標値はVRSサービス５分観測５セットの平均値で決定"
     },
     {
-      "id": 95,
+      "id": 96,
       "city_name": "千葉県君津市",
       "station_name": "人見の基準局",
       "latitude": "35.3433397",
@@ -1427,7 +1442,7 @@
       "comment": "mt.pt:KIMITSU1909､psw:DcbBHVKM､座標:電子基準点富津（基線長約5.4km）2019/12/25 24hr Static測位､機材:u-blox ZED-F9P､GN-GGB0710､u-blox同時出力､2021.11.19Mt.point変更予定"
     },
     {
-      "id": 96,
+      "id": 97,
       "city_name": "神奈川県平塚市",
       "station_name": "僕らのガレージ",
       "latitude": "35.3281631028",
@@ -1442,7 +1457,7 @@
       "comment": "Mountpoint :HIRATSUKA_BOKUGARE, id,pass無し"
     },
     {
-      "id": 97,
+      "id": 98,
       "city_name": "京都府福知山市",
       "station_name": "（株）国栄建工",
       "latitude": "35.298698731",
@@ -1455,21 +1470,6 @@
       "status": "休止",
       "mail": "○",
       "comment": "受信機：ZED-F9P　　　　　　Mount point :COKUEI 　　　　　位置情報補正要　　　　　 　衛星：GPS,GLO,GAL,BDS　　　　　　ジオイド高：37.0648ｍ"
-    },
-    {
-      "id": 98,
-      "city_name": "山梨県富士吉田市",
-      "station_name": "第一測量株式会社",
-      "latitude": "35.2853834",
-      "longitude": "138.4813654",
-      "geoid_height": "849.9",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633"
     },
     {
       "id": 99,
