@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-11 15:23:04",
+  "UpdateTime(JST)": "2025-02-12 15:22:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1910,9 +1910,9 @@
       "id": 128,
       "city_name": "三重県名張市",
       "station_name": "近畿大学工業高等専門学校",
-      "latitude": "34.61311816",
-      "longitude": "136.12108436",
-      "geoid_height": "327.513",
+      "latitude": "34.61320497",
+      "longitude": "136.12117705",
+      "geoid_height": "323.943",
       "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
