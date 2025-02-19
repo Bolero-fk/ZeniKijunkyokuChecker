@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-18 15:22:59",
+  "UpdateTime(JST)": "2025-02-19 15:23:02",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -919,7 +919,7 @@
     {
       "id": 62,
       "city_name": "茨城県境町",
-      "station_name": "木村泰之土地家屋調査士事務所",
+      "station_name": "木村泰之土地家屋調査士事務所 (３周波)",
       "latitude": "36.112677923",
       "longitude": "139.797947411",
       "geoid_height": "60.11",
@@ -929,7 +929,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：B49FE7E6，ID・Password：なし，受信機：Septentrio mosaic-X5 RZS.D+RWE-ETH，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下］とのStatic観測解析結果，改測：2024.10.01"
+      "comment": "Mount Point：B49FE7E6，ID・Password：なし，受信機：RZS.D+RWE-ETH，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下］とのStatic観測解析結果，改測：2024.10.01"
     },
     {
       "id": 63,
@@ -2197,14 +2197,14 @@
       "station_name": "大分工業高等専門学校",
       "latitude": "33.23264031",
       "longitude": "131.65089966",
-      "geoid_height": "120.83130539337",
+      "geoid_height": "120.831",
       "server_address": "160.16.134.72",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4307 備考:使用状況などをメールで送ってもらえれば励みになります。＊2025年1月設置場所変更"
+      "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ:JCA228E 配信種:L1+L2+L5,GPS+GLONASS+Galileo+BeiDou+QZSS 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4307 備考:使用状況などをメールで送ってもらえれば励みになります。＊2025年1月設置場所変更"
     },
     {
       "id": 148,
