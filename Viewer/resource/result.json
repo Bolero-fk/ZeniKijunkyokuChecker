@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-23 15:18:43",
+  "UpdateTime(JST)": "2025-02-24 15:23:42",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2475,6 +2475,21 @@
       "status": "公開",
       "mail": "○",
       "comment": "Mount Point：ACA218A2，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［那覇,那覇Ｐ］とのStatic観測解析結果，改測：2025.02.14，設置：2025.01.24"
+    },
+    {
+      "id": 166,
+      "city_name": "沖縄県宮古島市-2",
+      "station_name": "友利土地家屋調査士事務所",
+      "latitude": "24.751061782",
+      "longitude": "125.369869825",
+      "geoid_height": "99.614",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point：C46AEC12，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.24"
     }
   ]
 }
