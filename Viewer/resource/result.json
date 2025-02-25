@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-24 15:23:42",
+  "UpdateTime(JST)": "2025-02-25 15:23:18",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1900,11 +1900,11 @@
       "geoid_height": "226.8133",
       "server_address": "160.16.134.72",
       "port_number": "2101",
-      "data_type": "RTCM3",
+      "data_type": "u-blox",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P １周波（アンテナ都合）RTCM3(GPS,GLO ,Gal)（仰角35度以上での使用をお薦めします）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura 運用アンテナ2か所"
+      "comment": "ID Password無しMountPoint YOSHIMURA  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P １周波（アンテナ都合）ubx(GPS,GLO ,Gal,QZSS)（仰角35度以上での使用をお薦めします,現在試験のためUBX運用です）rtk2go.comでも運用中　RTCM3　2周波（F9P)マウントポイントyoshimura 運用アンテナ2か所"
     },
     {
       "id": 128,
@@ -2478,7 +2478,7 @@
     },
     {
       "id": 166,
-      "city_name": "沖縄県宮古島市-2",
+      "city_name": "沖縄県宮古島市城辺",
       "station_name": "友利土地家屋調査士事務所",
       "latitude": "24.751061782",
       "longitude": "125.369869825",
@@ -2489,7 +2489,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：C46AEC12，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.24"
+      "comment": "Mount Point：C46AEC12，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺（457m）］とのStatic観測解析結果，設置：2025.02.24"
     }
   ]
 }
