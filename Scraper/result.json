@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-25 15:23:18",
+  "UpdateTime(JST)": "2025-02-26 15:24:13",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2478,6 +2478,21 @@
     },
     {
       "id": 166,
+      "city_name": "沖縄県宮古島市平良",
+      "station_name": "下地土地家屋調査士事務所",
+      "latitude": "24.8025920941",
+      "longitude": "125.2946014313",
+      "geoid_height": "68.647",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point：C468EE0E，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.25"
+    },
+    {
+      "id": 167,
       "city_name": "沖縄県宮古島市城辺",
       "station_name": "友利土地家屋調査士事務所",
       "latitude": "24.751061782",
