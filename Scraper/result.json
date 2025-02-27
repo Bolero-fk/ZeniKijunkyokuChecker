@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-26 15:24:13",
+  "UpdateTime(JST)": "2025-02-27 15:23:43",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2489,7 +2489,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：C468EE0E，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.25"
+      "comment": "Mount Point：C468EE0E，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.26"
     },
     {
       "id": 167,
