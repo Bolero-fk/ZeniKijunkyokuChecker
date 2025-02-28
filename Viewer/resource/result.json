@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-02-27 15:23:43",
+  "UpdateTime(JST)": "2025-02-28 15:22:34",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -785,16 +785,16 @@
       "id": 53,
       "city_name": "茨城県結城市",
       "station_name": "塚田土地家屋調査士事務所",
-      "latitude": "36.277953563",
-      "longitude": "139.879026980",
-      "geoid_height": "78.7",
+      "latitude": "36.277953425",
+      "longitude": "139.879026751",
+      "geoid_height": "82.653",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：E8B594D2，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は暫定"
+      "comment": "Mount Point：E8B594D2，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［下館,三和,栃木］とのStatic観測解析結果，改測：2024.09.27"
     },
     {
       "id": 54,
