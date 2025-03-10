@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-03-09 15:18:24",
+  "UpdateTime(JST)": "2025-03-10 15:24:03",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1154,7 +1154,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint: HOSEI-F9P、HOSEI-F9P-RTCM3、HOSEI-UBLOX User: guest　password: guest アンテナANN-MB-00。HOSEI-F9P:F9P-&gt;UBX-&gt;RTKLIB-&gt;RTCM3、HOSEI-F9P-RTCM3:F9P-&gt;RTCM3、HOSEI-UBLOX:F9P-&gt;UBXで配信。小金井キャンパス法定停電のため2025/03/02前後は休止します。(2025/01/09)"
+      "comment": "Mountpoint: HOSEI-F9P、HOSEI-F9P-RTCM3、HOSEI-UBLOX User: guest　password: guest アンテナANN-MB-00。HOSEI-F9P:F9P-&gt;UBX-&gt;RTKLIB-&gt;RTCM3、HOSEI-F9P-RTCM3:F9P-&gt;RTCM3、HOSEI-UBLOX:F9P-&gt;UBXで配信。(2025/03/10)"
     },
     {
       "id": 78,
