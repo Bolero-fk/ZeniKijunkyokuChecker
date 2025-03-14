@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-03-13 15:24:39",
+  "UpdateTime(JST)": "2025-03-14 15:22:21",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2127,9 +2127,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "現在テスト運用中　Mount Point :0CA05B6A ID:なし　Password:なし 受信機：DG-PRO1RWS アンテナ：Harxon HX-CSX601A　利用者の把握のため、初めて利用する際は「所属」「氏名」「目的」を記載し左記メールフォームへ送信いただきますようご協力をお願いします。"
+      "comment": "Mount Point :0CA05B6A ID:なし　Password:なし 受信機：DG-PRO1RWS アンテナ：Harxon HX-CSX601A　利用者の把握のため、初めて利用する際は「所属」「氏名」「目的」を記載し左記メールフォームへ送信いただきますようご協力をお願いします。"
     },
     {
       "id": 143,
