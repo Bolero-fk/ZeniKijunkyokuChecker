@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-03-16 15:19:58",
+  "UpdateTime(JST)": "2025-03-17 15:23:38",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -194,7 +194,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " Mount Point : KIYO,  Password : UTK19520713 ,  F9p,  長沼4.4k, R7.2.1元期変換済 "
+      "comment": " Mount Point : KIYO,  Password : UTK19520713 ,  F9p,  長沼4.4k, R7.2.20元期変換済 "
     },
     {
       "id": 14,
