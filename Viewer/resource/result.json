@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-03-20 15:24:21",
+  "UpdateTime(JST)": "2025-03-21 15:22:46",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1349,7 +1349,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633"
+      "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633，測地成果2011"
     },
     {
       "id": 91,
