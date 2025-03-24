@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-03-23 15:21:08",
+  "UpdateTime(JST)": "2025-03-24 15:24:05",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1868,13 +1868,13 @@
       "latitude": "34.6772027",
       "longitude": "131.84899519",
       "geoid_height": "41.76",
-      "server_address": "rtk2go.com",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：ken_kizyunkyoku0131 ID:なし，Password:なし  アンテナ:JCA228F 受信機:UM980 座標値:電子基準点(益田・三隅・匹見)からのスタティック解析(元期)　※三次元網平均計算による"
+      "comment": "Mount Point：saitozim ID:なし，Password:なし  アンテナ:JCA228F 受信機:UM980 座標値:電子基準点(益田・三隅・匹見)からのスタティック解析(元期)　※三次元網平均計算による"
     },
     {
       "id": 126,
