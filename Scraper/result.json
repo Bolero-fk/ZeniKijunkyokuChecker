@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-03-31 15:23:48",
+  "UpdateTime(JST)": "2025-04-01 15:23:45",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2182,14 +2182,14 @@
       "station_name": "羽野福美土地家屋調査士事務所",
       "latitude": "33.3205769732",
       "longitude": "130.9390301597",
-      "geoid_height": "132.8523",
+      "geoid_height": "132.6393",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 座標は電子基準点：日田・前津江・小石原 からの三次元網平均計算による成果値(2023.2.22公開,2024.04.04改測)"
+      "comment": "Mount Point:E8B622D2,GPS/GLO/GAL/QZS/BDS 受信機:DroggerRWX アンテナ:HX-CSX601A 座標は電子基準点：日田・前津江・小石原 からの三次元網平均計算による成果値(2023.2.22公開,2024.4.4改測,2025.4.1ジオイド補正)"
     },
     {
       "id": 147,
