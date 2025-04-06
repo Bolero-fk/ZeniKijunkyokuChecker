@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-04-05 15:20:17",
+  "UpdateTime(JST)": "2025-04-06 15:20:11",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1175,16 +1175,16 @@
       "id": 79,
       "city_name": "千葉県山武郡横芝光町",
       "station_name": "土地家屋調査士押尾正一事務所",
-      "latitude": "35.663666639",
-      "longitude": "140.506394028",
-      "geoid_height": "44.8083",
+      "latitude": "35.663666694",
+      "longitude": "140.506393944",
+      "geoid_height": "44.8974",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
-      "mail": "×",
-      "comment": "Mount Point:0C06E596，ID:なし，Password:なし， 受信機:ublox F9P DG-PRO1 RWP．アンテナ:u-blox． ご利用は自己責任でお願いします。 責任問題については当方は一切関知しません。 システム維持には努めますが落ちているときはご了承ください。 2024.05.16改測"
+      "mail": "○",
+      "comment": "Mount Point:0C06E596，ID:なし，Password:なし， 受信機:ublox F9P DG-PRO1 RWP．アンテナ:u-blox． ご利用は自己責任でお願いします。 責任問題については当方は一切関知しません。 システム維持には努めますが落ちているときはご了承ください。 2025.04.06改測（ジオイド2024に対応するため）"
     },
     {
       "id": 80,
