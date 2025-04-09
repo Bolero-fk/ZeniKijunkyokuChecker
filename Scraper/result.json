@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-04-08 15:24:39",
+  "UpdateTime(JST)": "2025-04-09 15:27:18",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -378,8 +378,23 @@
     },
     {
       "id": 26,
-      "city_name": "秋田県雄勝郡羽後町",
+      "city_name": "秋田県雄勝郡",
       "station_name": "古川克巳土地家屋調査士事務所",
+      "latitude": "39.171242750",
+      "longitude": "140.443322028",
+      "geoid_height": "129.237",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "×",
+      "comment": "国土地理院承認　民間等電子基準点　C級　C035　Mount Point:B49FE64A ID:なし，Pass:なし,　受信機droggerRZS.D  RTCM3(MSM5)  アンテナHX-CSX-601A L1+L2+L5 基準局座標値は,国土地理院で計算（元期） 高さは楕円体高"
+    },
+    {
+      "id": 27,
+      "city_name": "秋田県雄勝郡羽後町",
+      "station_name": "雄勝郡羽後町",
       "latitude": "39.17124172",
       "longitude": "140.44326122",
       "geoid_height": "130.458",
@@ -387,12 +402,12 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "Mount Point:BCDCD722 ID:なし，Password:なし,受信機ビズステーション株式会社,DG-PRO1RWS RTCM3 1005(10),1074(1),1084(1),1094(1),1115(1),1124(1),1230(10) アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） R4/4/27改測しました。"
     },
     {
-      "id": 27,
+      "id": 28,
       "city_name": "秋田県雄勝郡",
       "station_name": "羽後町赤袴",
       "latitude": "39.17124172",
@@ -402,24 +417,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "Mount Point:KAN-RWS002 ID:使用者のメルアド，Pass:なし,　受信機simpleRTK2B RTCM3 RTCMを直接F９Pから出力 1005(1),1077(1),1087(1),1097(1),1127(1),1230(1)　アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は、電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
-    },
-    {
-      "id": 28,
-      "city_name": "秋田県雄勝郡",
-      "station_name": "雄勝郡羽後町赤袴",
-      "latitude": "39.17124172",
-      "longitude": "140.44326122",
-      "geoid_height": "130.458",
-      "server_address": "geortk.jp",
-      "port_number": "2101",
-      "data_type": "RTCM3",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "×",
-      "comment": "Mount Point:jh7xgn ID:なし，Pass:なし,　受信機simpleRTK2B RTCMを直接F9Pから出力 1005(10),1077(1),1087(1),1097(1),1127(1),1230(10)  アンテナTOPGNSS GN-GGB0710 L1+L2 基準局座標値は電子基準点：湯沢4.6ｋｍからのSTATIC計算結果（元期） 高さは楕円体高"
     },
     {
       "id": 29,
