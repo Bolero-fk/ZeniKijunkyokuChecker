@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-04-14 15:24:13",
+  "UpdateTime(JST)": "2025-04-15 15:24:10",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -499,11 +499,11 @@
     {
       "id": 34,
       "city_name": "山形県米沢市",
-      "station_name": "米沢工業高校",
+      "station_name": "米沢鶴城高校専攻科",
       "latitude": "37.916432910",
       "longitude": "140.145152869",
       "geoid_height": "316.9688",
-      "server_address": "rtk2go.com",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
