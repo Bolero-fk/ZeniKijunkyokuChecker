@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-05-17 15:21:11",
+  "UpdateTime(JST)": "2025-05-18 15:20:51",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -147,7 +147,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
       "comment": "Mpoint:0CA0597A　Pass: なし    port:2101"
     },
