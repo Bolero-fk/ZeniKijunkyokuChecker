@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-05-20 15:26:06",
+  "UpdateTime(JST)": "2025-05-21 15:26:08",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1152,9 +1152,9 @@
       "port_number": "443",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint: HOSEI-F9P、HOSEI-F9P-RTCM3、HOSEI-UBLOX User: guest　password: guest アンテナANN-MB-00。HOSEI-F9P:F9P-&gt;UBX-&gt;RTKLIB-&gt;RTCM3、HOSEI-F9P-RTCM3:F9P-&gt;RTCM3、HOSEI-UBLOX:F9P-&gt;UBXで配信。不具合が発生したため、停止中(2025/05/16)"
+      "comment": "Mountpoint: HOSEI-F9P、HOSEI-F9P-RTCM3、HOSEI-UBLOX User: guest　password: guest アンテナANN-MB-00。HOSEI-F9P:F9P-&gt;UBX-&gt;RTKLIB-&gt;RTCM3、HOSEI-F9P-RTCM3:F9P-&gt;RTCM3、HOSEI-UBLOX:F9P-&gt;UBXで配信。"
     },
     {
       "id": 78,
