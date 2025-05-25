@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-05-24 15:21:19",
+  "UpdateTime(JST)": "2025-05-25 15:21:34",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -447,7 +447,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "マウントポイント名：VEGEPALETTE、ID:無し、パスワード:Duz8KyHP、受信機:u-blox ZED-F9P、アンテナ:u-blox ANN-MB-00(2周波)、受信衛星:GPS・QZSS・GLONASS・Galileo・BeiDou"
     },
