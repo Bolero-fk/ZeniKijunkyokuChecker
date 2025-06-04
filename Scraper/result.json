@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-06-03 15:27:01",
+  "UpdateTime(JST)": "2025-06-04 15:45:26",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2313,6 +2313,21 @@
     },
     {
       "id": 155,
+      "city_name": "熊本県菊池郡菊陽町",
+      "station_name": "熊本県立技術短期大学校",
+      "latitude": "32.888414483",
+      "longitude": "130.833111575",
+      "geoid_height": "186.2388",
+      "server_address": "geortk.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "Mount Point：KPCT，ID:無し，Password:無し，受信機:F9PX1(ZED-F9P)，アンテナ:JCA228)，基準局座標値は電子基準点 熊本（基線長約8km）とのStatic測定(2023.10.11), ジオイド高 32.7395 m"
+    },
+    {
+      "id": 156,
       "city_name": "熊本県合志市",
       "station_name": "熊本高専熊本キャンパス01",
       "latitude": "32.876434604",
@@ -2327,7 +2342,7 @@
       "comment": "ublox6TのRAWを配信しています。rtk2go.comにおいて、kumakuma01 のマウントポイントです。なお、位置データはPPP Static測位によるものです。"
     },
     {
-      "id": 156,
+      "id": 157,
       "city_name": "熊本市",
       "station_name": "熊本学園大学",
       "latitude": "32.803788188",
@@ -2342,7 +2357,7 @@
       "comment": "Mountpoint:KUMAGAKU、ID:akaushi、password: cqntripupload、アンテナTW3710(Tallysman社製)で受信したデータ（GPS+BeiDou+QZSS）をNEO-M8P-2（ublox社製）で処理して2024.1.5より配信中。位置データは2023.12.23に電子基準点 熊本（基線長約3km）からStatic計測した今期データ。"
     },
     {
-      "id": 157,
+      "id": 158,
       "city_name": "熊本県八代市",
       "station_name": "熊本高専八代キャンパス01",
       "latitude": "32.47559962",
@@ -2357,7 +2372,7 @@
       "comment": "ubloxのRAWをGPS+BeiDou で配信しています。　rtk2go.comにおいて、kumayatsu01 のマウントポイントです。"
     },
     {
-      "id": 158,
+      "id": 159,
       "city_name": "宮崎県西都市",
       "station_name": "妻ベース",
       "latitude": "32.107845944",
@@ -2372,7 +2387,7 @@
       "comment": "Mount Point : saito-B , ID：なし, PW：なし　電子基準点 西都・新富・佐土原、綾、川南を利用した Static観測による三次元網平均計算結果です。（元期）令和６年日向灘地震後改測（地震前からすると南南東方向へ約4㎝相対移動）Raspberry Pi  POVO2.0低速回線で配信"
     },
     {
-      "id": 159,
+      "id": 160,
       "city_name": "宮崎県東諸県郡国富町",
       "station_name": "土地家屋調査士佐藤守三事務所",
       "latitude": "31.991316083",
@@ -2387,7 +2402,7 @@
       "comment": " 受信機 u-blox ZED-F9P Mount Point：kunitomi-B  ID:なし, Password:なし 電子基準点（綾、佐土原、宮崎田野、西都）を使用した三次元網平均計算結果です。（元期変換済）令和６年日向灘地震後改測（地震前からすると南東方向へ約6㎝相対移動）"
     },
     {
-      "id": 160,
+      "id": 161,
       "city_name": "宮崎県宮崎市",
       "station_name": "土地家屋調査士塩月事務所",
       "latitude": "31.944754444",
@@ -2402,7 +2417,7 @@
       "comment": "Mount Point：709125DA，ID：無し，Password：無し,"
     },
     {
-      "id": 161,
+      "id": 162,
       "city_name": "宮崎県宮崎市",
       "station_name": "土地家屋調査士 殿所事務所",
       "latitude": "31.926474881",
@@ -2417,7 +2432,7 @@
       "comment": "Mountpoint : komatsudai02  ID/Password:なし　受信機:u-blox ZED-F9P アンテナ:BT290(BEITIAN) 電子基準点 宮崎田野・佐土原・綾（基線長約12km,13km,15Km）からStatic観測したものをベースに、VRS-GNSS等で長期間の定点観測による独自補正を行い位置を決定。"
     },
     {
-      "id": 162,
+      "id": 163,
       "city_name": "鹿児島県霧島市",
       "station_name": "第一工科大学",
       "latitude": "31.746833333",
@@ -2432,7 +2447,7 @@
       "comment": "<font color=\"#ff0000\">国土地理院民間等電子基準点(C級) 登録番号 No.3</font><br>第一工科大学  空間情報研究室　Mount Point：kiri1，ID：無し，Password：無し"
     },
     {
-      "id": 163,
+      "id": 164,
       "city_name": "宮崎県北諸県郡三股町",
       "station_name": "土地家屋調査士稲元志朗事務所",
       "latitude": "31.7293795278",
@@ -2447,7 +2462,7 @@
       "comment": "受信機 u-blox ZED-F9P Mount Point：mimata03 ID:なし, Password:なし 電子基準点（都城、宮崎田野、大隅）を使用した三次元網平均計算結果です。（元期変換済）令和5年4月28日座標更新"
     },
     {
-      "id": 164,
+      "id": 165,
       "city_name": "鹿児島県日置市",
       "station_name": "伊集院局",
       "latitude": "31.650743083",
@@ -2462,7 +2477,7 @@
       "comment": "Mount Point：ijyu1，ID：無し，Password：無し, <a href=\"&lt;/td\"></a>"
     },
     {
-      "id": 165,
+      "id": 166,
       "city_name": "宮崎県串間市",
       "station_name": "土地家屋調査士川崎雅人事務所",
       "latitude": "31.464726506",
@@ -2477,7 +2492,7 @@
       "comment": "受信機　u-blox MountPoint:KUSHIMA-M01 ID:なし Pasword:なし 電子基準点串間１(から１．２ｋ)を使用した後処理基線解析結果です。（元期変換済）土日は基本メンテのため休止。"
     },
     {
-      "id": 166,
+      "id": 167,
       "city_name": "沖縄県那覇市",
       "station_name": "土地家屋調査士法人半嶺当徹事務所",
       "latitude": "26.206812947",
@@ -2492,7 +2507,7 @@
       "comment": "Mount Point：0C45276E，ID・Password：なし，受信機：RWS+RWE-ETH，アンテナ：u-blox，基準局座標値は電子基準点［那覇,那覇Ｐ］とのStatic観測解析結果，改測：2025.02.14，設置：2025.01.24"
     },
     {
-      "id": 167,
+      "id": 168,
       "city_name": "沖縄県宮古島市平良",
       "station_name": "下地土地家屋調査士事務所",
       "latitude": "24.8025920941",
@@ -2507,7 +2522,7 @@
       "comment": "Mount Point：C468EE0E，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.26"
     },
     {
-      "id": 168,
+      "id": 169,
       "city_name": "沖縄県宮古島市城辺",
       "station_name": "友利土地家屋調査士事務所",
       "latitude": "24.751061782",
