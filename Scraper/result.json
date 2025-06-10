@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-06-09 15:25:51",
+  "UpdateTime(JST)": "2025-06-10 15:25:06",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2080,11 +2080,11 @@
       "geoid_height": "62.25",
       "server_address": "rtk2go.com",
       "port_number": "2101",
-      "data_type": "u-blox",
+      "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint: KNCT-TAKUMA，ID・Password：なし，対応衛星：GPS, QZSS, GLONASS, BeiDou, Galileo，基準局座標は2018/10/25に電子基準点三野（基線長約7.7km）とのStatic測位により決定しました。2020/2/21より2周波に対応しました。機材はublox ZED-F9P，アンテナは JCA225Sです。2021/11/24基準局座標を再取得しました。"
+      "comment": "Mountpoint: KNCT-Takuma，ID・Password：なし，対応衛星：GPS, QZSS, GLONASS, BeiDou, Galileo，基準局座標は2018/10/25に電子基準点三野（基線長約7.7km）とのStatic測位により決定しました。2020/2/21より2周波に対応しました。機材はublox ZED-F9P，アンテナは JCA225Sです。2021/11/24基準局座標を再取得しました。"
     },
     {
       "id": 140,
@@ -2405,16 +2405,16 @@
       "id": 161,
       "city_name": "宮崎県宮崎市",
       "station_name": "土地家屋調査士塩月事務所",
-      "latitude": "31.944754444",
-      "longitude": "131.431897056",
-      "geoid_height": "43.597",
+      "latitude": "31.944753889",
+      "longitude": "131.431897722",
+      "geoid_height": "43.5925",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
-      "mail": "○",
-      "comment": "Mount Point：709125DA，ID：無し，Password：無し,"
+      "mail": "×",
+      "comment": "Mount Point：709125DA，ID：無し，Password：無し,電子基準点（綾、佐土原、宮崎田野、宮崎）を使用した三次元網平均計算結果です。（元期変換済）令和６年日向灘地震後改測"
     },
     {
       "id": 162,
