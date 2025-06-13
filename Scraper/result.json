@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-06-12 15:26:20",
+  "UpdateTime(JST)": "2025-06-13 15:25:29",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2307,7 +2307,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint:oita-mie ID:なし password:なし アンテナ: GN-GGB0710(TOPGNSS) 配信種:L1+L2+L5,GPS+GLONASS+Galileo+BeiDou+QZSS 参照電子基準点:大分三重局(950475) 基準局設置場所:農林水産研究指導センター屋上 ジオイド高:31.8433"
     },
