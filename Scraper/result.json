@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-06-24 15:26:43",
+  "UpdateTime(JST)": "2025-06-25 15:27:02",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1342,14 +1342,14 @@
       "station_name": "第一測量株式会社",
       "latitude": "35.48162056",
       "longitude": "138.8037928",
-      "geoid_height": "849.9",
+      "geoid_height": "850.0",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633，測地成果2011"
+      "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633，測地成果2024"
     },
     {
       "id": 91,
@@ -1942,14 +1942,14 @@
       "station_name": "ohnb/C029",
       "latitude": "34.611555083",
       "longitude": "138.187898194",
-      "geoid_height": "81.35",
+      "geoid_height": "81.2",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、浜岡１、静岡相良２)を使用した三次元網平均計算による成果（元期）（72Hスタティック観測、SemiDyna2023.par利用）令和５年１０月２５日民間等電子基準点C級登録　登録番号　No.737"
+      "comment": "Mount Point:24EACD3A ID:なし、Password:なし、受信機:ublox F9P DG-PRO1 RWS　アンテナ:HX-CSX601A　基準局座標値は電子基準点（御前崎A、浜岡２、浜岡１、静岡相良２)を使用した三次元網平均計算による成果（元期）（72Hスタティック観測、SemiDyna2023.par利用）令和５年１０月２５日民間等電子基準点C級登録　登録番号　No.737令和７年６月２５日ジオイド2024対応"
     },
     {
       "id": 131,
