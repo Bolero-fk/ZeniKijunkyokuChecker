@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-06-27 15:25:04",
+  "UpdateTime(JST)": "2025-06-28 15:22:33",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -382,14 +382,14 @@
       "station_name": "古川克巳土地家屋調査士事務所",
       "latitude": "39.171242750",
       "longitude": "140.443322028",
-      "geoid_height": "129.237",
+      "geoid_height": "129.000",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "×",
-      "comment": "国土地理院承認　民間等電子基準点　C級　C035　Mount Point:B49FE64A ID:なし，Pass:なし,　受信機droggerRZS.D  RTCM3(MSM5)  アンテナHX-CSX-601A L1+L2+L5 基準局座標値は,国土地理院で計算（元期） 高さは楕円体高"
+      "comment": "測地成果2024に対応し、楕円体高を変更しました。国土地理院承認　民間等電子基準点　C級　C035　Mount Point:B49FE64A ID:なし，Pass:なし,　受信機droggerRZS.D  RTCM3(MSM5)  アンテナHX-CSX-601A L1+L2+L5 基準局座標値は,国土地理院で計算（元期） 高さは楕円体高"
     },
     {
       "id": 27,
