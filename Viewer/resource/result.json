@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-07-08 15:26:15",
+  "UpdateTime(JST)": "2025-07-09 15:26:34",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2504,7 +2504,7 @@
       "connection_type": "STRSVR",
       "status": "公開",
       "mail": "○",
-      "comment": "基準局位置は、国土地理院の金峰局（021091）GNSS受信データとRTKPOST処理で決定。現状M8P使用の1周波。各種実験のため不定期に停止あり。"
+      "comment": "基準局位置は、国土地理院の金峰局（021091　基線長約4.2km）GNSS受信データとRTKPOST処理で決定。現状M8P使用の1周波。各種実験のため不定期に停止あり。"
     },
     {
       "id": 168,
