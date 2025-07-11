@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-07-10 15:28:05",
+  "UpdateTime(JST)": "2025-07-11 15:26:23",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1934,7 +1934,7 @@
       "connection_type": "STRSVR",
       "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint：kindai-kosen , ID：your e-mail address , password：none , 受信機：NEO-M8P-2, アンテナ：BT-290, 配信種：GPS+GLO, 基準局座標値は電子基準点(室生(基線長8.4km)、月ヶ瀬(基線長13.0km)、白山(基線長19.5km))とのStatic測量にて測量。高さは楕円体高。"
+      "comment": "Mountpoint：kindai-kosen , ID：your e-mail address , password：none , 受信機：ZED-F9P, アンテナ：BT-290, 配信種：GPS+GLO, 基準局座標値は電子基準点(室生(基線長8.4km)、月ヶ瀬(基線長13.0km)、白山(基線長19.5km))とのStatic測量にて測量。高さは楕円体高。"
     },
     {
       "id": 130,
