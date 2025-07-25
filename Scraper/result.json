@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-07-24 15:24:56",
+  "UpdateTime(JST)": "2025-07-25 15:27:29",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1087,7 +1087,7 @@
       "station_name": "有限会社新生測量設計社／土地家屋調査士古賀毅事務所",
       "latitude": "35.795018",
       "longitude": "139.56602586",
-      "geoid_height": "86.83",
+      "geoid_height": "86.90",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
@@ -2322,7 +2322,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint:oita-mie ID:なし password:なし アンテナ: GN-GGB0710(TOPGNSS) 配信種:L1+L2+L5,GPS+GLONASS+Galileo+BeiDou+QZSS 参照電子基準点:大分三重局(950475) 基準局設置場所:農林水産研究指導センター屋上 ジオイド高:31.8433"
     },
