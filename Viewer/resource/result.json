@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-08-11 15:27:35",
+  "UpdateTime(JST)": "2025-08-12 15:26:50",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -57,7 +57,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": " Mount Point : MABOT_CHIP_BASE , ID:user, PW:password"
     },
@@ -162,7 +162,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "【調整中】Mount Point : SOUGO.KK , ID:user, PW:passwd"
     },
