@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-08-26 15:24:33",
+  "UpdateTime(JST)": "2025-08-27 15:24:04",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1932,9 +1932,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "ID Password無しMountPoint  yoshimura  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P 2周波(GPS,GLO ,Gal,BeiDo)（仰角35度以上での使用をお薦めします）"
+      "comment": "座標再計測のため8月末まで停波します。ID Password無しMountPoint  yoshimura  2024年1月運用再開（2025-1再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P 2周波(GPS,GLO ,Gal,BeiDo)（仰角35度以上での使用をお薦めします）"
     },
     {
       "id": 130,
