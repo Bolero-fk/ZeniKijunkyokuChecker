@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-09-01 15:22:30",
+  "UpdateTime(JST)": "2025-09-02 15:24:44",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1925,16 +1925,16 @@
       "id": 129,
       "city_name": "広島県-安芸太田町-加計",
       "station_name": "YOSHIMURA",
-      "latitude": "34.6168748333",
-      "longitude": "132.3177879167",
-      "geoid_height": "227.888",
+      "latitude": "34.6168768054",
+      "longitude": "132.317780693",
+      "geoid_height": "227.832",
       "server_address": "rtk2go.com",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " Password無し MountPoint  yoshimura  2024年1月運用再開（2025-8再観測） スタティック観測の後 戸河内Ａ,芸北,弥栄とＰPＫ後3次元網平均（元期）F9P 2周波(GPS,GLO ,Gal,BeiDo)　楕円体高"
+      "comment": " Password無し MountPoint  yoshimura  2024年1月運用再開（2025-8再観測） スタティック観測の後 戸河内Ａ,芸北,広島１とＰPＫ後3次元網平均（元期）F9P 2周波(GPS,GLO ,Gal,BeiDo)　楕円体高"
     },
     {
       "id": 130,
