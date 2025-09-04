@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-09-03 15:23:49",
+  "UpdateTime(JST)": "2025-09-04 15:23:09",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1137,9 +1137,9 @@
       "port_number": "80",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "R5,10,19　暫定復旧。受信機u-blox ZED-F9P(トラ技） アンテナ Beitian BT-290 Mount Point: MASK　ID: guest　Password: guest　　基準局座標値は電子基準点:小金井(基線長約5.0㎞)を使用したRTKPOSTによる後処理基線解析結果。現在、GPS及びGalileoのみで運用中。"
+      "comment": "R5,10,19　暫定復旧。受信機u-blox ZED-F9P(トラ技） アンテナ Beitian BT-290 Mount Point: MASK　ID: guest　Password: guest　　基準局座標値は電子基準点:小金井(基線長約5.0㎞)を使用したRTKPOSTによる後処理基線解析結果。現在、休止。"
     },
     {
       "id": 77,
