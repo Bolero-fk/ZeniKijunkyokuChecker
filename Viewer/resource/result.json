@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-09-07 15:18:47",
+  "UpdateTime(JST)": "2025-09-08 15:22:29",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2217,7 +2217,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
       "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ:JCA228E 配信種:L1+L2+L5,GPS+GLONASS+Galileo+BeiDou+QZSS 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4307 備考:使用状況などをメールで送ってもらえれば励みになります。＊2025年1月設置場所変更"
     },
