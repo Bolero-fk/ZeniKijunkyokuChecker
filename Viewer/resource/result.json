@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-09-24 15:23:31",
+  "UpdateTime(JST)": "2025-09-25 15:24:22",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1535,16 +1535,16 @@
       "id": 103,
       "city_name": "静岡県伊東市",
       "station_name": "土地家屋調査士田畑事務所",
-      "latitude": "34.888166312",
-      "longitude": "139.122249781",
-      "geoid_height": "130.051",
-      "server_address": "RTK2go.com",
+      "latitude": "34.888168139",
+      "longitude": "139.122249861",
+      "geoid_height": "130.1199",
+      "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：TABATA-LHI、ID：なし、Password：なし<br>受信機：u-blox ZED-F9P、RTCM3（GPS,QZSS,GLONASS,Galileo,BeiDou) "
+      "comment": "Mount Point：D4C4D14E、ID：なし、Password：なし、近傍の電子基準点を使用した三次元網平均計算結果です。（元期変換済）"
     },
     {
       "id": 104,
