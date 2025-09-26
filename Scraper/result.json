@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-09-25 15:24:22",
+  "UpdateTime(JST)": "2025-09-26 15:23:08",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2052,9 +2052,9 @@
       "port_number": "80",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "大学ネットワークのトラブルにより一時休止しています。Mount Point: OEM7、ID・Password なし。配信: GPS/GLO/GAL/QZS/BDS (MSM7, EPH)、アンテナ座標。機材:RTKLIB2.4.3b34, NovAtel OEM729 (L1, L2, L5), Javad GrANT-G5T。座標は電子基準点広島2Aから求めた元期です(2021-03-27)。"
+      "comment": "(復旧しました) Mount Point: OEM7 or F9P、ID・Password なし。配信: GPS/GLO/GAL/QZS/BDS (MSM7, EPH)、アンテナ座標。座標は電子基準点広島2Aから求めた元期です(2021-03-27)。https://s-taka.org/gnss-observation/"
     },
     {
       "id": 138,
