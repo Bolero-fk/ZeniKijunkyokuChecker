@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-10-21 15:23:27",
+  "UpdateTime(JST)": "2025-10-22 15:24:42",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -938,13 +938,13 @@
       "latitude": "36.11158889",
       "longitude": "140.08005390",
       "geoid_height": "71.2",
-      "server_address": "RTK2go.com",
+      "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "国土地理院民間等電子基準点(C級) 登録番号 No.4 【ご注意】2020年6月28日アンテナ交換　Mount Point:KANAME-ANX-RTCM3 ID:任意の有効なメールアドレス，Pswd:なし，受信機ublox F9P トラ技キット RTCM3 1005(10),1019(1),1020(2),1042(2),1044(2),1046(1),1077(1),1087(1),1097(1),1117(1),1127(1)．アンテナJCA228B"
+      "comment": "国土地理院民間等電子基準点(C級) 登録番号 No.4 【ご注意】2020年6月28日アンテナ交換　Mount Point:kaname ID:任意の有効なメールアドレス，Pswd:なし，受信機ublox F9P トラ技キット RTCM3 1005(10),1019(1),1020(2),1042(2),1044(2),1046(1),1077(1),1087(1),1097(1),1117(1),1127(1)．アンテナJCA228B"
     },
     {
       "id": 64,
