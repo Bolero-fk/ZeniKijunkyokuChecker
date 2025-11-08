@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-11-07 15:24:18",
+  "UpdateTime(JST)": "2025-11-08 15:20:54",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2194,7 +2194,7 @@
     {
       "id": 147,
       "city_name": "福岡県うきは市",
-      "station_name": "sym",
+      "station_name": "須山好章",
       "latitude": "33.35644320",
       "longitude": "130.76143127",
       "geoid_height": "67.0664",
