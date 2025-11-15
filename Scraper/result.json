@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-11-14 15:22:01",
+  "UpdateTime(JST)": "2025-11-15 15:21:13",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1924,7 +1924,7 @@
     {
       "id": 129,
       "city_name": "広島県-安芸太田町-加計",
-      "station_name": "YOSHIMURA",
+      "station_name": "株式会社ヨシムラ",
       "latitude": "34.6168768054",
       "longitude": "132.317780693",
       "geoid_height": "227.832",
