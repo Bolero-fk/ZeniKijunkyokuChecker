@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-11-28 15:24:42",
+  "UpdateTime(JST)": "2025-11-29 15:22:13",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1454,7 +1454,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "MountPoint：C469130A　ID：なし　Password：なし　受信機：RZS.D　アンテナ：HX-CSX601A　基準局座標値は電子基準点（余呉、三方、河野）を使用した三次元網平均計算による成果（元期）です。なお、自己責任にてご使用ください。"
+      "comment": "MountPoint：C469130A　ID：なし　Password：なし　受信機：RZS.D　アンテナ：HX-CSX601A　基準局座標値は電子基準点（余呉、三方、河野）を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 98,
