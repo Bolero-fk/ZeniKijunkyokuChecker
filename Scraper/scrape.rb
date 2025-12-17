@@ -24,10 +24,10 @@ if __FILE__ == $0
     URL = 'https://rtk.silentsystem.jp/'
 
     # 証明書ファイルの場所
-    CERT_DIRECOTRY = './cert/rtk_cacert.pem';
+    CERT_DIRECTORY = './cert/rtk_cacert.pem';
 
     # URLからHTMLを取得
-    doc = Nokogiri.HTML(URI.open(URL, ssl_ca_cert: CERT_DIRECOTRY))
+    doc = Nokogiri.HTML(URI.open(URL, ssl_ca_cert: CERT_DIRECTORY))
 
     # HTML内のtrタグを全て取得
     table_rows = doc.xpath('//tr')
