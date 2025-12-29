@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2025-12-28 15:24:30",
+  "UpdateTime(JST)": "2025-12-29 15:28:02",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1218,6 +1218,21 @@
     },
     {
       "id": 82,
+      "city_name": "福井県敦賀市",
+      "station_name": "阿部登記測量事務所　abe_base",
+      "latitude": "35.63429592",
+      "longitude": "136.05889312",
+      "geoid_height": "55.4077",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "u-blox",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "MountPoint：C469130A　ID：なし　Password：なし　受信機：RZS.D　アンテナ：HX-CSX601A　基準局座標値は電子基準点（余呉、三方、河野）を使用した三次元網平均計算による成果（元期）です。"
+    },
+    {
+      "id": 83,
       "city_name": "東京都大田区",
       "station_name": "MO-Brain",
       "latitude": "35.59291228",
@@ -1232,7 +1247,7 @@
       "comment": "一部WIFIを経由しているので、テスト公開とさせてください。"
     },
     {
-      "id": 83,
+      "id": 84,
       "city_name": "神奈川県川崎市",
       "station_name": "川崎西",
       "latitude": "35.580478609",
@@ -1247,7 +1262,7 @@
       "comment": "電子基準点（C級No.2）令和2年7月より運用していましたが転居のため、令和5年12月25日もって配信を終了いたします。"
     },
     {
-      "id": 84,
+      "id": 85,
       "city_name": "山梨県南巨摩郡",
       "station_name": "土地家屋調査士法人芦澤事務所",
       "latitude": "35.561487222",
@@ -1262,7 +1277,7 @@
       "comment": "国土地理院民間等電子基準点(C級) 登録番号 No.2429　　Mount Point：B49FE586　　 ID:なし　　 Password:なし　　 受信機:RZS.D　　アンテナ:HX-CSX601A"
     },
     {
-      "id": 85,
+      "id": 86,
       "city_name": "神奈川県横浜市都筑区",
       "station_name": "土地家屋調査士17号局　トレイス土地家屋調査士法人横浜",
       "latitude": "35.550396916",
@@ -1277,7 +1292,7 @@
       "comment": "マウントポイント:tamtam，ID・Pass:なし。電子基準点・川崎、世田谷、町田によるstatic計算。2024年6月3日観測。突然のメンテナンスがあるのでご使用の際はご一報下さい。"
     },
     {
-      "id": 86,
+      "id": 87,
       "city_name": "鳥取県鳥取市",
       "station_name": "鳥取大学湖山キャンパス",
       "latitude": "35.51626651",
@@ -1292,7 +1307,7 @@
       "comment": "マウントポイント<br>TTRU-RTCM3: 1005, 1077, 1087, 1097, 1127, 1230. <br>TTRU-RAW: u-blox raw．<br>ユーザ名/パス:なし/なし<br>詳細はhttp://www.mech.tottori-u.ac.jp/crlab/contents/gpsmain.html<br>ublox社製ZED-F9Pによる2周波配信．アンテナはHarxon社製HX-CSX601Aを利用．"
     },
     {
-      "id": 87,
+      "id": 88,
       "city_name": "Tottori",
       "station_name": "Yamatomaru",
       "latitude": "35.51159610",
@@ -1307,7 +1322,7 @@
       "comment": "Drogger GPS､2周波受信局、直接レシバーからWifiルーターでCaster Tableに接続\tMount Point=AKASAKI-JF/鳥取大学の基地から直線で約４９．８ｋｍ,かなり良い受信が出ています。推定水平精度０．０１４推定垂直精度０．０２。漁業者の方もどんど使ってください。短時間で目的地，瀬に乗ることができ，釣果も上がります。又、AIS基地局募集中特に島根県日本海側の方、機器、ソフト無料、ご連絡yamatomaru.net"
     },
     {
-      "id": 88,
+      "id": 89,
       "city_name": "横浜市",
       "station_name": "新横浜",
       "latitude": "35.50609305",
@@ -1322,7 +1337,7 @@
       "comment": "回線切り替え中のため休止しています"
     },
     {
-      "id": 89,
+      "id": 90,
       "city_name": "山梨県富士河口湖町",
       "station_name": "土地家屋調査士　佐野勉事務所",
       "latitude": "35.49754647",
@@ -1337,7 +1352,7 @@
       "comment": "現在試験運用中　Mount Point:981FD39A　ID:なし，Password:なし，受信機:RWS　アンテナ:GN-GGB0710　基準局座標値は電子基準点（富士吉田、上九一色、山梨一宮)を 使用した三次元網平均計算による成果（元期）です。"
     },
     {
-      "id": 90,
+      "id": 91,
       "city_name": "大和市",
       "station_name": "18号局　土地家屋調査士法人アンバーパートナーズ",
       "latitude": "35.496422094",
@@ -1352,7 +1367,7 @@
       "comment": "しばらく休止いたします。　Mount Point：AMBER-P ID：なし、Password：なし  受信機：u-blox ZED-F9P、RTCM3（GPS,QZSS,GLONASS,Galileo,BeiDou)試験中です。"
     },
     {
-      "id": 91,
+      "id": 92,
       "city_name": "山梨県富士吉田市",
       "station_name": "第一測量株式会社",
       "latitude": "35.48162056",
@@ -1367,7 +1382,7 @@
       "comment": "国土地理院民間等電子基準点C級　登録番号：No.2531　Mount Point：E4DBE78E，ID：無し，Password：daiichi2633，測地成果2024"
     },
     {
-      "id": 92,
+      "id": 93,
       "city_name": "横浜市西区",
       "station_name": "神奈川県土地家屋調査士会",
       "latitude": "35.466141222",
@@ -1382,7 +1397,7 @@
       "comment": "マウントポイント:B4A00B46，ID・Pass:なし。電子基準点・川崎、横浜Ａ、横浜泉によるstatic計算。2023年11月10日観測。"
     },
     {
-      "id": 93,
+      "id": 94,
       "city_name": "鳥取県米子市",
       "station_name": "YNCT",
       "latitude": "35.460892304",
@@ -1397,7 +1412,7 @@
       "comment": "mount point:YNCT-D  id:なし PW:なし  ublox社製ZED-F9P   対応衛星:GPS,QZSS,GLONASS,BeiDou,Galileo 座標は電子基準点米子とのstatic測位により決定"
     },
     {
-      "id": 94,
+      "id": 95,
       "city_name": "神奈川県横浜市",
       "station_name": "㈱ジークスペース",
       "latitude": "35.4421241",
@@ -1412,7 +1427,7 @@
       "comment": "#2020年2月17日開始しました#<br>MountPoint: ZEKE_PIKSI<br>RTCM3.2 1075,1085,1095,1125,1230<br>Swift Navigation Piksi Multi<br>受信機故障につき休止いたします。"
     },
     {
-      "id": 95,
+      "id": 96,
       "city_name": "神奈川県横浜市",
       "station_name": "㈱ジークスペース",
       "latitude": "35.44212223",
@@ -1427,7 +1442,7 @@
       "comment": "   # 2020年2月16日 MountpPoint変更しました＃<br>MountPoint: ZEKE_F9P<br>RTCM3 1005, 1077, 1087, 1097, 1127, 1230<br>U-blox ZEP-F9P 2周波<br>基準局座標は電子基準点(横浜)からRTKPOSTで計測<br>"
     },
     {
-      "id": 96,
+      "id": 97,
       "city_name": "岐阜県各務原市",
       "station_name": "三ツ池",
       "latitude": "35.40061207",
@@ -1440,21 +1455,6 @@
       "status": "休止",
       "mail": "○",
       "comment": "MtPoint：KAKAMIGAHARAUM　ID・PWなし。受信機：F9Pトラ技キット　基準局座標値はVRSサービス５分観測５セットの平均値で決定"
-    },
-    {
-      "id": 97,
-      "city_name": "福井県敦賀市",
-      "station_name": "阿部登記測量事務所　abe_base",
-      "latitude": "35.38034653",
-      "longitude": "136.03320152",
-      "geoid_height": "55.4077",
-      "server_address": "ntrip1.bizstation.jp",
-      "port_number": "2101",
-      "data_type": "u-blox",
-      "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "MountPoint：C469130A　ID：なし　Password：なし　受信機：RZS.D　アンテナ：HX-CSX601A　基準局座標値は電子基準点（余呉、三方、河野）を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 98,
