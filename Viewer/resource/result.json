@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-01-29 15:40:01",
+  "UpdateTime(JST)": "2026-01-30 15:40:00",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2508,6 +2508,21 @@
     },
     {
       "id": 168,
+      "city_name": "鹿児島市",
+      "station_name": "アサハン局　KTA01",
+      "latitude": "31.636578389",
+      "longitude": "130.570571139",
+      "geoid_height": "236.1",
+      "server_address": "ntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
+      "status": "公開",
+      "mail": "○",
+      "comment": "民間等電子基準点 C級登録　登録番号No.2537　点名:KTA01/C064　Mount Point:E00D2FEA ID:なし，Pass:2439827   受信機：DG-PRO1 RWS，アンテナ：KMDQZG12FQ　標高：204.2"
+    },
+    {
+      "id": 169,
       "city_name": "宮崎県串間市",
       "station_name": "土地家屋調査士川崎雅人事務所",
       "latitude": "31.464726506",
@@ -2522,7 +2537,7 @@
       "comment": "受信機　u-blox MountPoint:KUSHIMA-M01 ID:なし Pasword:なし 電子基準点串間１(から１．２ｋ)を使用した後処理基線解析結果です。（元期変換済）土日は基本メンテのため休止。"
     },
     {
-      "id": 169,
+      "id": 170,
       "city_name": "鹿児島県南さつま市",
       "station_name": "田頭ラボラトリ_鹿児島",
       "latitude": "31.414923208",
@@ -2537,7 +2552,7 @@
       "comment": "基準局位置は、国土地理院の金峰局（021091　基線長約4.2km）GNSS受信データとRTKPOST処理で決定。現状M8P使用の1周波。各種実験のため不定期に停止あり。 Ntrip Caster接続は、URL: geortk.jp Mount Point:tagashira-lab_kgs Port:2101 IDなし PWなし　データ形式は、u-blox RAW"
     },
     {
-      "id": 170,
+      "id": 171,
       "city_name": "鹿児島県南さつま市",
       "station_name": "田頭ラボラトリ_鹿児島_2周波",
       "latitude": "31.414923208",
@@ -2552,7 +2567,7 @@
       "comment": "基準局位置は、国土地理院の金峰局（021091　基線長約4.2km）GNSS受信データとRTKPOST処理で決定。F9P使用の2周波。各種実験のため不定期に停止あり。URL: geortk.jp Mount Point:tagashira-lab_kgs2 Port:2101 IDなし PWなし"
     },
     {
-      "id": 171,
+      "id": 172,
       "city_name": "沖縄県那覇市",
       "station_name": "土地家屋調査士法人半嶺当徹事務所",
       "latitude": "26.206812947",
@@ -2567,7 +2582,7 @@
       "comment": "Mount Point：0C45276E，ID・Password：なし，受信機：RWS+RWE-ETH，アンテナ：u-blox，基準局座標値は電子基準点［那覇,那覇Ｐ］とのStatic観測解析結果，改測：2025.02.14，設置：2025.01.24"
     },
     {
-      "id": 172,
+      "id": 173,
       "city_name": "沖縄県宮古島市平良",
       "station_name": "下地土地家屋調査士事務所",
       "latitude": "24.8025920941",
@@ -2582,7 +2597,7 @@
       "comment": "Mount Point：C468EE0E，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.26"
     },
     {
-      "id": 173,
+      "id": 174,
       "city_name": "沖縄県宮古島市城辺",
       "station_name": "友利土地家屋調査士事務所",
       "latitude": "24.751061782",
