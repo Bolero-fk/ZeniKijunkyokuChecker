@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-01 15:30:14",
+  "UpdateTime(JST)": "2026-02-02 15:40:28",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1219,7 +1219,7 @@
     {
       "id": 82,
       "city_name": "福井県敦賀市",
-      "station_name": "阿部登記測量事務所　abe_base",
+      "station_name": "阿部登記測量事務所　Abe_base",
       "latitude": "35.63429592",
       "longitude": "136.05889312",
       "geoid_height": "55.4077",
@@ -1229,7 +1229,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "MountPoint：C469130A　ID：なし　Password：なし　受信機：RZS.D　アンテナ：HX-CSX601A　基準局座標値は電子基準点（余呉、三方、河野）を使用した三次元網平均計算による成果（元期）です。"
+      "comment": "★令和8年2月2日　国土地理院民間等電子基準点C級登録（NO.2538/国土地理院管理番号Ｃ065）MountPoint：C469130A　ID：なし　Password：なし　受信機：RZS.D　アンテナ：HX-CSX601A　基準局座標値は電子基準点（余呉、三方、河野）を使用した三次元網平均計算による成果（元期）です。"
     },
     {
       "id": 83,
