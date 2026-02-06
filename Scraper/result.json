@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-05 15:46:36",
+  "UpdateTime(JST)": "2026-02-06 15:46:14",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2157,7 +2157,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint:nishitech ID:なし password:なし アンテナ: JCA228E 配信種:GPS+GLONASS+Galileo+BeiDou 参照電子基準点:行橋局(960686) 基準局設置場所:西日本工大おばせキャンパスM棟屋上 ジオイド高:32.7393 備考:工学部総合システム工学科土木工学系で管理・運用しています。"
     },
@@ -2247,7 +2247,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint:oita-kosen ID:なし password:なし アンテナ:JCA228E 配信種:L1+L2+L5,GPS+GLONASS+Galileo+BeiDou+QZSS 参照電子基準点:大分局(960709) 基準局設置場所:大分高専電気機械棟屋上 ジ・Oイド高:31.4307 備考:使用状況などをメールで送ってもらえれば励みになります。＊2025年1月設置場所変更"
     },
@@ -2337,7 +2337,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
       "comment": "Mountpoint:oita-mie ID:なし password:なし アンテナ: GN-GGB0710(TOPGNSS) 配信種:L1+L2+L5,GPS+GLONASS+Galileo+BeiDou+QZSS 参照電子基準点:大分三重局(950475) 基準局設置場所:農林水産研究指導センター屋上 ジオイド高:31.8433"
     },
