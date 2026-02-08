@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-07 15:30:11",
+  "UpdateTime(JST)": "2026-02-08 15:31:10",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2568,6 +2568,21 @@
     },
     {
       "id": 172,
+      "city_name": "沖縄県名護市",
+      "station_name": "松本武寿土地家屋調査士事務所",
+      "latitude": "26.36537976",
+      "longitude": "128.00135849",
+      "geoid_height": "43.792",
+      "server_address": "",
+      "port_number": "0",
+      "data_type": "u-blox",
+      "connection_type": "STRSVR",
+      "status": "公開",
+      "mail": "×",
+      "comment": ""
+    },
+    {
+      "id": 173,
       "city_name": "沖縄県那覇市",
       "station_name": "土地家屋調査士法人半嶺当徹事務所",
       "latitude": "26.206812947",
@@ -2582,7 +2597,7 @@
       "comment": "Mount Point：0C45276E，ID・Password：なし，受信機：RWS+RWE-ETH，アンテナ：u-blox，基準局座標値は電子基準点［那覇,那覇Ｐ］とのStatic観測解析結果，改測：2025.02.14，設置：2025.01.24"
     },
     {
-      "id": 173,
+      "id": 174,
       "city_name": "沖縄県宮古島市平良",
       "station_name": "下地土地家屋調査士事務所",
       "latitude": "24.8025920941",
@@ -2597,7 +2612,7 @@
       "comment": "Mount Point：C468EE0E，ID・Password：なし，受信機：ublox F9P DG-PRO1 RWS，アンテナ：u-blox，基準局座標値は電子基準点［城辺］とのStatic観測解析結果，設置：2025.02.26"
     },
     {
-      "id": 174,
+      "id": 175,
       "city_name": "沖縄県宮古島市城辺",
       "station_name": "友利土地家屋調査士事務所",
       "latitude": "24.751061782",
