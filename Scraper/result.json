@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-09 16:00:13",
+  "UpdateTime(JST)": "2026-02-10 16:09:30",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2573,13 +2573,13 @@
       "latitude": "26.36537976",
       "longitude": "128.00135849",
       "geoid_height": "43.792",
-      "server_address": "",
-      "port_number": "0",
-      "data_type": "u-blox",
-      "connection_type": "STRSVR",
+      "server_address": "\tntrip1.bizstation.jp",
+      "port_number": "2101",
+      "data_type": "RTCM3",
+      "connection_type": "Ntrip",
       "status": "公開",
-      "mail": "×",
-      "comment": ""
+      "mail": "○",
+      "comment": "Mount Point:B49FE63A,ID・Password:なし,受信機:RZS:RTCM3,基準局座標値は電子基準点[大宜味,本部,宜野座]とのStatic観測解析結果,設置:2025.07.10"
     },
     {
       "id": 173,
