@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-14 15:30:29",
+  "UpdateTime(JST)": "2026-02-16 15:46:07",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2570,8 +2570,8 @@
       "id": 172,
       "city_name": "沖縄県名護市",
       "station_name": "松本武寿土地家屋調査士事務所",
-      "latitude": "26.36537976",
-      "longitude": "128.00135849",
+      "latitude": "26.614943730",
+      "longitude": "128.003773559",
       "geoid_height": "43.792",
       "server_address": "\tntrip1.bizstation.jp",
       "port_number": "2101",
