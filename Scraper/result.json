@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-17 15:57:09",
+  "UpdateTime(JST)": "2026-02-18 15:56:39",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2519,7 +2519,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "民間等電子基準点 C級登録　登録番号No.2537　点名:KTA01/C064　Mount Point:E00D2FEA ID:なし，Pass:2439827   受信機：DG-PRO1 RWS，アンテナ：KMDQZG12FQ　標高：204.2"
+      "comment": "民間等電子基準点 C級登録　登録番号No.2537　点名:KTA01/C064　Mount Point:E00D2FEA ID:なし，Pass:あり   受信機：DG-PRO1 RWS，アンテナ：KMDQZG12FQ　標高：204.2"
     },
     {
       "id": 169,
