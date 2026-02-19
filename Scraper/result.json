@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-18 15:56:39",
+  "UpdateTime(JST)": "2026-02-19 15:54:19",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2187,9 +2187,9 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
-      "mail": "○",
-      "comment": "利用規約に同意していただける方へ公開しています。詳細は https://www.oita-it.ac.jp/news/rtk/ ※Ntrip Caster Serverを変更しました。（2025/1/15）"
+      "status": "休止",
+      "mail": "×",
+      "comment": "故障のため現在休止中です。再開時期は未定となっております。利用規約に同意していただける方へ公開しています。詳細は https://www.oita-it.ac.jp/news/rtk/ ※Ntrip Caster Serverを変更しました。（2025/1/15）"
     },
     {
       "id": 147,
