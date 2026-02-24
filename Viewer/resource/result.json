@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-23 16:26:38",
+  "UpdateTime(JST)": "2026-02-24 16:03:33",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -935,16 +935,16 @@
       "id": 63,
       "city_name": "茨城県境町",
       "station_name": "木村泰之土地家屋調査士事務所",
-      "latitude": "36.112677901",
-      "longitude": "139.797947493",
-      "geoid_height": "60.165",
+      "latitude": "36.11267788",
+      "longitude": "139.79794742",
+      "geoid_height": "60.104",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "Mount Point：ACA218A2，ID・Password：なし，受信機：Drogger RWS，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下］とのStatic観測解析結果，改測：2025.05.11"
+      "comment": "Mount Point：B49FE7E6，ID・Password：なし，受信機：Drogger RZS.D，アンテナ：Harxon HX-CSX601A，基準局座標値は電子基準点［三和,庄和A,石下,久喜］とのStatic観測解析結果，改測：2026.02.24"
     },
     {
       "id": 64,
