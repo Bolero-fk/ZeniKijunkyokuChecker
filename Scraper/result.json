@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-02-27 15:40:41",
+  "UpdateTime(JST)": "2026-02-28 15:27:54",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -499,17 +499,17 @@
     {
       "id": 34,
       "city_name": "宮城県 柴田町",
-      "station_name": "Shibata989",
+      "station_name": "989Shibata",
       "latitude": "38.06701037",
       "longitude": "140.77306710",
       "geoid_height": "62.094",
-      "server_address": "160.16.134.72",
+      "server_address": "geoRTK.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント名：SHIBATA989、ID：無、パスワード：無 出力：RTCM3 1077(1)、1087(1)、1097(1)、1127(1)、1230(1) 受信機u-blox ZED-F9P  アンテナ：u-blox ANN-MB-00 L1+L2   運用時間：8:00～17:00"
+      "comment": "マウントポイント名：989Shibata、ID：無、パスワード：無 出力：RTCM3 1077(1)、1087(1)、1097(1)、1127(1)、1230(1) 受信機u-blox ZED-F9P  アンテナ：u-blox ANN-MB-00 L1+L2 "
     },
     {
       "id": 35,
