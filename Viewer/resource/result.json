@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-03-03 15:51:36",
+  "UpdateTime(JST)": "2026-03-04 15:49:39",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1167,9 +1167,9 @@
       "port_number": "443",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "○",
-      "comment": "Mountpoint:HOSEI-F9P(rtcm3),HOSEI-F9P-RTCM3(rtcm3),HOSEI-UBLOX(ubx)で配信.ID:guest,PW:guest,アンテナANN-MB-00.小金井キャンパス法定停電(2026/02/28-03/01)の前後は休止予定(2025/08/01)"
+      "comment": "Mountpoint:HOSEI-F9P(rtcm3),HOSEI-F9P-RTCM3(rtcm3),HOSEI-UBLOX(ubx)で配信.ID:guest,PW:guest,アンテナANN-MB-00.停電復帰に伴うサーバー不具合のため、2026年4月以降に再開予定(2026/03/04)"
     },
     {
       "id": 79,
@@ -2519,7 +2519,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "民間等電子基準点 C級登録　登録番号No.2537　点名:KTA01/C064　Mount Point:E00D2FEA ID:なし，Pass:あり   受信機：DG-PRO1 RWS，アンテナ：KMDQZG12FQ　標高：204.2"
+      "comment": "民間等電子基準点 C級登録　登録番号No.2537　点名:KTA01/C064　Mount Point:E00D2FEA ID:2439827，Pass:2439827   受信機：DG-PRO1 RWS，アンテナ：KMDQZG12FQ　標高：204.2"
     },
     {
       "id": 169,
