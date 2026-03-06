@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-03-05 15:54:13",
+  "UpdateTime(JST)": "2026-03-06 15:42:01",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -1167,9 +1167,9 @@
       "port_number": "443",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "休止",
+      "status": "公開",
       "mail": "○",
-      "comment": "Mountpoint:HOSEI-F9P(rtcm3),HOSEI-F9P-RTCM3(rtcm3),HOSEI-UBLOX(ubx)で配信.ID:guest,PW:guest,アンテナANN-MB-00.停電復帰に伴うサーバー不具合のため、2026年4月以降に再開予定(2026/03/04)"
+      "comment": "Mountpoint:HOSEI-F9P(rtcm3), HOSEI-F9P-RTCM3(rtcm3), HOSEI-UBLOX(ubx)で配信. ID:guest,PW:guest, アンテナANN-MB-00. (2026/03/06)"
     },
     {
       "id": 79,
