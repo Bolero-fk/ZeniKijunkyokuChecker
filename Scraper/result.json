@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-03-06 15:42:01",
+  "UpdateTime(JST)": "2026-03-07 15:28:18",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -509,7 +509,7 @@
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント名：989Shibata、ID：無、パスワード：無 出力：RTCM3 1077(1)、1087(1)、1097(1)、1127(1)、1230(1) 受信機u-blox ZED-F9P  アンテナ：u-blox ANN-MB-00 L1+L2 "
+      "comment": "マウントポイント名：989Shibata、ID：無、パスワード：無 出力：RTCM3 1005、1077、1087、1097、1127、1230 受信機u-blox ZED-F9P  アンテナ：u-blox ANN-MB-00 L1+L2 "
     },
     {
       "id": 35,
