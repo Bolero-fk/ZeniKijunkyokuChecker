@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-05-20 17:54:21",
+  "UpdateTime(JST)": "2026-05-21 17:30:44",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -185,16 +185,16 @@
       "id": 13,
       "city_name": "夕張郡長沼町",
       "station_name": "土地家屋調査士　　　中野輝久事務所 ",
-      "latitude": "43.011148092",
-      "longitude": "141.692340117",
-      "geoid_height": "50.359",
+      "latitude": "43.011148183",
+      "longitude": "141.692340214",
+      "geoid_height": "50.413",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "u-blox",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": " Mount Point : KIYO,  Password : UTK19520713 ,  F9p, 長沼4.4km  R7.2.20  RTKPOST後処理基線解析結果  今期から元期に変換済 "
+      "comment": " Mount Point : KIYO,  Password : UTK19520713 ,  F9p, 長沼4.4km  R8.4.5  RTKPOSTによる後処理基線解析結果  今期から元期に変換済 "
     },
     {
       "id": 14,
