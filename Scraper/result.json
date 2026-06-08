@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-06-07 16:20:41",
+  "UpdateTime(JST)": "2026-06-08 17:58:18",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2277,7 +2277,7 @@
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
-      "status": "公開",
+      "status": "休止",
       "mail": "×",
       "comment": "Mount Point：kawano3band，Password:なし，受信機:Septentrio社mosaic-X5，アンテナ:HX－CSX601A．基準局座標値は暫定"
     },
