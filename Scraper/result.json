@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-06-25 17:13:47",
+  "UpdateTime(JST)": "2026-06-26 17:02:52",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2213,13 +2213,13 @@
       "latitude": "33.35644320",
       "longitude": "130.76143127",
       "geoid_height": "67.0664",
-      "server_address": "103.169.145.16",
+      "server_address": "ntrip-ukiha.suyama.ne.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント: main, ID: なし, パスワード: なし\\n 試験運用中。そのうち運用中止します。任意ですが、使用する際は時間等メールでご一報いただけるとその時間にはメンテナンスは行わないよういたします。\\n 受信機: ZED-F9P, アンテナ: JCA228B"
+      "comment": "マウントポイント: rtcm30 rtcm32msm4 rtcm32msm5 rtcm32msm7, ユーザ名/パスワードはお問い合わせください"
     },
     {
       "id": 149,
