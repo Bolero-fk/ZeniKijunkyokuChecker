@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-07-03 16:38:03",
+  "UpdateTime(JST)": "2026-07-04 16:06:56",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -2228,13 +2228,13 @@
       "latitude": "33.35644320",
       "longitude": "130.76143127",
       "geoid_height": "67.0664",
-      "server_address": "ntrip-ukiha.suyama.ne.jp",
+      "server_address": "ntrip.suyama.ne.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
       "connection_type": "Ntrip",
       "status": "公開",
       "mail": "○",
-      "comment": "マウントポイント: rtcm30 rtcm32msm4 rtcm32msm5 rtcm32msm7, ユーザ名/パスワードはお問い合わせください"
+      "comment": "マウントポイント: ukiha-rtcm30 ukiha-rtcm32msm4 ukiha-rtcm32msm5 ukiha-rtcm32msm7, ユーザ名/パスワードはお問い合わせください"
     },
     {
       "id": 150,
