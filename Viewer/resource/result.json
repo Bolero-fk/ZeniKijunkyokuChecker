@@ -1,5 +1,5 @@
 {
-  "UpdateTime(JST)": "2026-07-08 16:42:19",
+  "UpdateTime(JST)": "2026-07-09 17:22:55",
   "ReferenceStationData": [
     {
       "id": 1,
@@ -215,9 +215,9 @@
       "id": 15,
       "city_name": "北海道河西郡芽室町",
       "station_name": "土地家屋調査士中村浩司事務所",
-      "latitude": "42.916301027",
-      "longitude": "143.038515360",
-      "geoid_height": "107.0772",
+      "latitude": "42.91630103",
+      "longitude": "143.03851536",
+      "geoid_height": "107.077",
       "server_address": "geortk.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
@@ -230,9 +230,9 @@
       "id": 16,
       "city_name": "北海道河西郡芽室町",
       "station_name": "K'z lab",
-      "latitude": "42.916292084",
-      "longitude": "143.038592273",
-      "geoid_height": "107.9835",
+      "latitude": "42.91629208",
+      "longitude": "143.03859227",
+      "geoid_height": "107.983",
       "server_address": "ntrip1.bizstation.jp",
       "port_number": "2101",
       "data_type": "RTCM3",
