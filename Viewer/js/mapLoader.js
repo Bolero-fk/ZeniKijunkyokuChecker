@@ -173,7 +173,7 @@ function convertStationDataToPopupText(referenceStationData) {
     <font size="4">
       ${referenceStationData.city_name}<br>
       北緯: ${referenceStationData.latitude}, 東経: ${referenceStationData.longitude}, 楕円体高: ${referenceStationData.geoid_height}<br>
-      サーバアドレス: ntrip.phys.info.hiroshima-cu.ac.jp${referenceStationData.server_address}<br>
+      サーバアドレス: ${referenceStationData.server_address}<br>
       ポート番号: ${referenceStationData.port_number}, データ形式: ${referenceStationData.data_type}, 接続形式: ${referenceStationData.connection_type}<br>
       コメント<br>
       <div class="comment-box">${referenceStationData.comment}</div>
