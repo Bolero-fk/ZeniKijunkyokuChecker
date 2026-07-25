@@ -1,35 +1,50 @@
 name: Scrape action
-on: 
+
+on:
   workflow_dispatch:
   schedule:
     - cron: '0 15 * * *' # 毎日日本時間の0時に更新
+
 jobs:
   scrape:
     name: ruby
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
+
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' 
+          ruby-version: '3.1'
+
       - name: bundle install
         run: |
           gem install bundler:2.1.4
           bundle install
         working-directory: ${{ github.workspace }}/Scraper
-      - name: run ruby
-        run: ruby scrape.rb
+
+      - name: Run tests
+        run: |
+          bundle exec ruby -Itest -e 'Dir["test/**/*_test.rb"].sort.each { |file| require File.expand_path(file) }'
         working-directory: ${{ github.workspace }}/Scraper
+
+      - name: Run scraper
+        run: bundle exec ruby scrape.rb
+        working-directory: ${{ github.workspace }}/Scraper
+
       - name: copy file
         run: cp result.json ../Viewer/resource
         working-directory: ${{ github.workspace }}/Scraper
+
       - name: git setting
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+
       - name: Commit files
         run: |
           git add -A
           if ! git diff-index --quiet HEAD --; then git commit -a -m "Update json (By GitHub Actions)"; fi;
           git push
+
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
