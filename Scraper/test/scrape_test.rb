@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'nokogiri'
-require_relative '../scrape'
+require_relative '../reference_station_parser'
 
 class ScrapeTest < Minitest::Test
   FIXTURE_PATH = File.expand_path(
@@ -21,7 +21,7 @@ class ScrapeTest < Minitest::Test
     rows = @document.xpath('//tr').drop(1)
 
     stations = rows.map do |row|
-      read_kijunkyoku_table_row(row)
+        ReferenceStationParser.parse_row(row)
     end
 
     assert_equal 3, stations.length
@@ -52,7 +52,7 @@ class ScrapeTest < Minitest::Test
   # リファクタリング後も同じ出力形式が維持されることを保証する。
   def test_preserves_html_in_comment
     rows = @document.xpath('//tr').drop(1)
-    station = read_kijunkyoku_table_row(rows[1])
+    station = ReferenceStationParser.parse_row(rows[1])
 
     assert_includes station['comment'], '<br>'
     assert_includes(
