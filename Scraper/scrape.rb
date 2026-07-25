@@ -13,9 +13,6 @@ if __FILE__ == $0
     # URLからHTMLを取得
     doc = Nokogiri.HTML(URI.open(URL, ssl_ca_cert: CERT_DIRECTORY))
 
-    # HTML内のtrタグを全て取得
-    table_rows = doc.xpath('//tr')
-
     # 出力するJSONファイル名を指定
     file_name = 'result.json'
 
@@ -25,9 +22,12 @@ if __FILE__ == $0
         'ReferenceStationData' => []
     }
 
-    # HTML内のtrタグからデータを取得してJSONに追加
-    table_rows.drop(1).each.with_index(1) do |row, i|
-        json['ReferenceStationData'] << { 'id' => i }.merge(ReferenceStationParser.parse_row(row))
+    reference_stations = ReferenceStationParser.parse_document(doc)
+
+    reference_stations.each.with_index(1) do |station, id|
+    json['ReferenceStationData'] << {
+        'id' => id
+    }.merge(station)
     end
 
     # JSONファイルを出力
