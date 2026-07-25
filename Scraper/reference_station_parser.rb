@@ -20,14 +20,24 @@ module ReferenceStationParser
   end
 
   # HTML文書から基準局一覧テーブルを特定し、
-  # 各データ行を基準局データへ変換する。
+  # 空行を除いた各データ行を基準局データへ変換する。
   def self.parse_document(document)
     table = find_reference_station_table(document)
-    rows = table.css('tr').drop(1)
 
-    rows.map do |row|
+    rows = table.css('tr').drop(1)
+    data_rows = rows.reject do |row|
+      empty_row?(row)
+    end
+
+    stations = data_rows.map do |row|
       parse_row(row)
     end
+
+    if stations.empty?
+      raise ParseError, '基準局データが0件です'
+    end
+
+    stations
   end
 
   # 基準局一覧テーブルの1行を、公開用JSONに使用するデータへ変換する。
@@ -86,6 +96,15 @@ module ReferenceStationParser
     table
   end
 
+  # td要素を持たない行、またはすべてのセルが空の行か判定する。
+  def self.empty_row?(row)
+    cells = row.css('td')
+
+    cells.empty? || cells.all? do |cell|
+      cell.text.strip.empty?
+    end
+  end
+
   def self.parse_coordinate(value, name:, range:)
     coordinate = Float(value)
 
@@ -101,5 +120,6 @@ module ReferenceStationParser
   end
 
   private_class_method :find_reference_station_table
+  private_class_method :empty_row?
   private_class_method :parse_coordinate
 end

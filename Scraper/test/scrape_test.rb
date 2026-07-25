@@ -23,6 +23,11 @@ class ScrapeTest < Minitest::Test
     __dir__
   )
 
+  EMPTY_FIXTURE_PATH = File.expand_path(
+    'fixtures/reference_stations/empty.html',
+    __dir__
+  )
+
   def load_fixture(path)
     html = File.read(path, encoding: 'UTF-8')
     Nokogiri::HTML(html)
@@ -142,5 +147,17 @@ class ScrapeTest < Minitest::Test
     end
 
     assert_equal '基準局一覧テーブルが見つかりません', error.message
+  end
+
+  # 正しいヘッダーを持つ基準局一覧テーブルが存在していても、
+  # 基準局データが1件も含まれていない場合に解析エラーになることを確認する。
+  def test_raises_error_when_reference_station_data_is_empty
+    document = load_fixture(EMPTY_FIXTURE_PATH)
+
+    error = assert_raises(ReferenceStationParser::ParseError) do
+      ReferenceStationParser.parse_document(document)
+    end
+
+    assert_equal '基準局データが0件です', error.message
   end
 end
