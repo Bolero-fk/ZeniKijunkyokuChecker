@@ -1,7 +1,17 @@
 module ReferenceStationParser
+  EXPECTED_COLUMN_COUNT = 12
+
+  class ParseError < StandardError
+  end
+
   # 基準局一覧テーブルの1行を、公開用JSONに使用するデータへ変換する。
   def self.parse_row(table_row)
     cells = table_row.css('td')
+
+    if cells.length != EXPECTED_COLUMN_COUNT
+      raise ParseError,
+            "基準局行の列数が不正です: expected=#{EXPECTED_COLUMN_COUNT}, actual=#{cells.length}"
+    end
 
     {
       'city_name' => cells[0].text,

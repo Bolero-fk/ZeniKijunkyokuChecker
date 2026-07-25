@@ -3,13 +3,18 @@ require 'nokogiri'
 require_relative '../reference_station_parser'
 
 class ScrapeTest < Minitest::Test
-  FIXTURE_PATH = File.expand_path(
+  VALID_FIXTURE_PATH = File.expand_path(
     'fixtures/reference_stations/valid.html',
     __dir__
   )
 
+  MISSING_COLUMNS_FIXTURE_PATH = File.expand_path(
+    'fixtures/reference_stations/missing_columns.html',
+    __dir__
+  )
+
   def setup
-    html = File.read(FIXTURE_PATH, encoding: 'UTF-8')
+    html = File.read(VALID_FIXTURE_PATH, encoding: 'UTF-8')
     @document = Nokogiri::HTML(html)
   end
 
@@ -59,5 +64,23 @@ class ScrapeTest < Minitest::Test
       station['comment'],
       '<a href="https://example.test/stations/sample-b">詳細</a>'
     )
+  end
+
+  # 必要な12列を持たない基準局行を解析した場合に、
+  # 不完全なデータを生成せず解析エラーになることを確認する。
+  def test_raises_error_when_reference_station_row_has_missing_columns
+    html = File.read(
+      MISSING_COLUMNS_FIXTURE_PATH,
+      encoding: 'UTF-8'
+    )
+    document = Nokogiri::HTML(html)
+    row = document.xpath('//tr')[1]
+
+    error = assert_raises(ReferenceStationParser::ParseError) do
+      ReferenceStationParser.parse_row(row)
+    end
+
+    assert_includes error.message, 'expected=12'
+    assert_includes error.message, 'actual=11'
   end
 end
