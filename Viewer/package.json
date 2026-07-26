@@ -1,0 +1,16 @@
+{
+  "name": "zeni-kijunkyoku-checker-viewer",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "29.1.1"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24.0.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.12"
+  }
+}

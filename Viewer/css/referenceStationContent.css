@@ -5,13 +5,26 @@
     overflow-y: scroll;
     padding-left: 5px;
     padding-right: 5px;
+    white-space: pre-wrap;
 }
 
-header div {
+.station-popup__header > div {
     display: block;
     width: calc(100%);
     font-size: x-large;
     overflow-wrap: break-word;
-	word-break: keep-all;
+    word-break: keep-all;
     text-align: center;
+}
+
+.station-popup__contents {
+    font-size: large;
+}
+
+.station-popup__status--public {
+    color: green;
+}
+
+.station-popup__status--inactive {
+    color: red;
 }
