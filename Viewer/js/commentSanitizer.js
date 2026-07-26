@@ -60,4 +60,9 @@ if (typeof module !== 'undefined' && module.exports) {
         createSanitizedCommentFragment,
         isAllowedCommentUrl
     };
+} else {
+    globalThis.createSanitizedCommentFragment =
+        createSanitizedCommentFragment;
+    globalThis.isAllowedCommentUrl =
+        isAllowedCommentUrl;
 }

@@ -22,16 +22,20 @@ const referenceStationData = {
 
 let dom;
 
+const createDOMPurify = require('dompurify');
+
 beforeEach(() => {
     dom = new JSDOM('<!doctype html><html><body></body></html>');
+
     global.document = dom.window.document;
+    globalThis.DOMPurify = createDOMPurify(dom.window);
 });
 
 afterEach(() => {
     dom.window.close();
 
+    delete globalThis.DOMPurify;
     delete global.document;
-    delete globalThis.scriptExecuted;
 });
 
 test('基準局情報を表示するHTMLElementを返す', () => {
@@ -51,43 +55,6 @@ test('基準局情報を表示するHTMLElementを返す', () => {
     assert.match(popup.textContent, /データ形式: RTCM3/);
     assert.match(popup.textContent, /接続形式: NTRIP/);
     assert.match(popup.textContent, /利用できます。/);
-});
-
-test('外部データに含まれるHTMLを要素として解釈しない', () => {
-    const unsafeData = {
-        ...referenceStationData,
-        station_name:
-            '<img src=x onerror="globalThis.scriptExecuted = true">',
-        city_name: '<strong>xxx市</strong>',
-        status: '<svg onload="globalThis.scriptExecuted = true">',
-        server_address: '<a href="https://example.com">example.com</a>',
-        data_type: '<iframe src="https://example.com"></iframe>',
-        connection_type:
-            '<script>globalThis.scriptExecuted = true</script>',
-        comment:
-            '1行目\n' +
-            '<button onclick="globalThis.scriptExecuted = true">実行</button>\n' +
-            '3行目'
-    };
-
-    globalThis.scriptExecuted = false;
-
-    const popup = createStationPopupElement(unsafeData);
-
-    assert.equal(
-        popup.querySelector('img, strong, svg, a, iframe, script, button'),
-        null
-    );
-
-    assert.match(popup.textContent, /<img src=x onerror=/);
-    assert.match(popup.textContent, /<strong>xxx市<\/strong>/);
-    assert.match(popup.textContent, /<svg onload=/);
-    assert.match(popup.textContent, /<a href=/);
-    assert.match(popup.textContent, /<iframe src=/);
-    assert.match(popup.textContent, /<script>/);
-    assert.match(popup.textContent, /<button onclick=/);
-
-    assert.equal(globalThis.scriptExecuted, false);
 });
 
 test('公開中のステータスクラスを設定する', () => {
@@ -117,4 +84,50 @@ test('休止中のステータスクラスを設定する', () => {
     assert.ok(
         !status.classList.contains('station-popup__status--public')
     );
+});
+
+test('コメント内の許可されたリンクと改行を表示する', () => {
+    const popup = createStationPopupElement({
+        ...referenceStationData,
+        comment:
+            '詳細：' +
+            '<a href="https://example.com">公式ページ</a>' +
+            '<br><br>' +
+            '2行目'
+    });
+
+    const comment = popup.querySelector('.comment-box');
+    const link = comment.querySelector('a');
+
+    assert.ok(link);
+    assert.equal(link.textContent, '公式ページ');
+    assert.equal(comment.querySelectorAll('br').length, 2);
+});
+
+test('コメント以外の項目ではHTMLを解釈しない', () => {
+    const popup = createStationPopupElement({
+        ...referenceStationData,
+        station_name: '<img src=x onerror="alert(1)">',
+        city_name: '<strong>川崎市</strong>',
+        status: '<svg onload="alert(1)">',
+        server_address:
+            '<a href="https://example.com">example.com</a>',
+        data_type: '<iframe src="https://example.com"></iframe>',
+        connection_type: '<script>alert(1)</script>'
+    });
+
+    assert.equal(
+        popup.querySelector(
+            '.station-popup__header img, ' +
+            '.station-popup__contents strong, ' +
+            '.station-popup__status svg, ' +
+            '.station-popup__contents a, ' +
+            '.station-popup__contents iframe, ' +
+            '.station-popup__contents script'
+        ),
+        null
+    );
+
+    assert.match(popup.textContent, /<img src=x/);
+    assert.match(popup.textContent, /<strong>川崎市<\/strong>/);
 });

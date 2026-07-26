@@ -1,3 +1,8 @@
+const commentSanitizer =
+    typeof module !== 'undefined' && module.exports
+        ? require('./commentSanitizer.js')
+        : globalThis;
+
 /**
  * 基準局情報を表示するポップアップ要素を構築する。
  *
@@ -54,7 +59,7 @@ function createStationPopupElement(referenceStationData) {
 
     const comment = document.createElement('div');
     comment.classList.add('comment-box');
-    comment.textContent = referenceStationData.comment;
+    comment.append(commentSanitizer.createSanitizedCommentFragment(referenceStationData.comment));
 
     contents.append(
         cityName,
