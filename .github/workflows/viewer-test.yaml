@@ -1,0 +1,45 @@
+name: Viewer tests
+
+on:
+  push:
+    paths:
+      - 'Viewer/**'
+      - '!Viewer/resource/result.json'
+      - 'index.html'
+      - '.github/workflows/viewer-test.yaml'
+  pull_request:
+    paths:
+      - 'Viewer/**'
+      - '!Viewer/resource/result.json'
+      - 'index.html'
+      - '.github/workflows/viewer-test.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Node.js tests
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Viewer
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: Viewer/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
