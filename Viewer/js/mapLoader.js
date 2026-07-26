@@ -146,8 +146,8 @@ function addReferenceStationMarker(referenceStationData, map) {
         'maxWidth': '500',
         'width': '200'
     };
-    marker.bindPopup(convertStationDataToPopupText(referenceStationData), popupOptions);
-
+    // marker.bindPopup(convertStationDataToPopupText(referenceStationData), popupOptions);
+    marker.bindPopup(createStationPopupElement(referenceStationData), popupOptions);
     return marker;
 }
 
