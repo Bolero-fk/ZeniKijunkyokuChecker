@@ -4,10 +4,13 @@ var circles = [];
  * 地図を初期化してJSONファイルからデータを読み込み、基準局のマーカーと円を追加する。
  */
 function mapLoad() {
-    // JSONファイルから基準局の情報を取得する
-    const referenceStations = getJson();
+    // JSONファイルからスクレイピング結果を取得する
+    const scrapingResult = getScrapingResult();
+    const referenceStations = scrapingResult.referenceStations;
+
     // 地図を初期化する
     const map = initializeMap();
+
     // 基準局のマーカーを格納する配列
     const markers = [];
 
@@ -15,9 +18,12 @@ function mapLoad() {
     referenceStations.forEach((referenceStation) => {
         // 基準局のマーカーを追加する
         const marker = addReferenceStationMarker(referenceStation, map);
+
         // 基準局の円を追加する
         const circle = addReferenceStationCircle(referenceStation, map);
+
         markers.push(marker);
+
         // 基準局のステータスが "公開" であれば、円を circles に格納する
         if (circle != null) {
             circles.push(circle);
@@ -36,28 +42,55 @@ function changeCircles(radius) {
 }
 
 /**
- * JSON データを取得する関数
- * @returns {Array} 取得したJsonデータ
+ * JSONファイルからスクレイピング結果を取得する。
+ *
+ * @returns {{
+ *     referenceStations: Array<Object>,
+ *     retrievalTimestamp: unknown
+ * }} 基準局一覧と取得日時
  */
-function getJson() {
-    let json = [];
+function getScrapingResult() {
+    let scrapingResult = extractScrapingResult(undefined);
 
-    // 非同期通信でJSONデータを取得する
+    // 同期通信でJSONデータを取得する
     $.ajax({
-        url: "./Viewer/resource/result.json",
-        dataType: "json",
+        url: './Viewer/resource/result.json',
+        dataType: 'json',
         async: false,
         success: function (data) {
-            // JSONデータの中のReferenceStationDataをループし、配列に格納する
-            for (let i = 0; i < data.ReferenceStationData.length; i++) {
-                json.push(data.ReferenceStationData[i]);
-            }
+            scrapingResult = extractScrapingResult(data);
         },
         error: function (jqXHR, textStatus, errorThrown) {
-            console.log(textStatus + ": " + errorThrown);
+            console.log(`${textStatus}: ${errorThrown}`);
         }
     });
-    return json;
+
+    return scrapingResult;
+}
+
+/**
+ * JSONデータから基準局一覧と取得日時を取り出す。
+ *
+ * @param {unknown} data - JSONから読み込んだデータ
+ * @returns {{
+ *     referenceStations: Array<Object>,
+ *     retrievalTimestamp: unknown
+ * }} 基準局一覧と取得日時
+ */
+function extractScrapingResult(data) {
+    if (data === null || typeof data !== 'object') {
+        return {
+            referenceStations: [],
+            retrievalTimestamp: undefined
+        };
+    }
+
+    return {
+        referenceStations: Array.isArray(data.ReferenceStationData)
+            ? data.ReferenceStationData
+            : [],
+        retrievalTimestamp: data['UpdateTime(JST)']
+    };
 }
 
 /**
@@ -210,4 +243,6 @@ function addReferenceStationCircle(referenceStationData, map) {
     return circle;
 }
 
-
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { extractScrapingResult };
+}
