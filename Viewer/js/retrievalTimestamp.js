@@ -29,7 +29,7 @@ function formatRetrievalTimestamp(timestamp) {
         return UNKNOWN_RETRIEVAL_TIMESTAMP_TEXT;
     }
 
-    return `${year}年${month}月${day}日 ${hour}:${minute} JST`;
+    return `${year}年${month}月${day}日 ${hour}:${minute}`;
 }
 
 /**

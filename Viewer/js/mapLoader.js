@@ -11,6 +11,9 @@ function mapLoad() {
     // 地図を初期化する
     const map = initializeMap();
 
+    // 情報取得日時を表示する
+    addRetrievalTimestampControl(map, scrapingResult.retrievalTimestamp);
+
     // 基準局のマーカーを格納する配列
     const markers = [];
 
