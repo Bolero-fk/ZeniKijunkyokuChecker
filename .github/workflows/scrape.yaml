@@ -5,19 +5,28 @@ on:
   schedule:
     - cron: '0 15 * * *' # 毎日日本時間の0時に更新
 
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  scrape:
-    name: ruby
+  build:
+    name: Build Pages artifact
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v6
 
-      - uses: ruby/setup-ruby@v1
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
 
-      - name: bundle install
+      - name: Install dependencies
         run: |
           gem install bundler:2.1.4
           bundle install
@@ -32,19 +41,49 @@ jobs:
         run: bundle exec ruby scrape.rb
         working-directory: ${{ github.workspace }}/Scraper
 
-      - name: copy file
-        run: cp result.json ../Viewer/resource
-        working-directory: ${{ github.workspace }}/Scraper
-
-      - name: git setting
+      - name: Build Pages site
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          mkdir -p _site/Viewer/resource
 
-      - name: Commit files
+          cp index.html _site/
+          cp -r Viewer/css _site/Viewer/
+          cp -r Viewer/js _site/Viewer/
+          cp -r Viewer/lib _site/Viewer/
+          cp Scraper/result.json _site/Viewer/resource/result.json
+
+      - name: Verify Pages site
         run: |
-          git add -A
-          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update json (By GitHub Actions)"; fi;
-          git push
+          test -f _site/index.html
+          test -f _site/Viewer/resource/result.json
 
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+          ruby -rjson -e '
+            data = JSON.parse(File.read("_site/Viewer/resource/result.json"))
+            abort "ReferenceStationData is not an array" unless data["ReferenceStationData"].is_a?(Array)
+          '
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy GitHub Pages
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
