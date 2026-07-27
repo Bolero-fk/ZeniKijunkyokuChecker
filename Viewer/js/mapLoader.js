@@ -44,7 +44,7 @@ function getJson() {
 
     // 非同期通信でJSONデータを取得する
     $.ajax({
-        url: "https://raw.githubusercontent.com/Bolero-fk/ZeniKijunkyokuChecker/main/Viewer/resource/result.json",
+        url: "./Viewer/resource/result.json",
         dataType: "json",
         async: false,
         success: function (data) {
