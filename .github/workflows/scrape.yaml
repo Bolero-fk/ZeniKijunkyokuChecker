@@ -3,7 +3,9 @@ name: Scrape action
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15 * * *' # 毎日日本時間の0時に更新
+    # GitHub ActionsのcronはUTC基準。
+    # 毎日 15:00 UTC（翌日 00:00 JST）に実行する。
+    - cron: '0 15 * * *'
 
 permissions:
   contents: read
