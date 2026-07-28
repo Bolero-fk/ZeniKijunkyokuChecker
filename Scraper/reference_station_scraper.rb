@@ -4,6 +4,9 @@ require_relative 'scraping_result_writer'
 module ReferenceStationScraper
   # HTMLを解析して出力用データを生成し、
   # すべての検証に成功した場合のみJSONファイルへ書き込む。
+
+  JST_OFFSET = '+09:00'
+
   def self.run(document, output_path, updated_at: Time.now)
     # HTMLから基準局一覧を解析し、検証済みの基準局データを取得
     reference_stations =
@@ -18,7 +21,7 @@ module ReferenceStationScraper
 
     # 出力するJSONデータを作成
     result = {
-      'UpdateTime(JST)' => updated_at.strftime('%Y-%m-%d %H:%M:%S'),
+      'UpdateTime(JST)' => updated_at.getlocal(JST_OFFSET).strftime('%Y-%m-%d %H:%M:%S'),
       'ReferenceStationData' => station_data
     }
 

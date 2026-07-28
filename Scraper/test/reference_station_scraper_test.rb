@@ -78,6 +78,25 @@ class ReferenceStationScraperTest < Minitest::Test
     end
   end
 
+  # UTCの取得日時がJSTへ変換され、
+  # 日付をまたぐ場合も正しい日時になることを確認する。
+  def test_converts_utc_updated_at_to_jst
+    document = load_fixture(VALID_FIXTURE_PATH)
+    updated_at = Time.utc(2026, 7, 27, 17, 1, 4)
+
+    Dir.mktmpdir do |directory|
+      output_path = File.join(directory, 'result.json')
+
+      result = ReferenceStationScraper.run(
+        document,
+        output_path,
+        updated_at: updated_at
+      )
+
+      assert_equal '2026-07-28 02:01:04', result['UpdateTime(JST)']
+    end
+  end
+
   private
 
   def load_fixture(path)
