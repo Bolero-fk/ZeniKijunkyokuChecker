@@ -2,16 +2,19 @@ GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.26.1)
-    nokogiri (1.16.5-x86_64-linux)
+    nokogiri (1.19.4-x86_64-linux-gnu)
       racc (~> 1.4)
-    racc (1.8.0)
+    racc (1.8.1)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   minitest
-  nokogiri
+  nokogiri (~> 1.19, >= 1.19.4)
+
+RUBY VERSION
+  ruby 3.4.11
 
 BUNDLED WITH
-   2.3.7
+  4.0.22
