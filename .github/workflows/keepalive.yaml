@@ -1,0 +1,27 @@
+
+name: Keepalive
+
+on:
+  schedule:
+    # 毎月1日 10:23 JST
+    - cron: '23 1 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Create empty commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit --allow-empty -m "chore: keep workflows active"
+          git push origin HEAD:main
