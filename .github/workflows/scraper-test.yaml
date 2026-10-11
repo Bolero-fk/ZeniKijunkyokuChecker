@@ -5,10 +5,9 @@ on:
     paths:
       - 'Scraper/**'
       - '.github/workflows/scraper-test.yaml'
+
   pull_request:
-    paths:
-      - 'Scraper/**'
-      - '.github/workflows/scraper-test.yaml'
+
   workflow_dispatch:
 
 permissions:

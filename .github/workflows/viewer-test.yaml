@@ -7,12 +7,9 @@ on:
       - '!Viewer/resource/result.json'
       - 'index.html'
       - '.github/workflows/viewer-test.yaml'
+
   pull_request:
-    paths:
-      - 'Viewer/**'
-      - '!Viewer/resource/result.json'
-      - 'index.html'
-      - '.github/workflows/viewer-test.yaml'
+
   workflow_dispatch:
 
 permissions:
