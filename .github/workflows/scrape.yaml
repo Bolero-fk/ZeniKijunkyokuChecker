@@ -26,13 +26,20 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.4'
+          bundler-cache: true
+          working-directory: Scraper
 
-      - name: Install dependencies
-        run: |
-          gem install bundler:2.1.4
-          bundle install
-        working-directory: ${{ github.workspace }}/Scraper
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: Viewer/package-lock.json
+
+      - name: Install Viewer dependencies
+        run: npm ci
+        working-directory: ${{ github.workspace }}/Viewer
 
       - name: Run tests
         run: |
@@ -46,11 +53,18 @@ jobs:
       - name: Build Pages site
         run: |
           mkdir -p _site/Viewer/resource
+          mkdir -p _site/Viewer/lib/dompurify
 
           cp index.html _site/
           cp -r Viewer/css _site/Viewer/
           cp -r Viewer/js _site/Viewer/
-          cp -r Viewer/lib _site/Viewer/
+
+          cp -r Viewer/lib/leaflet-slider _site/Viewer/lib/
+          cp -r Viewer/lib/leaflet.sprite _site/Viewer/lib/
+
+          cp Viewer/node_modules/dompurify/dist/purify.min.js \
+            _site/Viewer/lib/dompurify/purify.min.js
+
           cp Scraper/result.json _site/Viewer/resource/result.json
 
       - name: Verify Pages site
